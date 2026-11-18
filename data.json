@@ -1,0 +1,1133 @@
+{
+ "updated": "2026-11-18T15:49:31+0000",
+ "profile": {
+  "checklist": [
+   {
+    "a": "Sì → niente cambio: vanish o schivata.",
+    "q": "C'è l'icona di divieto sui compagni?"
+   },
+   {
+    "a": "Solo se: la mia combo è finita · sono sigillato · il colore mi è favorevole · sono ferito dopo un colpo grosso. \"Salvare un compagno dentro la combo\" non è un motivo.",
+    "q": "Perché cambio?"
+   },
+   {
+    "a": "Goku o Gohan nella prima vita, Broly se il cover funziona. Mai Cooler.",
+    "q": "Chi entra può incassare?"
+   },
+   {
+    "a": "Dopo metà partita consideralo sempre sì → in campo chi rinasce.",
+    "q": "L'avversario ha Rising Rush o Ultimate pronti?"
+   }
+  ],
+  "exercises": [
+   {
+    "example": "Kyne in 4 partite: nessun cambio dentro una combo avversaria, nessun personaggio perso.",
+    "goal": "0 Cover Change con il divieto in 5 partite.",
+    "how": "Usa la lista \"Prima di ogni cambio\". Se il motivo è salvare un compagno dentro la combo avversaria, non cambiare: vanish.",
+    "title": "Prima di ogni cambio, il motivo"
+   },
+   {
+    "example": "Goresh lascia morire Goku e Android 13 (rinascono) e tiene Cooler intatto. Tu il 16/11 (3): Broly −2,27M in una combo da 48 con il cover annullato.",
+    "goal": "Nessun personaggio senza rinascita perso sopra 1M di HP.",
+    "how": "Combo lunghe, Ultimate e Rising Rush avversari li prende chi rinasce (Goku, Gohan) o Broly con il cover attivo. Nella prima vita, sotto i 300k, lasciali morire.",
+    "title": "Chi incassa i colpi grossi"
+   },
+   {
+    "example": "Kyne e Goresh lo indovinano quasi sempre. Il 16/11 (3) l'hai fatto anche tu due volte.",
+    "how": "Le sue sfere non si vedono: da metà partita consideralo pronto. Quando parte, scegli la carta che pensi sceglierà lui.",
+    "title": "Rising Rush avversario"
+   },
+   {
+    "example": "Goresh partita 3: \"non c'è motivo di premere niente\", vince 33,6M a 14,2M al TIME UP.",
+    "how": "Avanti nei danni con il timer agli ultimi secondi → non rischiare. Rising Rush e Overdrive pronti → scegli prima (durante l'Overdrive il Rising Rush non parte). Avversario sotto i 500k → chiudilo prima che cambi.",
+    "title": "Finale: decidi prima"
+   },
+   {
+    "example": "Kyne lo lancia in mezzo alla combo di Goku SSJ4: critico da 1,29M subito dopo.",
+    "how": "Lancialo mentre stai già colpendo, non a vuoto.",
+    "title": "Supporto Gohan piccolo dentro una tua combo"
+   }
+  ],
+  "focus": {
+   "goal": "Cooler sopra i 2,5M di HP dopo i primi 2 minuti, in 3 partite di fila.",
+   "note": "Sostituisce \"Apertura Cooler → Broly\" (17/11/2026), dopo 8 partite di Goresh e Kyne e i kit di dblegends.net. L'apertura con Goku è da verificare nei tuoi prossimi replay.",
+   "status": "Tecnica 1 di 3 · nuova",
+   "steps": [
+    "Apri con Goku: parte con il gauge pieno (Strike +50%) e, se va KO, rinasce SSJ con il vanish nemico a zero.",
+    "Fai entrare Broly con un cambio, non in apertura: solo così blocca i cambi nemici per 3 counts e distrugge una carta. Esempio: combo avversaria finita → entra Broly.",
+    "Cooler entra a combo avversaria finita o dopo un tuo colpo. Il primo colpo che prende sigilla Special e Rising Rush nemiche per 5 counts: dopo quel colpo esci. Esempio Goresh: carte sigillate → cambio immediato.",
+    "Per chiudere: gauge di Cooler al livello 3 (toglie l'Endurance), poi Main Ability + Ultimate. Esempio Goresh: così fa 2 KO in 4 secondi."
+   ],
+   "title": "Cooler entra solo per attaccare",
+   "watch": [
+    "Rising Rush avversario pronto (soprattutto Gogeta): Cooler non deve essere in campo. A Goresh lo ha ucciso a HP pieni (12,7M).",
+    "Ultimate contro un nemico con l'Endurance = sprecata: Goresh ha lasciato Omega a 1 HP.",
+    "Se l'avversario annulla il tuo cover (es. i Vegito), Broly non incassa: −2,27M il 16/11 (3)."
+   ],
+   "when": "A ogni partita, dal primo secondo, e ogni volta che stai per far entrare Cooler.",
+   "where": "Apri con Goku. Broly entra con un cambio. Cooler resta in panchina finché non hai l'iniziativa."
+  },
+  "goal": "difesa e cambi: perdere meno personaggi, soprattutto Cooler (non rinasce)",
+  "name": "Anam",
+  "pro": [
+   {
+    "example": "Goresh apre 4 volte su 4 con Android 13; il suo Cooler finisce 3 partite su 4 sopra 1,7M.",
+    "how": "Apri con chi può incassare; Cooler entra con l'iniziativa ed esce appena viene sigillato.",
+    "rule": "Cooler non apre e non incassa",
+    "source": "Goresh · Ultra Cooler"
+   },
+   {
+    "example": "Kyne 0:59: Special di Goku bambino, avversario a terra → entra Goku SSJ4 a HP pieni.",
+    "how": "Il momento migliore è subito dopo la tua Special, con l'avversario a terra.",
+    "rule": "Cambia solo a combo tua finita",
+    "source": "Kyne · Goku SSJ4"
+   },
+   {
+    "example": "Kyne: Goku bambino (verde) contro Gogeta Blu e Vegeta Blu (blu).",
+    "how": "Prima di cambiare guarda il colore di chi c'è dall'altra parte.",
+    "rule": "Fai entrare chi ha il vantaggio di elemento",
+    "source": "Kyne · Goku SSJ4"
+   },
+   {
+    "example": "Kyne: Bulla a HP pieni prende Ultimate e Rising Rush di Omega e resta in piedi; Goku SSJ4 ferito resta fuori.",
+    "how": "Prima dell'Ultimate o del Rising Rush avversario, metti in campo chi può permetterselo.",
+    "rule": "I colpi grossi li prende chi rinasce o il più sano",
+    "source": "Kyne · Goku SSJ4"
+   },
+   {
+    "example": "Goresh: Ultimate contro l'Endurance = Omega a 1 HP; nell'ordine giusto = 2 KO in 4 secondi.",
+    "how": "Con Cooler: gauge al livello 3 (toglie l'Endurance), poi Main Ability + Ultimate.",
+    "rule": "Prima l'Endurance, poi l'Ultimate",
+    "source": "Goresh · Ultra Cooler"
+   },
+   {
+    "example": "Goresh: \"Gogeta rientra tra 7 secondi\", \"due seconde vite senza Endurance\", \"ha Overdrive? ki? carte? Main?\"",
+    "how": "Prima di Rising Rush, Ultimate e cambi chiediti cosa può fare l'avversario.",
+    "rule": "Leggi il kit avversario prima di agire",
+    "source": "Goresh · Ultra Cooler"
+   },
+   {
+    "example": "Kyne lo difende 3 volte su 3 nelle partite in cui arriva.",
+    "how": "Non subirlo: scegli la carta che pensi sceglierà lui.",
+    "rule": "Rising Rush avversario: prevedi la carta",
+    "source": "Kyne · Goku SSJ4"
+   },
+   {
+    "example": "Goresh vince 33,6M a 14,2M al TIME UP.",
+    "how": "Se sei avanti nei danni, nel finale non rischiare.",
+    "rule": "Con il timer, gioca per i danni",
+    "source": "Goresh · Ultra Cooler"
+   }
+  ],
+  "proNote": "Regole viste in 8 partite di Kyne (Goku SSJ4) e Goresh (Ultra Cooler, squadra quasi uguale alla tua), novembre 2026. Anche loro sbagliano: Special prese in pieno, Overdrive \"Failure\", tocchi non registrati.",
+  "rank": "Diamond",
+  "recurring": [
+   {
+    "count": 8,
+    "detail": "Divieto sulle icone dei compagni, o cover annullato dal kit avversario (es. i Vegito) = chi entra prende tutta la combo. Fai vanish. Esempio: 12/11 contro Treanz, 4 cambi su 4 annullati.",
+    "level": "high",
+    "matches": "12/11 vs LOL · 12/11 vs Treanz (×4) · 16/11 (3) ×3",
+    "title": "Cover Change con l'icona di divieto: chi entra prende tutta la combo"
+   },
+   {
+    "count": 8,
+    "detail": "La tecnica \"Cooler entra solo per attaccare\" serve a questo.",
+    "level": "high",
+    "matches": "10/09 · 04/10 · 08/11 · 12/11 ×2 · 16/11 ×3",
+    "title": "Perdi il primo personaggio nei primi 60 secondi"
+   },
+   {
+    "count": 7,
+    "detail": "Alla seconda combo di fila: cambia (se non c'è il divieto) o vanish. Esempio: 16/11 (3) Cooler fino a 33 HP.",
+    "level": "high",
+    "matches": "25/07 · 10/09 · 08/11 · 12/11 · 16/11 (2) · 16/11 (3) ×2",
+    "title": "Resti in campo mentre subisci combo su combo"
+   },
+   {
+    "count": 7,
+    "detail": "Quando l'avversario può lanciarli, in campo deve esserci Goku o Gohan nella prima vita.",
+    "level": "high",
+    "matches": "25/07 ×2 · 08/11 · 12/11 · 16/11 · 16/11 (2) · 16/11 (3)",
+    "title": "Personaggio senza rinascita perso per Ultimate o Rising Rush con HP alti"
+   },
+   {
+    "count": 1,
+    "detail": "Goku e Gohan sotto i 300k nella prima vita: lasciali morire, rinascono.",
+    "level": "mid",
+    "matches": "12/11 vs Treanz (1:22)",
+    "title": "Sacrifichi un personaggio sano per salvarne uno che rinasce"
+   },
+   {
+    "count": 1,
+    "detail": "Se è sotto i 500k, chiudi subito con una Special o un Rising Rush prima che cambi e si curi.",
+    "level": "mid",
+    "matches": "16/11 (2)",
+    "title": "Avversario sotto i 500k lasciato scappare"
+   },
+   {
+    "count": 4,
+    "detail": "Capita anche ai pro (Goresh e Kyne). Priorità bassa.",
+    "level": "low",
+    "matches": "10/09 · 04/10 · 16/11 · 16/11 (3)",
+    "title": "Overdrive \"Choose a route\" sbagliato"
+   },
+   {
+    "count": 2,
+    "detail": "Da 1 contro 4 (12/11) a 9 contro 9 (16/11 (2)).",
+    "level": "low",
+    "matches": "12/11 ×2",
+    "title": "Vanish usati poco (in miglioramento)"
+   }
+  ],
+  "sampleNote": "9 tue partite analizzate (5 V, 4 S) + 8 partite dei pro studiate.",
+  "strengths": [
+   "Rising K.O. in 5 vittorie su 5 (da 4,4M a 11,8M)",
+   "Combo lunghissime con Cooler (fino a 70–76 colpi)",
+   "Sangue freddo nei finali: due vittorie negli ultimi secondi",
+   "Difesa in crescita: vanish 9 contro 9 e Rising Rush avversario indovinato"
+  ],
+  "team": [
+   "Cooler ULTRA",
+   "Broly: Fury LEGEND",
+   "Goku LEGEND",
+   "Gohan SSJ (Youth)"
+  ]
+ },
+ "matches": [
+  {
+   "date": "2026-11-16",
+   "duration": "6:17",
+   "errors": [
+    {
+     "fix": "Scelta voluta, ma contro i due Vegito il cover speciale è annullato per 5 counts quando entrano: Broly prende tutta la combo. Lascia caricare il gauge ai primi colpi e poi vanish.",
+     "t": "0:40",
+     "title": "Special Cover Change su Broly annullato: −2,27M per caricare il gauge del counter"
+    },
+    {
+     "fix": "Divieto acceso = niente cambio. Vanish o lascia finire la combo su Cooler.",
+     "t": "3:53",
+     "title": "Cambio su Broly (605k) dentro una combo con il divieto: KO in 3 s"
+    },
+    {
+     "fix": "Regola dei 2 colpi: alla seconda combo di fila vanish subito, prima di scendere sotto il 30%.",
+     "t": "5:51",
+     "title": "Cooler tenuto in campo fino a 33 HP in una combo da 23"
+    },
+    {
+     "fix": "Allena il minigioco in modalità storia: guarda la freccia del bonus, non il personaggio.",
+     "t": "4:49",
+     "title": "Overdrive Attack: \"Choose a route\" → Failure"
+    }
+   ],
+   "headline": "Vinta con Goku SSJ e un Rising K.O. da 4,68M, ma Broly perde 2,27M in una combo da 48 senza vanish",
+   "limits": "Battle Summary: danni 24,37M contro 19,27M, vanish 6 contro 8, cambi 7 contro 6, Special Cover Change 1 contro 0, clash 999 contro 947, gauge Overdrive 2.460 contro 1.666. Vanish tuoi: 6 su 6 trovati dal suono. Avversari: 9 segnalati contro 8 reali, uno dei 4 da confermare è falso. I tocchi a schermo non sono leggibili in automatico.",
+   "opponent": "VaTeFairF",
+   "opponentTeam": [
+    "Gogeta SSGSS UL",
+    "Super Vegito LR viola (leader)",
+    "Vegito SSGSS UL rosso (da confermare)"
+   ],
+   "result": "win",
+   "resultNote": "L'avversario si disconnette sul finale (Connection unstable)",
+   "strengths": [
+    "Cooler tenuto vivo fino al KO di Vegito Blue grazie al sacrificio di Broly a 2:02",
+    "Goku SSJ: combo da 47 e 35, critico da 2,58M",
+    "Rising Rush avversario difeso indovinando la carta 2 volte",
+    "Rising K.O. da 4,68M e clash vinto 999 a 947",
+    "6 vanish riusciti (tutti trovati anche dal suono)"
+   ],
+   "team": [
+    "Cooler ULTRA (leader)",
+    "Broly LR verde",
+    "Goku LR (rinasce SSJ)",
+    "Supporto: Gohan bambino"
+   ],
+   "timeline": [
+    {
+     "mark": "err",
+     "t": "0:40",
+     "text": "Special Cover Change su Broly annullato (Nullify dei Vegito)"
+    },
+    {
+     "mark": "",
+     "t": "0:41",
+     "text": "Broly incassa la combo da 48 per caricare il gauge (scelta voluta): −2,27M"
+    },
+    {
+     "mark": "",
+     "t": "2:27",
+     "text": "KO di Goku, rinasce SSJ"
+    },
+    {
+     "mark": "ok",
+     "t": "2:02",
+     "text": "Broly sacrificato per salvare Cooler: prende l'Ultimate di Vegito Blue e resta a 1 HP"
+    },
+    {
+     "mark": "ok",
+     "t": "3:02",
+     "text": "Goku SSJ: critico da 2,58M su Vegito"
+    },
+    {
+     "mark": "err",
+     "t": "3:53",
+     "text": "Cambio con il divieto: Broly KO in 3 s"
+    },
+    {
+     "mark": "err",
+     "t": "4:49",
+     "text": "Overdrive: Choose a route → Failure"
+    },
+    {
+     "mark": "ok",
+     "t": "5:40",
+     "text": "KO di Vegito Blue"
+    },
+    {
+     "mark": "ok",
+     "t": "5:55",
+     "text": "Rising Rush avversario difeso (carta indovinata 2 volte)"
+    },
+    {
+     "mark": "ok",
+     "t": "6:28",
+     "text": "Rising K.O. 4,68M"
+    },
+    {
+     "mark": "ok",
+     "t": "6:44",
+     "text": "L'avversario si disconnette, WIN"
+    }
+   ],
+   "verdict": "Vittoria costruita dalla seconda vita di Goku e dal Rising Rush finale. I punti persi arrivano tutti dalla difesa con il divieto sui compagni: combo da 48 subita senza vanish e un cambio dentro la combo che costa Broly.",
+   "id": "2026-11-16-3"
+  },
+  {
+   "date": "2026-11-16",
+   "duration": "6:50 di gioco",
+   "errors": [
+    {
+     "fix": "Durante l'Overdrive il Rising Rush non si può lanciare. Se erano pronti entrambi, contro Super Gogeta con l'Ultimate in mano il Rising Rush chiudeva prima (ipotesi).",
+     "t": "6:56",
+     "title": "Da rivedere: Overdrive o Rising Rush nello scontro finale?"
+    },
+    {
+     "fix": "Con il divieto il cover non entra: schiva prima che la combo parta e non restare fermo a distanza ravvicinata. Gogeta SSGSS annulla i tuoi Special Cover Change per 5 counts dopo ogni suo Strike/Blast (dal kit).",
+     "t": "1:45",
+     "title": "Cooler resta in una combo da 25 colpi con il divieto sui compagni e muore"
+    },
+    {
+     "fix": "A partita avanzata considera possibile il suo Rising Rush: chi entra deve tenere il vanish.",
+     "t": "2:10",
+     "title": "Broly entra e subisce subito il Rising Rush avversario (−1,26M)"
+    },
+    {
+     "fix": "Quando è sotto i 500k chiudi subito con una carta o con l'Ultimate, prima che cambi e si curi.",
+     "t": "1:26",
+     "title": "Avversari sotto i 500k lasciati scappare tre volte (505k, 313k, 66k)"
+    },
+    {
+     "fix": "Cambio entro 2 s da \"Rising Rush Sealed\".",
+     "t": "0:38",
+     "title": "Apertura: cambio 7 s dopo il sigillo, 1,6M persi nel primo minuto"
+    }
+   ],
+   "headline": "Vanish 9 a 9 e due KO nel finale, ma Super Gogeta chiude con l'Ultimate mentre eri in Overdrive",
+   "limits": "I tuoi 9 vanish sono stati trovati dallo script (barra che ricompare vuota): dopo 6 su 9 hai punito subito; a 5:47 Goku fa il vanish appena entrato e poi subisce una combo da −1M. Nessun vanish nei primi 57 s né durante la morte di Cooler. I vanish dell'avversario non sono ancora collocati nel tempo.",
+   "opponent": "Ruben.ESP",
+   "opponentTeam": [
+    "Broly LR verde (leader)",
+    "Super Gogeta UL blu",
+    "Gogeta SSGSS UL (8° anniversario)"
+   ],
+   "result": "loss",
+   "resultNote": "Treasure Battle · ultimo scontro perso a 37 s dalla fine",
+   "strengths": [
+    "Vanish 9 contro 9 (negli ultimi due match erano 2 a 6 e 1 a 4)",
+    "Combo da 16, 17, 40 e 24 colpi",
+    "Due KO in 30 secondi nel finale",
+    "Overdrive: scelta del percorso riuscita a 6:40"
+   ],
+   "team": [
+    "Cooler UL",
+    "Broly LR",
+    "Goku LR"
+   ],
+   "timeline": [
+    {
+     "mark": "",
+     "t": "0:38",
+     "text": "Cover Change Cooler → Broly durante una combo da 5"
+    },
+    {
+     "mark": "ok",
+     "t": "1:05",
+     "text": "Broly: combo da 17, avversario a 262k"
+    },
+    {
+     "mark": "err",
+     "t": "1:26",
+     "text": "L'avversario cambia a 505k e si salva"
+    },
+    {
+     "mark": "err",
+     "t": "1:45",
+     "text": "Cooler in una combo da 25 con il divieto: KO a 2:08"
+    },
+    {
+     "mark": "err",
+     "t": "2:10",
+     "text": "Rising Rush avversario su Broly appena entrato (−1,26M)"
+    },
+    {
+     "mark": "ok",
+     "t": "2:41",
+     "text": "Broly: combo da 40, avversario a 305k"
+    },
+    {
+     "mark": "",
+     "t": "4:09",
+     "text": "Goku porta l'avversario a 66k, che si salva"
+    },
+    {
+     "mark": "err",
+     "t": "5:45",
+     "text": "Broly KO"
+    },
+    {
+     "mark": "",
+     "t": "6:08",
+     "text": "Goku KO, rinasce SSJ"
+    },
+    {
+     "mark": "ok",
+     "t": "6:33",
+     "text": "Primo KO avversario"
+    },
+    {
+     "mark": "ok",
+     "t": "6:54",
+     "text": "Secondo KO avversario: resta Super Gogeta"
+    },
+    {
+     "mark": "",
+     "t": "7:03",
+     "text": "Goku SSJ in Overdrive su Gogeta a 1,39M (Rising Rush acceso ma non usabile in Overdrive)"
+    },
+    {
+     "mark": "err",
+     "t": "7:07",
+     "text": "Soul Punisher di Gogeta: KO di Goku, partita persa"
+    }
+   ],
+   "verdict": "Partita equilibrata (danni 19,6M contro 25,0M), con la difesa migliore vista finora. Persa nel finale: Goku SSJ era in Overdrive su Super Gogeta (1,39M), che rimasto solo con 2 alleati KO ha pescato l'Ultimate e ha chiuso con Soul Punisher.",
+   "id": "2026-11-16-2"
+  },
+  {
+   "date": "2026-11-16",
+   "duration": "replay 6:29",
+   "errors": [
+    {
+     "fix": "Goku SSJ a 2,66M contro Goku Black Rosé a 2,88M. Con il Rising Rush acceso, usalo prima di entrare nello scambio. Se l'avversario attacca per primo (il \"!\" a 6:08), schiva con lo swipe o usa il vanish. Da confermare: il Rising Rush era davvero utilizzabile in quel momento?",
+     "t": "6:04–6:22",
+     "title": "Ultimo scontro: Rising Rush pronto non usato, combo da 27 colpi subita"
+    },
+    {
+     "fix": "Stesso schema delle altre partite: è la tecnica 1 (primo minuto senza botte).",
+     "t": "0:16–1:06",
+     "title": "Apertura: Cooler −1M in 20 s, Broly −1,9M in meno di 30 s"
+    },
+    {
+     "fix": "Quando vedi le sfere dell'avversario quasi complete, tieni il vanish per l'Ultimate.",
+     "t": "4:22–4:38",
+     "title": "Broly preso dall'Ultimate \"Blooming Despair\" di Goku Black Rosé"
+    },
+    {
+     "fix": "Terza volta che un Overdrive va male: va allenato.",
+     "t": "4:08–4:12",
+     "title": "Overdrive Attack di Broly fallito (rotta sbagliata)"
+    }
+   ],
+   "headline": "Ultimo scontro perso con il Rising Rush pronto",
+   "limits": "Analizzato con un fotogramma ogni 2 secondi. Non posso confermare dai frame che il Rising Rush fosse attivabile a 6:04. Alcune notifiche del telefono coprono lo schermo: prima di registrare attiva Non disturbare.",
+   "opponent": "F2P VEGETA",
+   "opponentTeam": [
+    "Goku Black (poi Rosé)",
+    "Cooler",
+    "Vegeta SSB"
+   ],
+   "result": "loss",
+   "resultNote": "Finish di Goku Black Rosé a circa 6:24, con 30 secondi sul timer.",
+   "strengths": [
+    "Combo da 57 colpi con Broly (2,88M di danno, 0:56)",
+    "Combo da 49 colpi + Ultimate con Cooler (2:22)",
+    "Goku SSJ ribalta il match: due KO di fila, punteggio sul 2 a 1"
+   ],
+   "team": [
+    "Cooler UL",
+    "Broly LR",
+    "Goku LR"
+   ],
+   "timeline": [
+    {
+     "mark": "err",
+     "t": "0:16–0:36",
+     "text": "Cooler contro Goku Black: da 2,46M a 1,49M"
+    },
+    {
+     "mark": "",
+     "t": "0:38–0:56",
+     "text": "Broly: combo da 57 colpi, ma scende a 1,55M"
+    },
+    {
+     "mark": "err",
+     "t": "1:36–1:42",
+     "text": "Vegeta SSB porta Broly da 1,91M a 0,56M"
+    },
+    {
+     "mark": "ok",
+     "t": "2:22–2:30",
+     "text": "Cooler: 49 colpi + Ultimate"
+    },
+    {
+     "mark": "",
+     "t": "2:54–3:02",
+     "text": "Rising Rush di Broly: Vegeta resta a 22k HP"
+    },
+    {
+     "mark": "err",
+     "t": "4:08–4:12",
+     "text": "Overdrive di Broly: rotta sbagliata"
+    },
+    {
+     "mark": "err",
+     "t": "4:22–4:38",
+     "text": "Ultimate di Goku Black Rosé: Broly KO"
+    },
+    {
+     "mark": "ok",
+     "t": "4:48–5:08",
+     "text": "Cooler: combo + Ultimate, KO di un avversario"
+    },
+    {
+     "mark": "",
+     "t": "5:10–5:26",
+     "text": "Goku va KO e si trasforma in SSJ"
+    },
+    {
+     "mark": "ok",
+     "t": "5:28–6:04",
+     "text": "Goku SSJ: KO di Vegeta e del Cooler avversario"
+    },
+    {
+     "mark": "err",
+     "t": "6:04–6:22",
+     "text": "Goku SSJ subisce 27 colpi con il Rising Rush acceso"
+    },
+    {
+     "mark": "err",
+     "t": "6:24",
+     "text": "Finish di Goku Black Rosé"
+    }
+   ],
+   "verdict": "Eri riuscito a ribaltarla: Goku SSJ aveva portato il punteggio sul 2 a 1 per te. Hai perso l'ultimo scontro alla pari contro Goku Black Rosé: icona del Rising Rush accesa ma non usato, e una combo da 27 colpi subita senza difesa. A monte, la solita apertura: circa 2M di HP persi nel primo minuto.",
+   "id": "2026-11-16-1"
+  },
+  {
+   "date": "2026-11-12",
+   "duration": "3:32",
+   "errors": [
+    {
+     "fix": "Con il divieto sui compagni usa il vanish o schiva: il tag Goku & Vegeta annulla il cover a ogni Arts, Goku & Bardock quando entra e al 2° colpo.",
+     "t": "0:55 · 1:09 · 1:22 · 2:31",
+     "title": "Cover Change con l'icona di divieto, 4 su 4 annullati"
+    },
+    {
+     "fix": "Gohan rinasce SSJ2 al KO (2:12): lascialo morire. Lo scambio giusto l'hai fatto a 2:07.",
+     "t": "1:22",
+     "title": "Goku a 1,47M sacrificato per salvare Gohan a 189k"
+    },
+    {
+     "fix": "Goku è entrato a 1,65M ed è uscito con un Rising K.O. Quando il Rising Rush avversario può essere pronto, niente cambi: tieni il vanish.",
+     "t": "2:31",
+     "title": "Cambio su Goku subito prima del Rising Rush avversario"
+    },
+    {
+     "fix": "Gogeta dimezza i danni che subisce: non entrare a freddo contro di lui e non restare in campo mentre ti combina.",
+     "t": "1:16 · 2:02",
+     "title": "Gohan e Cooler persi in 3 secondi contro Gogeta"
+    }
+   ],
+   "headline": "4 Cover Change con il divieto, tutti annullati",
+   "limits": "Fotogrammi a 2 al secondo. La cinematica 1:01–1:08 e la Super Spirit Bomb sono interpretate dal kit. Non so se il Rising Rush di Gohan alla fine fosse utilizzabile, né se Broly (verde, in vantaggio sui tre avversari blu) fosse selezionabile.",
+   "opponent": "Treanz",
+   "opponentTeam": [
+    "Super Gogeta UL (leader)",
+    "SSJ3 & SSJ2 Goku & Vegeta UL",
+    "Goku & Bardock SP Zenkai VII"
+   ],
+   "result": "loss",
+   "resultNote": "3 KO a 0 · danni 3,3M contro 20,9M · partita delle 00:02",
+   "strengths": [
+    "Apertura di Cooler: 30 colpi, 1,65M di danni, zero HP persi.",
+    "2:07: sacrificato Gohan a 189k per salvare Cooler, sfruttando la sua rinascita SSJ2.",
+    "Rising Rush avversario: due carte indovinate su tre.",
+    "Cooler a 639k fa ancora una combo da quasi 1M (2:58–3:10)."
+   ],
+   "team": [
+    "Cooler UL (leader)",
+    "Gohan SSJ Youth SP Zenkai VII",
+    "Goku LR"
+   ],
+   "timeline": [
+    {
+     "mark": "ok",
+     "t": "0:23–0:41",
+     "text": "Cooler: combo da 30 colpi, il tag da 3,0M a 1,35M, Cooler senza danni"
+    },
+    {
+     "mark": "",
+     "t": "0:41–0:47",
+     "text": "Il tag si cura fino a 2,96M (kit: +30% sotto il 50%)"
+    },
+    {
+     "mark": "err",
+     "t": "0:55",
+     "text": "Cover Change Gohan → Goku con il divieto: annullato, Goku da 2,44M a 1,22M"
+    },
+    {
+     "mark": "err",
+     "t": "1:09",
+     "text": "Cover Change Goku → Cooler con il divieto: annullato, Cooler da 2,47M a 1,84M; sigillo a 1:12"
+    },
+    {
+     "mark": "err",
+     "t": "1:16",
+     "text": "Gohan entra contro Gogeta: da 1,71M a 189k in 3 secondi"
+    },
+    {
+     "mark": "err",
+     "t": "1:22–1:31",
+     "text": "Cover Change Gohan (189k) → Goku: annullato, Goku KO"
+    },
+    {
+     "mark": "",
+     "t": "1:41",
+     "text": "Goku rinasce Super Saiyan (1,72M)"
+    },
+    {
+     "mark": "err",
+     "t": "2:02–2:05",
+     "text": "Cooler resta in campo contro Gogeta: da 1,90M a 489k"
+    },
+    {
+     "mark": "ok",
+     "t": "2:07–2:20",
+     "text": "Gohan sacrificato per salvare Cooler, rinasce SSJ2 a 1,96M"
+    },
+    {
+     "mark": "err",
+     "t": "2:31–2:55",
+     "text": "Cover Change su Goku con il divieto, poi Rising Rush avversario: Rising K.O. di Goku"
+    },
+    {
+     "mark": "ok",
+     "t": "2:58–3:10",
+     "text": "Cooler combo su Vegeta da 3,0M a 2,05M; il suo Rising Rush viene sigillato"
+    },
+    {
+     "mark": "err",
+     "t": "3:11–3:39",
+     "text": "Super Spirit Bomb avversaria: Cooler KO, colpita anche la panchina"
+    },
+    {
+     "mark": "",
+     "t": "3:41–3:48",
+     "text": "Gohan da solo, Rising Rush acceso non usato: FINISH"
+    }
+   ],
+   "verdict": "Apertura di Cooler perfetta (30 colpi, zero danni), poi la partita si è persa sui cambi: 4 Cover Change fatti con l'icona di divieto sui compagni, tutti annullati. Chi entrava (3 volte Goku) si prendeva tutta la combo. Tutti e tre gli avversari bloccano il cover.",
+   "id": "2026-11-12-2"
+  },
+  {
+   "date": "2026-11-12",
+   "duration": "replay 4:10",
+   "errors": [
+    {
+     "fix": "Chi entra durante una combo si prende il resto. E Goku svuota il suo gauge appena viene colpito: è il personaggio peggiore da far entrare sotto pressione. Cambia solo quando la combo è finita o dopo il sigillo di Cooler.",
+     "t": "0:38–0:52",
+     "title": "Cambio su Goku a metà della combo di Vegeta: Goku da 2,44M a 0 in 12 secondi"
+    },
+    {
+     "fix": "Con Vegeta SSB che fa combo lunghe, usa il vanish invece del cambio.",
+     "t": "2:44–3:04",
+     "title": "Stesso errore: Goku SSJ entra dentro una combo da 53 colpi e va KO"
+    },
+    {
+     "fix": "Il vanish è l'unico modo per uscire da una combo senza cambiare. Tienilo per le Arts più forti.",
+     "t": "tutta la partita",
+     "title": "Vanish riusciti: 1 contro 4"
+    },
+    {
+     "fix": "Dopo il cambio non attaccare subito: schiva il primo Strike e poi rispondi.",
+     "t": "2:30–2:42",
+     "title": "Sigillo di Cooler sfruttato, ma chi entra attacca e prende una combo (2,61M → 1,46M)"
+    }
+   ],
+   "headline": "Goku fatto entrare due volte dentro una combo: due KO",
+   "limits": "Analizzato con un fotogramma ogni 2 secondi. Battle Summary letto dalla registrazione.",
+   "opponent": "LOL",
+   "opponentTeam": [
+    "Vegeta SSB",
+    "Goku GT (bambino)",
+    "terzo non identificato"
+   ],
+   "result": "loss",
+   "resultNote": "Vegeta SSB chiude l'ultimo personaggio a circa 4:00. Danni inflitti: 6,9M contro 20,6M.",
+   "strengths": [
+    "Tecnica 1 applicata: Cooler colpito, \"Rising Rush Sealed\", cambio (2:28–2:30)",
+    "Goku SSJ solido tra 1:04 e 1:52, con un critico da 1,39M",
+    "Gohan dopo la rinascita in SSJ2: combo da 4,0M (3:38)"
+   ],
+   "team": [
+    "Cooler UL",
+    "Goku LR",
+    "Super Saiyan Gohan (Youth)"
+   ],
+   "timeline": [
+    {
+     "mark": "err",
+     "t": "0:24–0:38",
+     "text": "Cooler contro Vegeta SSB: da 2,46M a 1,19M"
+    },
+    {
+     "mark": "err",
+     "t": "0:38–0:52",
+     "text": "Goku entra a metà combo: KO in 12 secondi"
+    },
+    {
+     "mark": "",
+     "t": "0:56–1:02",
+     "text": "Goku rinasce Super Saiyan"
+    },
+    {
+     "mark": "ok",
+     "t": "1:04–1:52",
+     "text": "Goku SSJ regge, critico da 1,39M"
+    },
+    {
+     "mark": "ok",
+     "t": "2:02–2:16",
+     "text": "Ultimate di Cooler e combo da 1,42M"
+    },
+    {
+     "mark": "ok",
+     "t": "2:28–2:30",
+     "text": "Cooler colpito, sigillo, cambio"
+    },
+    {
+     "mark": "err",
+     "t": "2:30–2:42",
+     "text": "Gohan entra e prende una combo"
+    },
+    {
+     "mark": "err",
+     "t": "2:44–3:04",
+     "text": "Goku SSJ entra dentro una combo da 53 colpi: KO"
+    },
+    {
+     "mark": "ok",
+     "t": "3:34–3:38",
+     "text": "Gohan va KO e rinasce SSJ2, poi combo da 4,0M"
+    },
+    {
+     "mark": "err",
+     "t": "3:48–3:58",
+     "text": "Vegeta SSB chiude il match"
+    }
+   ],
+   "verdict": "Hai perso soprattutto per i cambi: due volte hai fatto entrare Goku nel mezzo di una combo di Vegeta SSB (contatore oltre i 50 colpi) ed è morto entrambe le volte. Il Battle Summary lo conferma: un solo vanish riuscito contro 4, e un terzo dei danni dell'avversario.",
+   "id": "2026-11-12-1"
+  },
+  {
+   "date": "2026-11-08",
+   "duration": "replay 6:13",
+   "errors": [
+    {
+     "fix": "Viene punito e va KO da 2,38M. Vicino all'avversario o attacchi o ti allontani con un dash all'indietro.",
+     "t": "3:20–3:33",
+     "title": "Cooler resta fermo per circa 6 s davanti a Trunks con ki 100"
+    },
+    {
+     "fix": "Broly entra dentro la combo, prende l'Ultimate e va KO da 2,42M. Prima di cambiare guarda le sfere del drago avversarie.",
+     "t": "3:36–4:10",
+     "title": "Cambio su Broly mentre l'avversario ha l'Ultimate pronta"
+    },
+    {
+     "fix": "L'avversario annulla il cover, quindi cambiare non ti salva: difenditi con vanish e schivate.",
+     "t": "0:12–0:25",
+     "title": "Apertura: 31 colpi subiti (~1,7M)"
+    },
+    {
+     "fix": "Costano a Broly circa 1,25M di HP.",
+     "t": "1:18 e 2:24",
+     "title": "Due \"Time those taps\" persi di poco"
+    },
+    {
+     "fix": "Dopo ogni KO che fai, tieni il dito pronto a schivare.",
+     "t": "5:00–5:02",
+     "title": "Punito dal personaggio che entra dopo il tuo Rising K.O."
+    }
+   ],
+   "headline": "Cooler e Broly persi per errori difensivi, rimonta di Goku",
+   "limits": "Nomi dei personaggi ricavati dalle icone; barra del vanish non leggibile con sicurezza; 2 fotogrammi al secondo.",
+   "opponent": "zEnerGyF2P",
+   "opponentTeam": [
+    "UL tag SSJ3 Goku & Vegeta",
+    "Trunks SSJ LL",
+    "Vegeta SSB LR"
+   ],
+   "result": "win",
+   "resultNote": "Legendary Finish con 53 secondi sul timer.",
+   "strengths": [
+    "Combo di Cooler da 24 colpi su SSJ3 Goku (0:40)",
+    "Combo di Broly da 34 colpi su Trunks (1:36)",
+    "Goku: 38 colpi + Special, KO di Vegeta (2:42)",
+    "Rising Rush perfetto: Rising K.O. da 10,2M (4:42)"
+   ],
+   "team": [
+    "Cooler UL",
+    "Broly LR",
+    "Goku LR",
+    "Beerus (equip)"
+   ],
+   "timeline": [
+    {
+     "mark": "err",
+     "t": "0:12–0:25",
+     "text": "Cooler e Broly subiscono una combo da 31 colpi"
+    },
+    {
+     "mark": "ok",
+     "t": "0:40–0:47",
+     "text": "Cooler porta SSJ3 Goku da 2,3M a 0,83M"
+    },
+    {
+     "mark": "err",
+     "t": "1:18",
+     "text": "\"Time those taps\" perso (890 contro 926)"
+    },
+    {
+     "mark": "ok",
+     "t": "1:29–1:50",
+     "text": "Broly Full Power: combo da 34 colpi su Trunks"
+    },
+    {
+     "mark": "err",
+     "t": "2:24",
+     "text": "Secondo \"Time those taps\" perso: Broly da 2,47M a 1,57M"
+    },
+    {
+     "mark": "ok",
+     "t": "2:42–3:16",
+     "text": "Goku: 38 colpi + Special, KO di Vegeta SSB"
+    },
+    {
+     "mark": "err",
+     "t": "3:20–3:33",
+     "text": "Cooler fermo, punito e KO"
+    },
+    {
+     "mark": "err",
+     "t": "3:44–4:10",
+     "text": "Broly entra nella combo e prende l'Ultimate: KO"
+    },
+    {
+     "mark": "ok",
+     "t": "4:42–4:57",
+     "text": "Rising K.O. del tag UL avversario (10,2M)"
+    },
+    {
+     "mark": "",
+     "t": "5:00–5:02",
+     "text": "Trunks porta Goku a 0, Goku si trasforma in SSJ"
+    },
+    {
+     "mark": "ok",
+     "t": "5:13–5:59",
+     "text": "Goku SSJ chiude con la Special: Legendary Finish"
+    }
+   ],
+   "verdict": "Hai vinto grazie all'attacco: combo lunghe, Special nel momento giusto e un Rising K.O. perfetto. Hai rischiato di perdere per errori in difesa che ti sono costati Cooler e Broly con gli HP quasi pieni.",
+   "id": "2026-11-08-1"
+  },
+  {
+   "date": "2026-10-04",
+   "duration": "replay 7:44",
+   "errors": [
+    {
+     "fix": "Cambio nel momento sbagliato: entra solo quando l'avversario non è in combo.",
+     "t": "0:22–0:32",
+     "title": "Broly passa da 2,28M a 0,46M in 10 secondi appena entrato"
+    },
+    {
+     "fix": "Il match si è deciso per pochi secondi. Allena la difesa dall'Overdrive.",
+     "t": "7:20–7:26",
+     "title": "Broly sotto il 10% di HP, primo passaggio della difesa dall'Overdrive sbagliato"
+    }
+   ],
+   "headline": "Broly −1,8M appena entrato, vittoria al fotofinish",
+   "limits": "Analizzato con un fotogramma ogni 2 secondi; alcuni personaggi ricavati dalle icone.",
+   "opponent": "microonde",
+   "opponentTeam": [
+    "Perfect Cell",
+    "Goku Black Rosé",
+    "Trunks",
+    "Goku SSJ",
+    "Cooler"
+   ],
+   "result": "win",
+   "resultNote": "Finish di Broly con 3 secondi sul timer e 305k HP rimasti.",
+   "strengths": [
+    "\"Time those taps\" vinto (947 contro 857)",
+    "Rising K.O. di Cooler da 9,8M",
+    "Rising Rush avversario schivato indovinando la carta",
+    "Sangue freddo nel finale"
+   ],
+   "team": [
+    "Cooler UL",
+    "Broly LR",
+    "Goku LR",
+    "Beerus (equip)"
+   ],
+   "timeline": [
+    {
+     "mark": "err",
+     "t": "0:14–0:20",
+     "text": "Cooler apre e subisce una prima combo (2,46M → 1,96M)"
+    },
+    {
+     "mark": "err",
+     "t": "0:22–0:32",
+     "text": "Broly entra e perde 1,8M in 10 secondi"
+    },
+    {
+     "mark": "ok",
+     "t": "2:02–2:06",
+     "text": "\"Time those taps\" vinto"
+    },
+    {
+     "mark": "ok",
+     "t": "3:12–3:16",
+     "text": "Cooler: combo da 70 colpi"
+    },
+    {
+     "mark": "ok",
+     "t": "4:48–5:22",
+     "text": "Rising K.O. di Cooler (9,8M)"
+    },
+    {
+     "mark": "err",
+     "t": "6:24–6:30",
+     "text": "Goku SSJ usa \"Incredible Ace in the Hole\" ma va KO"
+    },
+    {
+     "mark": "ok",
+     "t": "6:42–6:50",
+     "text": "Rising Rush avversario schivato"
+    },
+    {
+     "mark": "",
+     "t": "7:20–7:28",
+     "text": "Broly a 124k HP: difesa dall'Overdrive prima fallita, poi riuscita"
+    },
+    {
+     "mark": "ok",
+     "t": "7:32–7:36",
+     "text": "Special di Broly: FINISH a 3 secondi dalla fine"
+    }
+   ],
+   "verdict": "Vittoria sofferta: un pessimo inizio con Broly ti ha costretto a rimontare. Il Rising K.O. di Cooler e il sangue freddo nel finale l'hanno salvata.",
+   "id": "2026-10-04-1"
+  },
+  {
+   "date": "2026-09-10",
+   "duration": "replay 7:49",
+   "errors": [
+    {
+     "fix": "Andava cambiato dopo la prima combo.",
+     "t": "0:24–0:56",
+     "title": "Broly lasciato in campo mentre perde il 95% degli HP"
+    },
+    {
+     "fix": "Costa circa 1,3M di HP a Broly.",
+     "t": "4:20–4:24",
+     "title": "Difesa dall'Overdrive fallita"
+    },
+    {
+     "fix": "Senza ki non hai niente per difenderti o contrattaccare: carica il ki prima di entrare in uno scambio.",
+     "t": "1:34 e 6:40",
+     "title": "Cooler a ki 0 sotto pressione"
+    }
+   ],
+   "headline": "Broly da 2,66M a 0,15M in 30 secondi",
+   "limits": "Analizzato con un fotogramma ogni 2 secondi; alcuni personaggi ricavati dalle icone.",
+   "opponent": "Nosa711",
+   "opponentTeam": [
+    "Broly LF",
+    "Golden Frieza",
+    "Android 17",
+    "SSJ Vegeta",
+    "Cooler"
+   ],
+   "result": "win",
+   "resultNote": "L'avversario ha abbandonato a 1 secondo dalla fine.",
+   "strengths": [
+    "Combo di Cooler fino a 76 colpi",
+    "Rising K.O. da 4,4M",
+    "Overdrive di Gogeta riuscito",
+    "\"Time those taps\" vinto (989 contro 921)"
+   ],
+   "team": [
+    "Gogeta SSGSS",
+    "Broly LR",
+    "Cooler UL"
+   ],
+   "timeline": [
+    {
+     "mark": "err",
+     "t": "0:24–0:56",
+     "text": "Broly subisce combo su combo: da 2,66M a 0,15M"
+    },
+    {
+     "mark": "ok",
+     "t": "0:56–1:00",
+     "text": "\"Time those taps\" vinto"
+    },
+    {
+     "mark": "ok",
+     "t": "2:08–2:22",
+     "text": "Ultimate di Gogeta: KO di un avversario"
+    },
+    {
+     "mark": "ok",
+     "t": "3:22–3:52",
+     "text": "Cooler: combo da 76 colpi"
+    },
+    {
+     "mark": "err",
+     "t": "4:20–4:24",
+     "text": "Overdrive avversario: difesa fallita"
+    },
+    {
+     "mark": "ok",
+     "t": "4:44–5:44",
+     "text": "Rising K.O. da 4,37M"
+    },
+    {
+     "mark": "ok",
+     "t": "5:56–6:20",
+     "text": "Overdrive di Gogeta riuscito"
+    },
+    {
+     "mark": "err",
+     "t": "7:20–7:22",
+     "text": "Gogeta va KO"
+    },
+    {
+     "mark": "ok",
+     "t": "7:44",
+     "text": "L'avversario abbandona"
+    }
+   ],
+   "verdict": "Cooler ha girato la partita con combo enormi e un Rising K.O., ma in difesa hai regalato quasi tutto Broly nel primo minuto e altri 1,3M sull'Overdrive avversario.",
+   "id": "2026-09-10-1"
+  },
+  {
+   "date": "2026-07-25",
+   "duration": "replay 5:47",
+   "errors": [
+    {
+     "fix": "Rising K.O. subito. Quando vedi il Rising Rush avversario quasi pronto, cambia o tieni il vanish.",
+     "t": "0:30–1:26",
+     "title": "SSJ3 Goku resta in campo contro Vegito mentre l'avversario carica il Rising Rush"
+    },
+    {
+     "fix": "Perso un personaggio con HP ancora alti.",
+     "t": "4:00–4:12",
+     "title": "Broly preso in pieno dall'Ultimate di Vegito"
+    },
+    {
+     "fix": "Vittoria più rischiosa del necessario.",
+     "t": "4:14–4:30",
+     "title": "Gogeta scende fino a ~300k HP prima di chiudere"
+    }
+   ],
+   "headline": "SSJ3 Goku preso dal Rising Rush, Gogeta chiude",
+   "limits": "Analizzato con un fotogramma ogni 2 secondi; squadre ricostruite dalle icone, non tutte certe.",
+   "opponent": "nome non leggibile",
+   "opponentTeam": [
+    "Vegito Blue",
+    "Trunks",
+    "SSJ Vegeta",
+    "Broly"
+   ],
+   "result": "win",
+   "resultNote": "Rising K.O. di Gogeta e chiusura con 42 secondi sul timer.",
+   "strengths": [
+    "Rising K.O. di Gogeta da 11,8M",
+    "Rimonta con Gogeta da 561k HP: KO di Vegito e chiusura",
+    "\"Choose a route\" in attacco riuscito"
+   ],
+   "team": [
+    "Gogeta SSGSS",
+    "SSJ3 Goku",
+    "Broly LR"
+   ],
+   "timeline": [
+    {
+     "mark": "ok",
+     "t": "0:06–0:28",
+     "text": "Gogeta apre bene: leader avversario da 2,17M a 0,86M"
+    },
+    {
+     "mark": "err",
+     "t": "0:30–1:26",
+     "text": "SSJ3 Goku contro Vegito scende a 1,51M"
+    },
+    {
+     "mark": "err",
+     "t": "1:28–1:52",
+     "text": "Rising Rush di Vegito: SSJ3 Goku va KO"
+    },
+    {
+     "mark": "ok",
+     "t": "1:54–2:30",
+     "text": "Broly: combo da 34 colpi + Rage At Its Zenith"
+    },
+    {
+     "mark": "err",
+     "t": "4:00–4:12",
+     "text": "Ultimate di Vegito: Broly KO"
+    },
+    {
+     "mark": "ok",
+     "t": "4:14–4:54",
+     "text": "Gogeta: combo + Ultimate, KO di Vegito"
+    },
+    {
+     "mark": "ok",
+     "t": "5:16–5:32",
+     "text": "Rising K.O. di Gogeta (11,8M)"
+    },
+    {
+     "mark": "ok",
+     "t": "5:36–5:44",
+     "text": "FINISH"
+    }
+   ],
+   "verdict": "Hai perso due personaggi su Rising Rush e Ultimate di Vegito, ma Gogeta da solo ha fatto il resto.",
+   "id": "2026-07-25-1"
+  }
+ ]
+}

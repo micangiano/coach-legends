@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0f111b">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Coach">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<title>Coach Legends</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: header compatto + due schede (Riepilogo, Partite).
+   PC: Riepilogo su due colonne, Partite lista+dettaglio affiancati.
+   Telefono: una colonna, schede fisse in alto, Partite = lista → dettaglio con "indietro". */
+:root{
+  --bg:#f2f3f8; --surface:#ffffff; --sunk:#e8eaf2; --fg:#161929; --muted:#5a5f78; --line:#d9dce8;
+  --accent:#d9540b; --accent-soft:#fde6d6;
+  --ok:#23864c; --ok-soft:#dcf2e4; --err:#c92a5c; --err-soft:#fadde6; --warn:#a86b00; --warn-soft:#fbeccb;
+  --f-display:"Chakra Petch","Trebuchet MS",system-ui,sans-serif;
+  --f-body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f111b; --surface:#171a28; --sunk:#1f2335; --fg:#eceef7; --muted:#9ba1bb; --line:#2b3048;
+  --accent:#ff8c42; --accent-soft:#3a2416;
+  --ok:#5fd394; --ok-soft:#173326; --err:#ff6f9a; --err-soft:#3a1826; --warn:#f2bd4a; --warn-soft:#352a12;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f111b; --surface:#171a28; --sunk:#1f2335; --fg:#eceef7; --muted:#9ba1bb; --line:#2b3048;
+  --accent:#ff8c42; --accent-soft:#3a2416;
+  --ok:#5fd394; --ok-soft:#173326; --err:#ff6f9a; --err-soft:#3a1826; --warn:#f2bd4a; --warn-soft:#352a12;
+  color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.55;-webkit-tap-highlight-color:transparent}
+.wrap{max-width:1080px;margin:0 auto;padding-block:16px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:16px}
+h1,h2,h3{font-family:var(--f-display);margin:0;text-wrap:balance;letter-spacing:.01em}
+h1{font-size:clamp(22px,5vw,32px);font-weight:700;line-height:1.15}
+h2{font-size:19px;font-weight:600}
+h3{font-size:16px;font-weight:600}
+p{margin:0}
+.muted{color:var(--muted)}
+.small{font-size:13px}
+.label{font-size:11px;text-transform:uppercase;letter-spacing:.09em;color:var(--muted);font-weight:600}
+.mono,.t{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+button{font:inherit;color:inherit}
+button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* Header */
+header.top{display:grid;gap:10px}
+.toprow{display:flex;gap:12px;align-items:flex-start;justify-content:space-between}
+.who{display:grid;gap:2px;min-width:0}
+.chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin-inline:-16px;padding-inline:16px}
+.chips::-webkit-scrollbar{display:none}
+@media (min-width:821px){.chips{flex-wrap:wrap;overflow:visible;margin-inline:0;padding-inline:0}}
+.chip{flex:none;display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:999px;background:var(--sunk);font-size:13px;font-weight:500;white-space:nowrap}
+.chip.rank{background:var(--accent-soft);color:var(--accent);font-family:var(--f-display);font-weight:700;letter-spacing:.04em}
+.chip.win{background:var(--ok-soft);color:var(--ok);font-weight:600}
+.chip.loss{background:var(--err-soft);color:var(--err);font-weight:600}
+
+/* Schede */
+nav.tabs{position:sticky;top:0;z-index:5;display:grid;grid-template-columns:repeat(5,1fr);gap:4px;background:var(--sunk);padding:4px;border-radius:12px;box-shadow:0 0 0 6px var(--bg)}
+nav.tabs button{display:flex;align-items:center;justify-content:center;gap:8px;font-weight:600;font-size:14.5px;color:var(--muted);background:none;border:0;min-height:44px;border-radius:9px;cursor:pointer;padding:0 8px}
+nav.tabs button[aria-selected="true"]{background:var(--surface);color:var(--fg);box-shadow:0 1px 2px rgb(0 0 0/.1)}
+nav.tabs button[aria-selected="true"] svg{color:var(--accent)}
+nav.tabs svg{width:20px;height:20px;flex:none;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+nav.tabs #mcount{font-size:12px}
+@media (max-width:820px){
+  .wrap{padding-bottom:calc(96px + env(safe-area-inset-bottom,0px))}
+  nav.tabs{position:fixed;top:auto;bottom:0;left:0;right:0;border-radius:0;padding:6px max(8px,env(safe-area-inset-left,0px)) calc(6px + env(safe-area-inset-bottom,0px));background:var(--surface);border-top:1px solid var(--line);box-shadow:0 -2px 10px rgb(0 0 0/.06);gap:2px}
+  nav.tabs button{flex-direction:column;gap:3px;font-size:11.5px;min-height:52px;padding:4px 2px}
+  nav.tabs button[aria-selected="true"]{background:var(--accent-soft);box-shadow:none;color:var(--accent)}
+  nav.tabs #mcount{display:none}
+}
+.notice{padding:10px 14px;border-radius:10px;background:var(--warn-soft);font-size:14px}
+.notice[data-kind="info"]{background:var(--sunk)}
+
+/* Riepilogo */
+.grid2{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:16px;align-items:start}
+.col{display:grid;gap:16px;min-width:0}
+@media (max-width:820px){.grid2{grid-template-columns:minmax(0,1fr)}}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;display:grid;gap:12px;min-width:0}
+.panel-h{display:flex;justify-content:space-between;gap:8px;align-items:baseline;flex-wrap:wrap}
+.priority{border-left:4px solid var(--err)}
+.priority .big{font-family:var(--f-display);font-size:20px;font-weight:700;line-height:1.25}
+.focus{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+.drill{margin:0;display:grid;gap:12px}
+.drill > div{display:grid;grid-template-columns:110px minmax(0,1fr);gap:12px}
+.drill dt{font-family:var(--f-display);font-weight:600;color:var(--accent);font-size:14px}
+.drill dd{margin:0;min-width:0}
+.drill ol,.drill ul{margin:0;padding-left:18px;display:grid;gap:5px}
+@media (max-width:520px){.drill > div{grid-template-columns:minmax(0,1fr);gap:2px}}
+.err-list{display:grid;gap:12px;list-style:none;margin:0;padding:0}
+.err-row{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:10px;align-items:start}
+.sev{width:10px;height:10px;border-radius:50%;margin-top:7px}
+.sev.high{background:var(--err)}.sev.mid{background:var(--warn)}.sev.low{background:var(--muted)}
+.count{font-family:var(--f-mono);font-size:13px;color:var(--muted);white-space:nowrap}
+.pips{display:flex;gap:3px;margin-top:4px}
+.pips i{width:16px;height:5px;border-radius:2px;background:var(--line)}
+.pips i.on{background:var(--err)}
+.sev.mid ~ div .pips i.on{background:var(--warn)}
+.sev.low ~ div .pips i.on{background:var(--muted)}
+ul.plain,ol.ex{margin:0;padding-left:20px;display:grid;gap:7px}
+.status{font-size:12px;font-weight:600;padding:3px 8px;border-radius:6px;background:var(--warn-soft);color:var(--warn)}
+.status:empty{display:none}
+details.more summary{cursor:pointer;color:var(--accent);font-weight:600;font-size:14px;list-style:none;min-height:32px;display:flex;align-items:center}
+details.more summary::-webkit-details-marker{display:none}
+details.more[open] summary .closed,details.more:not([open]) summary .opened{display:none}
+
+.res{font-family:var(--f-display);font-weight:700;font-size:12px;letter-spacing:.06em;padding:3px 8px;border-radius:6px;text-transform:uppercase;white-space:nowrap}
+.res.win{background:var(--ok-soft);color:var(--ok)}.res.loss{background:var(--err-soft);color:var(--err)}.res.other{background:var(--sunk);color:var(--muted)}
+
+/* Partite */
+.matches{display:grid;grid-template-columns:minmax(0,320px) minmax(0,1fr);gap:16px;align-items:start}
+.side{display:grid;gap:10px;min-width:0}
+@media (min-width:821px){.side{position:sticky;top:64px;max-height:calc(100vh - 80px);overflow:auto;padding:2px}}
+.filters{display:flex;gap:6px}
+.filters button{flex:1;min-height:38px;border:1px solid var(--line);background:var(--surface);border-radius:999px;font-size:13.5px;font-weight:600;color:var(--muted);cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.mlist{display:grid;gap:8px}
+.mcard{text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:grid;gap:3px;cursor:pointer;width:100%}
+.mcard:hover{border-color:var(--muted)}
+.mcard[aria-current="true"]{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+.mcard .row{display:flex;justify-content:space-between;gap:8px;align-items:center}
+.mcard .hl{font-size:13.5px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.back{display:none}
+@media (max-width:820px){
+  .matches{grid-template-columns:minmax(0,1fr)}
+  .matches.open .side{display:none}
+  .matches:not(.open) .detail{display:none}
+  .back{display:inline-flex;align-items:center;gap:6px;justify-self:start;min-height:40px;padding:0 12px 0 8px;border:0;background:var(--sunk);border-radius:10px;font-weight:600;font-size:14px;cursor:pointer}
+}
+.detail{display:grid;gap:18px}
+.verdict{font-size:16px}
+.teams{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+.teams div{background:var(--sunk);border-radius:10px;padding:10px 12px;display:grid;gap:2px;font-size:14px}
+.fix{display:grid;gap:10px}
+.fix > div{background:var(--err-soft);border-radius:10px;padding:12px 14px;display:grid;gap:4px}
+.fix .t{font-size:12.5px;color:var(--err)}
+.good{background:var(--ok-soft);border-radius:10px;padding:12px 14px}
+.good ul{margin:0;padding-left:18px;display:grid;gap:4px}
+.tl{list-style:none;margin:0 0 0 6px;padding:0;display:grid;border-left:2px solid var(--line)}
+.tl li{display:grid;grid-template-columns:96px minmax(0,1fr);gap:10px;padding:7px 0 7px 14px;position:relative;font-size:14px}
+.tl li::before{content:"";position:absolute;left:-6px;top:13px;width:10px;height:10px;border-radius:50%;background:var(--line);border:2px solid var(--surface)}
+.tl li[data-mark="ok"]::before{background:var(--ok)}
+.tl li[data-mark="err"]::before{background:var(--err)}
+.tl .t{color:var(--muted);font-size:12.5px;padding-top:1px}
+@media (max-width:520px){.tl li{grid-template-columns:minmax(0,1fr);gap:0}}
+.ex > li{display:grid;gap:4px}
+.eg{background:var(--sunk);border-radius:8px;padding:8px 10px;font-size:13.5px}
+.eg .label{margin-right:6px}
+.goal{color:var(--ok);font-weight:600;font-size:13.5px}
+.check{counter-reset:c;list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.check li{counter-increment:c;display:grid;grid-template-columns:28px minmax(0,1fr);gap:10px;align-items:start}
+.check li::before{content:counter(c);font-family:var(--f-display);font-weight:700;width:28px;height:28px;border-radius:50%;background:var(--accent-soft);color:var(--accent);display:grid;place-items:center;font-size:14px}
+.check strong{display:block}
+.pro-list{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.pro-list li{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px;display:grid;gap:6px}
+.pro-list .src{font-size:12.5px;color:var(--muted)}
+.view{display:grid;gap:14px}
+.intro{font-size:14px}
+ol.ex.cards{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+ol.ex.cards > li{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px;gap:6px}
+.empty{padding:22px;border:1px dashed var(--line);border-radius:12px;color:var(--muted);text-align:center}
+@media (prefers-reduced-motion:no-preference){.mcard,.filters button{transition:box-shadow .15s,border-color .15s,background .15s}}
+</style>
+<style>
+/* PWA: spazio per la barra di stato di iOS (status bar trasparente) */
+.wrap{padding-top:max(16px,env(safe-area-inset-top,0px))}
+body{margin:0;min-height:100vh;overscroll-behavior-y:none}
+.updated{font-size:12px;color:var(--muted);text-align:center}
+</style>
+</head>
+<body>
+
+
+<div class="wrap">
+  <header class="top">
+    <div class="toprow">
+      <div class="who">
+        <span class="label">Coach DB Legends · PvP</span>
+        <h1 id="pname">Il tuo coach</h1>
+        <p class="muted small" id="pgoal">Caricamento del profilo…</p>
+      </div>
+    </div>
+    <div class="chips" id="pchips"></div>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Sezioni">
+    <button role="tab" id="tab-oggi" aria-controls="v-oggi" aria-selected="true"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor"/></svg><span>Tecnica</span></button>
+    <button role="tab" id="tab-errori" aria-controls="v-errori" aria-selected="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2.5 20h19z"/><path d="M12 10v4.5M12 17.2v.3"/></svg><span>Errori</span></button>
+    <button role="tab" id="tab-esercizi" aria-controls="v-esercizi" aria-selected="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h3M4 12h3M4 18h3M10 6h10M10 12h10M10 18h10"/></svg><span>Esercizi</span></button>
+    <button role="tab" id="tab-partite" aria-controls="v-partite" aria-selected="false"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m10 9 5 3-5 3z"/></svg><span>Partite <span class="mono" id="mcount"></span></span></button>
+    <button role="tab" id="tab-pro" aria-controls="v-pro" aria-selected="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg><span>Dai pro</span></button>
+  </nav>
+
+  <p class="notice" id="dbnote" hidden></p>
+
+  <!-- TECNICA: cosa fare nella prossima partita -->
+  <section id="v-oggi" role="tabpanel" aria-labelledby="tab-oggi" class="view">
+    <p class="intro muted">Cosa fare nella prossima partita.</p>
+    <div class="grid2">
+      <div class="panel focus" id="focus" hidden>
+        <div class="panel-h"><span class="label">Tecnica su cui lavorare adesso</span><span class="status" id="f-status"></span></div>
+        <h2 id="f-title"></h2>
+        <dl class="drill">
+          <div><dt>Quando</dt><dd id="f-when"></dd></div>
+          <div><dt>Dove stare</dt><dd id="f-where"></dd></div>
+          <div><dt>Cosa fare</dt><dd><ol id="f-do"></ol></dd></div>
+          <div><dt>Obiettivo</dt><dd id="f-goal"></dd></div>
+          <div id="f-watch-row"><dt>Occhio a</dt><dd><ul id="f-watch"></ul></dd></div>
+        </dl>
+        <p class="muted small" id="f-note"></p>
+      </div>
+      <div class="panel" id="check-panel" hidden>
+        <h2>Prima di ogni cambio</h2>
+        <ol class="check" id="check"></ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ERRORI -->
+  <section id="v-errori" role="tabpanel" aria-labelledby="tab-errori" class="view" hidden>
+    <p class="intro muted">Cosa sbagli più spesso nelle tue partite, in ordine di priorità.</p>
+    <div class="grid2">
+      <div class="col">
+        <div class="panel priority">
+          <span class="label">Priorità n. 1</span>
+          <p class="big" id="prio-title">In attesa dei dati…</p>
+          <p class="muted" id="prio-detail"></p>
+        </div>
+        <div class="panel">
+          <div class="panel-h"><h2>Errori ricorrenti</h2><span class="muted small">volte visto</span></div>
+          <ul class="err-list" id="errs"><li class="empty">Compariranno qui dopo la prima analisi.</li></ul>
+          <details class="more" id="errs-more" hidden><summary><span class="closed">Mostra tutti</span><span class="opened">Mostra meno</span></summary><ul class="err-list" id="errs-rest" style="margin-top:12px"></ul></details>
+        </div>
+      </div>
+      <div class="col">
+        <div class="panel">
+          <h2>Punti di forza</h2>
+          <ul class="plain" id="strs"><li class="muted">Da osservare.</li></ul>
+        </div>
+        <p class="muted small" id="sample"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ESERCIZI -->
+  <section id="v-esercizi" role="tabpanel" aria-labelledby="tab-esercizi" class="view" hidden>
+    <p class="intro muted">Da provare nelle prossime partite. Ogni esercizio ha un esempio e, dove si può, un obiettivo da misurare.</p>
+    <ol class="ex cards" id="exs"><li class="muted">Nessun esercizio ancora.</li></ol>
+  </section>
+
+  <!-- DAI PRO -->
+  <section id="v-pro" role="tabpanel" aria-labelledby="tab-pro" class="view" hidden>
+    <p class="muted small" id="pro-note"></p>
+    <ol class="pro-list" id="pro"><li class="empty">Nessuno studio ancora.</li></ol>
+  </section>
+
+  <!-- PARTITE -->
+  <section id="v-partite" role="tabpanel" aria-labelledby="tab-partite" class="view matches" hidden>
+    <div class="side">
+      <div class="filters" role="group" aria-label="Filtra partite">
+        <button data-f="all" aria-pressed="true">Tutte</button>
+        <button data-f="win" aria-pressed="false">Vittorie</button>
+        <button data-f="loss" aria-pressed="false">Sconfitte</button>
+      </div>
+      <div class="mlist" id="mlist"><div class="empty">Nessuna partita analizzata ancora.</div></div>
+    </div>
+    <div class="detail">
+      <button class="back" id="back" type="button">← Tutte le partite</button>
+      <article class="panel" id="mdetail" style="gap:18px"><p class="muted">Scegli una partita dalla lista.</p></article>
+    </div>
+  </section>
+  <p class="updated" id="pupdated" hidden></p>
+</div>
+
+<script>
+(function(){
+  const $ = s => document.querySelector(s);
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  const RES = {win:["Vittoria","win"], loss:["Sconfitta","loss"], other:["Da chiarire","other"]};
+  const fmtDate = (d, short) => { try { return new Date(d+"T12:00:00").toLocaleDateString("it-IT", short ? {day:"numeric",month:"short"} : {day:"numeric",month:"short",year:"numeric"}); } catch(e){ return d; } };
+  const mobile = matchMedia("(max-width:820px)");
+
+  let matches = [], selected = null, filter = "all", profile = null;
+  const VIEWS = ["oggi","errori","esercizi","partite","pro"];
+
+  /* --- navigazione: #oggi, #errori, #esercizi, #partite, #partite/<id>, #pro --- */
+  function route(){
+    const [view, id] = location.hash.slice(1).split("/");
+    const v = VIEWS.includes(view) ? view : "oggi";
+    VIEWS.forEach(n => {
+      $("#v-"+n).hidden = n !== v;
+      $("#tab-"+n).setAttribute("aria-selected", String(n === v));
+    });
+    if(v === "partite"){
+      if(id) selected = decodeURIComponent(id);
+      $("#v-partite").classList.toggle("open", !!id);
+      renderMatches();
+    }
+  }
+  VIEWS.forEach(n => { $("#tab-"+n).onclick = () => { location.hash = n; }; });
+  $("#back").onclick = () => { if(history.length > 1 && location.hash.includes("/")) history.back(); else location.hash = "partite"; };
+  window.addEventListener("hashchange", () => { route(); window.scrollTo({top:0}); });
+  document.querySelectorAll(".filters button").forEach(b => b.onclick = () => {
+    filter = b.dataset.f;
+    document.querySelectorAll(".filters button").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+    renderMatches();
+  });
+
+  /* --- render --- */
+  function errRow(r){
+    const n = Math.min(r.count||0, 6);
+    return `<li class="err-row"><span class="sev ${esc(r.level||"mid")}" aria-hidden="true"></span>
+      <div style="min-width:0"><div>${esc(r.title)}</div>
+      <div class="pips" aria-hidden="true">${Array.from({length:Math.max(n,4)},(_,i)=>`<i class="${i<n?"on":""}"></i>`).join("")}</div>
+      ${r.matches ? `<div class="muted" style="font-size:12.5px;margin-top:4px">${esc(r.matches)}</div>` : ""}</div>
+      <span class="count">${r.count||0}×</span></li>`;
+  }
+
+  function renderHeader(){
+    const p = profile || {};
+    const w = matches.filter(m => m.result==="win").length, l = matches.filter(m => m.result==="loss").length;
+    $("#pchips").innerHTML =
+      (p.rank ? `<span class="chip rank">${esc(p.rank)}</span>` : "") +
+      (matches.length ? `<span class="chip win">${w} V</span><span class="chip loss">${l} S</span>` : "") +
+      (p.team || []).map(t => `<span class="chip">${esc(t)}</span>`).join("");
+    $("#mcount").textContent = matches.length ? `(${matches.length})` : "";
+  }
+
+  function renderProfile(p){
+    if(!p) return;
+    profile = p;
+    $("#pname").textContent = p.name || "Il tuo coach";
+    $("#pgoal").textContent = p.goal ? "Obiettivo: " + p.goal : "";
+    renderHeader();
+    const rec = p.recurring || [];
+    if(rec[0]){ $("#prio-title").textContent = rec[0].title; $("#prio-detail").textContent = rec[0].detail || ""; }
+    const SHOW = 4;
+    $("#errs").innerHTML = rec.length ? rec.slice(0, SHOW).map(errRow).join("") : `<li class="empty">Compariranno qui dopo la prima analisi.</li>`;
+    $("#errs-more").hidden = rec.length <= SHOW;
+    $("#errs-rest").innerHTML = rec.slice(SHOW).map(errRow).join("");
+    const eg = t => t ? `<div class="eg"><span class="label">Esempio</span>${esc(t)}</div>` : "";
+    $("#exs").innerHTML = (p.exercises||[]).length ? p.exercises.map(e => typeof e === "string" ? `<li>${esc(e)}</li>` :
+      `<li><strong>${esc(e.title)}</strong><span>${esc(e.how||"")}</span>${eg(e.example)}${e.goal ? `<span class="goal">Obiettivo: ${esc(e.goal)}</span>` : ""}</li>`).join("") : `<li class="muted">Nessun esercizio ancora.</li>`;
+    const ck = p.checklist || [];
+    $("#check-panel").hidden = !ck.length;
+    $("#check").innerHTML = ck.map(c => `<li><div><strong>${esc(c.q)}</strong><span class="muted">${esc(c.a||"")}</span></div></li>`).join("");
+    const pro = p.pro || [];
+    $("#pro-note").textContent = p.proNote || "";
+    $("#pro").innerHTML = pro.length ? pro.map(r => `<li><h3>${esc(r.rule)}</h3>${r.how ? `<span>${esc(r.how)}</span>` : ""}${eg(r.example)}${r.source ? `<span class="src">${esc(r.source)}</span>` : ""}</li>`).join("") : `<li class="empty">Nessuno studio ancora.</li>`;
+    $("#strs").innerHTML = (p.strengths||[]).length ? p.strengths.map(e => `<li>${esc(e)}</li>`).join("") : `<li class="muted">Da osservare.</li>`;
+    $("#sample").textContent = p.sampleNote || "";
+    const f = p.focus;
+    $("#focus").hidden = !f;
+    if(f){
+      $("#f-title").textContent = f.title || "";
+      $("#f-status").textContent = f.status || "";
+      $("#f-when").textContent = f.when || "";
+      $("#f-where").textContent = f.where || "";
+      $("#f-do").innerHTML = (f.steps||[]).map(s => `<li>${esc(s)}</li>`).join("");
+      $("#f-goal").textContent = f.goal || "";
+      $("#f-watch").innerHTML = (f.watch||[]).map(s => `<li>${esc(s)}</li>`).join("");
+      $("#f-watch-row").hidden = !(f.watch||[]).length;
+      $("#f-note").textContent = f.note || "";
+    }
+  }
+
+  function renderMatches(){
+    renderHeader();
+    if(!matches.length){ $("#mlist").innerHTML = `<div class="empty">Nessuna partita analizzata ancora.</div>`; return; }
+    const list = filter === "all" ? matches : matches.filter(m => m.result === filter);
+    if(!selected || !matches.find(m => m.id===selected)) selected = (list[0] || matches[0]).id;
+    $("#mlist").innerHTML = list.length ? list.map(m => {
+      const [rl, rc] = RES[m.result] || RES.other;
+      return `<button class="mcard" data-id="${esc(m.id)}" aria-current="${!mobile.matches && m.id===selected}">
+        <span class="row"><strong>${esc(fmtDate(m.date, true))} · vs ${esc(m.opponent || "avversario")}</strong><span class="res ${rc}">${rl}</span></span>
+        ${m.headline ? `<span class="hl muted">${esc(m.headline)}</span>` : ""}</button>`;
+    }).join("") : `<div class="empty">Nessuna partita in questo filtro.</div>`;
+    $("#mlist").querySelectorAll(".mcard").forEach(b => b.onclick = () => { location.hash = "partite/" + encodeURIComponent(b.dataset.id); });
+    renderDetail(matches.find(m => m.id===selected));
+  }
+
+  function renderDetail(m){
+    if(!m) return;
+    const [rl, rc] = RES[m.result] || RES.other;
+    $("#mdetail").innerHTML = `
+      <div style="display:grid;gap:6px">
+        <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap"><span class="res ${rc}">${rl}</span><span class="muted mono" style="font-size:13px">${esc(m.duration||"")}</span></div>
+        <h2>${esc(fmtDate(m.date))} · vs ${esc(m.opponent||"avversario")}</h2>
+        ${m.resultNote ? `<p class="muted small">${esc(m.resultNote)}</p>` : ""}
+      </div>
+      ${m.verdict ? `<p class="verdict">${esc(m.verdict)}</p>` : ""}
+      <div class="teams">
+        <div><span class="label">La tua squadra</span><span>${esc((m.team||[]).join(" · ") || "—")}</span></div>
+        <div><span class="label">Avversario</span><span>${esc((m.opponentTeam||[]).join(" · ") || "—")}</span></div>
+      </div>
+      ${(m.errors||[]).length ? `<div style="display:grid;gap:10px"><h3>Da correggere</h3><div class="fix">${m.errors.map(e => `<div><span class="t">${esc(e.t)}</span><strong>${esc(e.title)}</strong>${e.fix?`<span>${esc(e.fix)}</span>`:""}</div>`).join("")}</div></div>` : ""}
+      ${(m.strengths||[]).length ? `<div class="good"><h3 style="margin-bottom:6px">Cosa hai fatto bene</h3><ul>${m.strengths.map(s=>`<li>${esc(s)}</li>`).join("")}</ul></div>` : ""}
+      ${(m.timeline||[]).length ? `<details class="more" ${mobile.matches ? "" : "open"}><summary><span class="closed">Come è andata (${m.timeline.length} momenti) ▾</span><span class="opened">Come è andata ▴</span></summary><ol class="tl" style="margin-top:10px">${m.timeline.map(x => `<li data-mark="${esc(x.mark||"")}"><span class="t">${esc(x.t)}</span><span>${esc(x.text)}</span></li>`).join("")}</ol></details>` : ""}
+      ${m.limits ? `<p class="muted small"><strong>Limiti dell'analisi:</strong> ${esc(m.limits)}</p>` : ""}`;
+  }
+
+  mobile.addEventListener("change", () => { if(!$("#v-partite").hidden) renderMatches(); });
+  route();
+
+  /* --- dati --- */
+  function note(t, kind){ const n=$("#dbnote"); n.textContent=t; n.dataset.kind=kind||""; n.hidden=!t; }
+
+  (async function start(){
+    const stamp = $("#pupdated");
+    let shown = "";
+    async function load(){
+      try{
+        const r = await fetch("data.json?t=" + Date.now(), {cache:"no-store"});
+        if(!r.ok) throw new Error(r.status);
+        const d = await r.json();
+        if(d.updated === shown) return;
+        shown = d.updated;
+        if(d.profile) renderProfile(d.profile);
+        matches = (d.matches || []).slice().sort((a,b) => String(b.date).localeCompare(String(a.date)) || String(b.id).localeCompare(String(a.id)));
+        renderMatches();
+        note("");
+        if(stamp){ stamp.textContent = "Dati aggiornati al " + new Date(d.updated).toLocaleString("it-IT", {dateStyle:"medium", timeStyle:"short"}); stamp.hidden = false; }
+      }catch(e){
+        if(!shown) note("Non riesco a caricare i dati. Controlla la connessione e riapri l'app.");
+      }
+    }
+    await load();
+    document.addEventListener("visibilitychange", () => { if(document.visibilityState === "visible") load(); });
+    if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+  })();
+})();
+</script>
+
+</body>
+</html>
