@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T15:49:31+0000",
+ "updated": "2026-11-19T18:57:27+0000",
  "profile": {
   "checklist": [
    {
@@ -49,9 +49,9 @@
    }
   ],
   "focus": {
-   "goal": "Cooler sopra i 2,5M di HP dopo i primi 2 minuti, in 3 partite di fila.",
-   "note": "Sostituisce \"Apertura Cooler → Broly\" (17/11/2026), dopo 8 partite di Goresh e Kyne e i kit di dblegends.net. L'apertura con Goku è da verificare nei tuoi prossimi replay.",
-   "status": "Tecnica 1 di 3 · nuova",
+   "goal": "Cooler sopra i 2,2M di HP (90%: il massimo è 2,47M) dopo i primi 2 minuti, in 3 partite di fila. Progresso: 1/3 (19/11 ✅).",
+   "note": "Verificata il 19/11 vs A18isThicc: Goku apre, Broly entra con un cambio, Cooler 3 ingressi con combo 27/44/53 senza perdere HP. Partita persa dopo, per 2 Cover Change con il divieto.",
+   "status": "Tecnica 1 di 3 · 1 partita su 3",
    "steps": [
     "Apri con Goku: parte con il gauge pieno (Strike +50%) e, se va KO, rinasce SSJ con il vanish nemico a zero.",
     "Fai entrare Broly con un cambio, non in apertura: solo così blocca i cambi nemici per 3 counts e distrugge una carta. Esempio: combo avversaria finita → entra Broly.",
@@ -123,24 +123,24 @@
   "rank": "Diamond",
   "recurring": [
    {
-    "count": 8,
-    "detail": "Divieto sulle icone dei compagni, o cover annullato dal kit avversario (es. i Vegito) = chi entra prende tutta la combo. Fai vanish. Esempio: 12/11 contro Treanz, 4 cambi su 4 annullati.",
+    "count": 10,
+    "detail": "Divieto sulle icone dei compagni, o cover annullato dal kit avversario (Vegito, Rosé appena trasformata, Gogeta appena entrato) = chi entra prende tutta la combo. Fai vanish. Esempio: 19/11 a 5:36 Goku SSJ → Cooler con il divieto, Cooler KO in 23 s.",
     "level": "high",
-    "matches": "12/11 vs LOL · 12/11 vs Treanz (×4) · 16/11 (3) ×3",
+    "matches": "12/11 vs LOL · 12/11 vs Treanz (×4) · 16/11 (3) ×3 · 19/11 ×2 (Broly e Cooler KO)",
     "title": "Cover Change con l'icona di divieto: chi entra prende tutta la combo"
    },
    {
     "count": 8,
-    "detail": "La tecnica \"Cooler entra solo per attaccare\" serve a questo.",
+    "detail": "La tecnica \"Cooler entra solo per attaccare\" serve a questo. 19/11: 0 HP persi nei primi 80 s con la nuova apertura.",
     "level": "high",
     "matches": "10/09 · 04/10 · 08/11 · 12/11 ×2 · 16/11 ×3",
     "title": "Perdi il primo personaggio nei primi 60 secondi"
    },
    {
-    "count": 7,
+    "count": 8,
     "detail": "Alla seconda combo di fila: cambia (se non c'è il divieto) o vanish. Esempio: 16/11 (3) Cooler fino a 33 HP.",
     "level": "high",
-    "matches": "25/07 · 10/09 · 08/11 · 12/11 · 16/11 (2) · 16/11 (3) ×2",
+    "matches": "25/07 · 10/09 · 08/11 · 12/11 · 16/11 (2) · 16/11 (3) ×2 · 19/11",
     "title": "Resti in campo mentre subisci combo su combo"
    },
    {
@@ -151,11 +151,18 @@
     "title": "Personaggio senza rinascita perso per Ultimate o Rising Rush con HP alti"
    },
    {
-    "count": 1,
-    "detail": "Goku e Gohan sotto i 300k nella prima vita: lasciali morire, rinascono.",
+    "count": 2,
+    "detail": "La Main Ability di Super Gogeta pesca \"Soul Punisher\": dal banner, vanish pronto e niente carte lunghe finché non la tira. Esempio: 19/11 a 6:00 Goku SSJ KO.",
+    "level": "high",
+    "matches": "16/11 (2) · 19/11",
+    "title": "Ultimate di Gogeta dopo \"Vanquish All Evil\" non rispettata"
+   },
+   {
+    "count": 2,
+    "detail": "Goku o Gohan nella prima vita incassano loro: se muoiono rinascono. Esempio: 19/11 Goku 1,98M → Broly 1,09M dentro la combo di Rosé, Broly KO.",
     "level": "mid",
-    "matches": "12/11 vs Treanz (1:22)",
-    "title": "Sacrifichi un personaggio sano per salvarne uno che rinasce"
+    "matches": "12/11 vs Treanz (1:22) · 19/11 (2:48)",
+    "title": "Sacrifichi chi non rinasce per salvare chi rinasce"
    },
    {
     "count": 1,
@@ -179,9 +186,10 @@
     "title": "Vanish usati poco (in miglioramento)"
    }
   ],
-  "sampleNote": "9 tue partite analizzate (5 V, 4 S) + 8 partite dei pro studiate.",
+  "sampleNote": "10 tue partite analizzate (5 V, 5 S) + 8 partite dei pro studiate.",
   "strengths": [
-   "Rising K.O. in 5 vittorie su 5 (da 4,4M a 11,8M)",
+   "Rising K.O. in 6 partite (da 4,4M a 11,8M; 19/11: 5,98M su Trunks)",
+   "Nuova apertura riuscita (19/11): dopo 1:30 tutti e tre a HP pieni",
    "Combo lunghissime con Cooler (fino a 70–76 colpi)",
    "Sangue freddo nei finali: due vittorie negli ultimi secondi",
    "Difesa in crescita: vanish 9 contro 9 e Rising Rush avversario indovinato"
@@ -194,6 +202,112 @@
   ]
  },
  "matches": [
+  {
+   "date": "2026-11-19",
+   "duration": "5:47",
+   "errors": [
+    {
+     "fix": "Gogeta appena entrato annulla il cover. Divieto acceso = niente cambio: Goku resta e tenta il vanish sulla prima carta dopo la combo; Cooler resta per chiudere.",
+     "t": "5:36",
+     "title": "Goku SSJ → Cooler con il divieto: Cooler KO (combo da 23 a 71)"
+    },
+    {
+     "fix": "Rosé appena trasformata annulla il cover per 10 counts. Incassa Goku: se muore rinasce SSJ.",
+     "t": "2:48",
+     "title": "Goku (1,98M, prima vita) → Broly (1,09M) con il divieto: Broly KO"
+    },
+    {
+     "fix": "Banner \"Nullify: Endurance\" di Trunks = Burning Attack in arrivo che ignora l'Endurance. Vanish pronto o esci prima.",
+     "t": "1:51",
+     "title": "Broly resta in campo dopo la Main Ability di Trunks: −1,77M dall'Ultimate, poi −1,05M"
+    },
+    {
+     "fix": "Dal banner la prossima carta è l'Ultimate: vanish pronto, niente carte lunghe finché non la tira.",
+     "t": "6:00",
+     "title": "Attacchi in Overdrive dopo \"Vanquish All Evil\" di Gogeta: Soul Punisher, KO"
+    }
+   ],
+   "headline": "Apertura con Goku perfetta, poi due Cover Change con il divieto: Broly e Cooler KO, chiude il Soul Punisher di Gogeta",
+   "limits": "Replay dal menu con audio. Battle Summary: danni 18,46M contro 18,11M, cambi 8 contro 4 (nell'HUD 12: forse i Cover Change non contano), Special Cover Change 0 contro 1, vanish 4 contro 6, combo media 4 contro 3, First Strike 11 contro 7. Vanish tuoi 4 su 4 trovati dal suono; avversari 3 su 6. Goku Black e Trunks: versione più probabile, da confermare.",
+   "opponent": "A18isThicc",
+   "opponentTeam": [
+    "Goku Black SP giallo LL (→ Rosé)",
+    "Super Gogeta UL blu (leader)",
+    "SSJ Trunks (Teen) SP verde LL Zenkai VII"
+   ],
+   "result": "loss",
+   "resultNote": "3 KO a 1, ma più danni: 18,46M contro 18,11M (22 counts sul timer)",
+   "strengths": [
+    "Apertura con Goku: 0 HP persi nei primi 80 s, Broly entra con un cambio",
+    "Cooler entra solo per attaccare: combo 27, 44 e 53 senza perdere HP",
+    "Rising K.O. da 5,98M su Trunks",
+    "Più danni dell'avversario, First Strike 11 a 7"
+   ],
+   "team": [
+    "Goku LR blu (apre)",
+    "Broly LR verde",
+    "Cooler ULTRA (leader)"
+   ],
+   "timeline": [
+    {
+     "mark": "ok",
+     "t": "0:28",
+     "text": "Apre Goku (tecnica in corso), 0 HP persi"
+    },
+    {
+     "mark": "ok",
+     "t": "0:37",
+     "text": "Broly entra con un cambio, combo 22"
+    },
+    {
+     "mark": "ok",
+     "t": "0:58",
+     "text": "Cooler combo 27 e 44 (1:26), esce intatto"
+    },
+    {
+     "mark": "err",
+     "t": "1:51",
+     "text": "Trunks: Main Ability + Burning Attack su Broly, −1,77M"
+    },
+    {
+     "mark": "",
+     "t": "2:17",
+     "text": "Rising Rush pronto"
+    },
+    {
+     "mark": "err",
+     "t": "2:48",
+     "text": "Cover Change con divieto Goku → Broly: Broly KO a 2:57"
+    },
+    {
+     "mark": "ok",
+     "t": "3:21",
+     "text": "Cooler combo 53 su Gogeta"
+    },
+    {
+     "mark": "ok",
+     "t": "4:08",
+     "text": "Rising K.O. su Trunks, 5,98M"
+    },
+    {
+     "mark": "",
+     "t": "4:38",
+     "text": "Cooler → Goku con divieto: Goku KO e rinasce SSJ (Cooler salvo)"
+    },
+    {
+     "mark": "err",
+     "t": "5:36",
+     "text": "Cover Change con divieto Goku SSJ → Cooler: Cooler KO a 5:59"
+    },
+    {
+     "mark": "err",
+     "t": "6:00",
+     "text": "Gogeta \"Vanquish All Evil\" → Soul Punisher, Goku SSJ KO"
+    }
+   ],
+   "verdict": "La nuova tecnica funziona: dopo 1:30 eri a HP pieni con tutti e tre e Cooler ha combato 3 volte senza prendere colpi. Hai perso perché due volte hai fatto entrare chi non rinasce dentro una combo con il divieto (2:48 Broly, 5:36 Cooler) e alla fine Gogeta ha pescato l'Ultimate con \"Vanquish All Evil\".",
+   "id": "2026-11-19-1"
+  },
   {
    "date": "2026-11-16",
    "duration": "6:17",
