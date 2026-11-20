@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-20T01:12:35+0000",
+ "updated": "2026-11-20T09:55:28+0000",
  "profile": {
   "checklist": [
    {
-    "a": "Sì → niente cambio: vanish o schivata.",
-    "q": "C'è l'icona di divieto sui compagni?"
+    "a": "Lì niente vanish (priorità). Il divieto sui compagni vuol dire che il cambio non ferma la combo: chi entra paga il resto. Resta chi rinasce (prima vita) o Broly col gauge quasi pieno; esce Cooler; entra chi rinasce o ha molti HP. Se cambi, cambia presto.",
+    "q": "Sono dentro la combo avversaria?"
    },
    {
-    "a": "Solo se: la mia combo è finita · sono sigillato · il colore mi è favorevole (e l'avversario non ha l'elemento neutro attivo) · sono ferito dopo un colpo grosso · sono senza vanish. \"Salvare un compagno dentro la combo\" non è un motivo.",
-    "q": "Perché cambio?"
+    "a": "Solo se: la mia combo è finita · sono sigillato · il colore mi è favorevole (e l'avversario non ha l'elemento neutro attivo) · sono ferito dopo un colpo grosso · sono senza vanish.",
+    "q": "Fuori dalla combo: perché cambio?"
    },
    {
     "a": "Goku o Gohan nella prima vita, Broly se il cover funziona. Mai Cooler.",
@@ -21,10 +21,10 @@
   ],
   "exercises": [
    {
-    "example": "Kyne in 4 partite: nessun cambio dentro una combo avversaria, nessun personaggio perso.",
-    "goal": "0 Cover Change con il divieto in 5 partite.",
-    "how": "Usa la lista \"Prima di ogni cambio\". Se il motivo è salvare un compagno dentro la combo avversaria, non cambiare: vanish.",
-    "title": "Prima di ogni cambio, il motivo"
+    "example": "19/11 a 4:38: Cooler → Goku nella prima vita dentro la combo. Goku muore, rinasce SSJ, Cooler salvo.",
+    "goal": "In 5 partite, dentro le combo avversarie: 0 ingressi di Cooler, 0 personaggi sotto 1M, 0 \"non rinasce al posto di chi rinasce\".",
+    "how": "Lì puoi solo restare o cambiare. Resta chi rinasce nella prima vita (con pochi HP lascialo morire) o Broly col gauge quasi pieno. Esce Cooler. Entra chi rinasce o ha molti HP, senza svantaggio di elemento. Se cambi, cambia presto.",
+    "title": "Dentro la combo avversaria, scegli chi paga"
    },
    {
     "example": "Goresh lascia morire Goku e Android 13 (rinascono) e tiene Cooler intatto. Tu il 16/11 (3): Broly −2,27M in una combo da 48 con il cover annullato.",
@@ -50,7 +50,7 @@
   ],
   "focus": {
    "goal": "Cooler sopra i 2,2M di HP (90%: il massimo è 2,47M) dopo i primi 2 minuti, in 3 partite di fila. Progresso: 1/3 (19/11 ✅).",
-   "note": "Verificata il 19/11 vs A18isThicc: Goku apre, Broly entra con un cambio, Cooler 3 ingressi con combo 27/44/53 senza perdere HP. Partita persa dopo, per 2 Cover Change con il divieto.",
+   "note": "Verificata il 19/11 vs A18isThicc: Goku apre, Broly entra con un cambio, Cooler 3 ingressi con combo 27/44/53 senza perdere HP. Partita persa dopo: 2 volte dentro una combo è entrato chi non poteva pagarla (Broly a 2:48, Cooler a 5:36).",
    "status": "Tecnica 1 di 3 · 1 partita su 3",
    "steps": [
     "Apri con Goku: parte con il gauge pieno (Strike +50%) e, se va KO, rinasce SSJ con il vanish nemico a zero.",
@@ -126,7 +126,7 @@
    },
    {
     "example": "Il principiante di Goresh spreca 3 PV su 4 senza attaccare (17:59, 20:42, 50:31).",
-    "how": "Il PV si riconosce da un'aura più grande ed esplosiva. Senza vanish (e senza divieto sui compagni) cambia invece di restare per usare l'Ultimate.",
+    "how": "Il PV si riconosce da un'aura più grande ed esplosiva. Senza vanish e fuori da una combo, cambia invece di restare per usare l'Ultimate.",
     "rule": "Dopo un tuo Perfect Vanish, Strike subito",
     "source": "Goresh · Guida PvP 2"
    },
@@ -147,11 +147,11 @@
   "rank": "Diamond",
   "recurring": [
    {
-    "count": 10,
-    "detail": "Divieto sulle icone dei compagni, o cover annullato dal kit avversario (Vegito, Rosé appena trasformata, Gogeta appena entrato) = chi entra prende tutta la combo. Fai vanish. Esempio: 19/11 a 5:36 Goku SSJ → Cooler con il divieto, Cooler KO in 23 s.",
+    "count": 4,
+    "detail": "Dentro la combo il vanish non esiste (priorità) e il divieto è quasi sempre acceso: il cambio non ferma la combo, chi entra paga il resto. Errore = far entrare Cooler, chi ha pochi HP o chi non rinasce al posto di chi rinasce. Esempio: 19/11 a 2:48 Goku (prima vita, 1,98M) → Broly (1,09M): Broly KO; doveva incassare Goku, che rinasce.",
     "level": "high",
-    "matches": "12/11 vs LOL · 12/11 vs Treanz (×4) · 16/11 (3) ×3 · 19/11 ×2 (Broly e Cooler KO)",
-    "title": "Cover Change con l'icona di divieto: chi entra prende tutta la combo"
+    "matches": "12/11 vs Treanz ×2 (1:09 Cooler, 1:22 Goku al posto di Gohan) · 16/11 (3) 3:53 · 19/11 2:48. Discutibili: 12/11 vs Treanz 0:55, 2:31 · 19/11 5:36",
+    "title": "Dentro la combo avversaria entra chi non può pagarla"
    },
    {
     "count": 8,
