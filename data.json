@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T10:51:51+0000",
+ "updated": "2026-11-21T22:55:31+0000",
  "profile": {
   "checklist": [
    {
@@ -1297,5 +1297,1103 @@
    "verdict": "Hai perso due personaggi su Rising Rush e Ultimate di Vegito, ma Gogeta da solo ha fatto il resto.",
    "id": "2026-07-25-1"
   }
- ]
+ ],
+ "events": {
+  "aggiornato": "2026-11-21T23:53:13+0100",
+  "data": "2026-11-21",
+  "eventi": [
+   {
+    "altri_premi": {},
+    "cc_diretti": 0,
+    "cc_negozio": 0,
+    "drop": [
+     "Chrono Crystal",
+     "Slot Remover",
+     "Rush Medal"
+    ],
+    "fine": "mer 25/11 07:00",
+    "id": 60152,
+    "inizio": "mer 11/11 07:00",
+    "link": "https://dblegends.net/event/60152",
+    "lungo": false,
+    "motivo": "premi per la tua squadra",
+    "negozi": [
+     {
+      "cc": 0,
+      "cc_costo": {},
+      "consigliati": [
+       "You're stronger than I thought. I'm surprised. ×1 (150 Rush Medal, max 1)",
+       "Expand Equipment Limit ×1 (15.000 Rush Medal, max 20)",
+       "RUSH LIMITED! #2 Summon Ticket ×1 (4.000 Rush Medal, max 15)",
+       "Expand Equipment Limit ×1 (1 ZENKAI Rush Medal, max 20)",
+       "I wanna see teamwork! ×1 (5.000 Rush Medal, max 48)",
+       "Blueprint ×1 (3.500 Rush Medal, max 6)",
+       "A God Facing a God ×1 (3.500 Rush Medal)",
+       "A Nostalgic Weapon ×1 (1.000 Rush Medal)"
+      ],
+      "id": "40001",
+      "nome": "Ultra Space-Time Rush",
+      "proprio": false,
+      "squadra": [
+       "Awakening Z Power [Super Saiyan Gohan (Youth)] ×100 (1 ZENKAI Rush Medal, max 70) → SSJ Gohan Youth SP Zenkai (tua squadra) (Zenkai)"
+      ]
+     }
+    ],
+    "nome": "ZENKAI Rush Battle - Pan: Trunks & Giru (Assist) -",
+    "ore_rimaste": 79,
+    "priorita": 2,
+    "squadra": [
+     "Awakening Z Power [Super Saiyan Gohan (Youth)] ×100 (1 ZENKAI Rush Medal, max 70) → SSJ Gohan Youth SP Zenkai (tua squadra) (Zenkai)"
+    ],
+    "stage": 1,
+    "stamina": 0,
+    "tipo": "Rush"
+   },
+   {
+    "altri_premi": {},
+    "cc_diretti": 0,
+    "cc_negozio": 0,
+    "drop": [
+     "Rush Medal",
+     "Chrono Crystal"
+    ],
+    "fine": "mer 25/11 07:00",
+    "id": 62000,
+    "inizio": "mer 11/11 07:00",
+    "link": "https://dblegends.net/event/62000",
+    "lungo": false,
+    "motivo": "premi per la tua squadra",
+    "negozi": [
+     {
+      "cc": 0,
+      "cc_costo": {},
+      "consigliati": [
+       "You're stronger than I thought. I'm surprised. ×1 (150 Rush Medal, max 1)",
+       "Expand Equipment Limit ×1 (15.000 Rush Medal, max 20)",
+       "RUSH LIMITED! #2 Summon Ticket ×1 (4.000 Rush Medal, max 15)",
+       "Expand Equipment Limit ×1 (1 ZENKAI Rush Medal, max 20)",
+       "I wanna see teamwork! ×1 (5.000 Rush Medal, max 48)",
+       "Blueprint ×1 (3.500 Rush Medal, max 6)",
+       "A God Facing a God ×1 (3.500 Rush Medal)",
+       "A Nostalgic Weapon ×1 (1.000 Rush Medal)"
+      ],
+      "id": "40001",
+      "nome": "Ultra Space-Time Rush",
+      "proprio": false,
+      "squadra": [
+       "Awakening Z Power [Super Saiyan Gohan (Youth)] ×100 (1 ZENKAI Rush Medal, max 70) → SSJ Gohan Youth SP Zenkai (tua squadra) (Zenkai)"
+      ]
+     }
+    ],
+    "nome": "Platinum Rush - Super Gogeta -",
+    "ore_rimaste": 79,
+    "priorita": 2,
+    "squadra": [
+     "Awakening Z Power [Super Saiyan Gohan (Youth)] ×100 (1 ZENKAI Rush Medal, max 70) → SSJ Gohan Youth SP Zenkai (tua squadra) (Zenkai)"
+    ],
+    "stage": 1,
+    "stamina": 0,
+    "tipo": "Rush"
+   },
+   {
+    "altri_premi": {},
+    "cc_diretti": 0,
+    "cc_negozio": 1600,
+    "drop": [
+     "Double-Up Ticket #1"
+    ],
+    "fine": "sab 28/11 07:00",
+    "id": 105601,
+    "inizio": "sab 21/11 07:00",
+    "link": "https://dblegends.net/event/105601",
+    "lungo": false,
+    "motivo": "1.600 Chrono Crystal in palio",
+    "negozi": [
+     {
+      "cc": 1600,
+      "cc_costo": {
+       "Double-Up Ticket #1": 8,
+       "Double-Up Ticket #2": 8
+      },
+      "consigliati": [],
+      "id": "105601",
+      "nome": "Double-Up Ticket #1 Exchange",
+      "proprio": true,
+      "squadra": []
+     }
+    ],
+    "nome": "Clear Tomorrow for 2x Rewards! Festival Double-Up Battle #1",
+    "ore_rimaste": 151,
+    "priorita": 2,
+    "squadra": [],
+    "stage": 4,
+    "stamina": 1,
+    "tipo": "Doppio premio"
+   },
+   {
+    "altri_premi": {
+     "Black Friday Raid Medal": 125,
+     "Black Friday Raid Medal II": 125
+    },
+    "cc_diretti": 20,
+    "cc_negozio": 1400,
+    "drop": [
+     "Black Friday Raid Medal",
+     "Festival Medal 2026 (Silver)",
+     "Multi-Z Power 10",
+     "Equipment Medal",
+     "Black Friday Raid Medal II"
+    ],
+    "fine": "mer 2/12 07:00",
+    "id": 80136,
+    "inizio": "sab 21/11 07:00",
+    "link": "https://dblegends.net/event/80136",
+    "lungo": false,
+    "motivo": "1.420 Chrono Crystal in palio",
+    "negozi": [
+     {
+      "cc": 0,
+      "cc_costo": {},
+      "consigliati": [
+       "Sleeves [Legends Festival 2026] ×1 (10 Festival Medal 2026 (Silver), max 1)",
+       "Background [Legends Festival 2026] ×1 (10 Festival Medal 2026 (Silver), max 1)",
+       "Background [Legends Festival 2026] [Black] ×1 (10 Festival Medal 2026 (Silver), max 1)",
+       "LEGENDS FESTIVAL 2026 LEGENDS LIMITED Guaranteed Summon Ticket ×1 (100 Festival Medal 2026 (Silver), max 5)",
+       "Collect 100 to Play! LEGENDS FESTIVAL 2026 100x Summon Ticket ×1 (10 Festival Medal 2026 (Silver), max 50)",
+       "Festival Plate 2026 ×1 (3 Festival Medal 2026 (Silver), max 100)"
+      ],
+      "id": "50126",
+      "nome": "Festival Medal 2026 (Silver) Exchange Shop",
+      "proprio": false,
+      "squadra": []
+     },
+     {
+      "cc": 1400,
+      "cc_costo": {
+       "Black Friday Raid Medal": 2400,
+       "Black Friday Raid Medal II": 2400
+      },
+      "consigliati": [
+       "Collect 100 to Play! LEGENDS FESTIVAL 2026 100x Summon Ticket ×1 (50 Black Friday Raid Medal, max 20)",
+       "Collect 100 to Play! LEGENDS FESTIVAL 2026 100x Summon Ticket ×1 (50 Black Friday Raid Medal II, max 20)",
+       "Sleeves [Fusion Pose Goku and Vegeta] ×1 (100 Black Friday Raid Medal II, max 1)",
+       "BLACK FRIDAY Feature Summon Consecutive Summon Ticket ×1 (7 Black Friday Premium Medal, max 2)",
+       "Festival Medal 2026 (Gold) ×1 (2 Black Friday Premium Medal, max 6)"
+      ],
+      "id": "80136",
+      "nome": "Black Friday Raid Medal Exchange Shop",
+      "proprio": true,
+      "squadra": []
+     }
+    ],
+    "nome": "Black Friday Raid 2026",
+    "ore_rimaste": 247,
+    "priorita": 2,
+    "squadra": [],
+    "stage": 2,
+    "stamina": 0,
+    "tipo": "Raid"
+   },
+   {
+    "altri_premi": {
+     "Rare Medal": 170,
+     "Title": 1,
+     "Training Item": 91
+    },
+    "cc_diretti": 567,
+    "cc_negozio": 0,
+    "drop": [],
+    "fine": "mer 2/12 07:00",
+    "id": 24700,
+    "inizio": "sab 21/11 07:00",
+    "link": "https://dblegends.net/event/24700",
+    "lungo": false,
+    "motivo": "567 Chrono Crystal in palio",
+    "negozi": [],
+    "nome": "Another Future! The Android Menace",
+    "ore_rimaste": 247,
+    "priorita": 2,
+    "squadra": [],
+    "stage": 17,
+    "stamina": 17,
+    "tipo": "Storia/evento"
+   },
+   {
+    "altri_premi": {
+     "Rush Medal": 65500,
+     "ZENKAI Rush Medal": 35
+    },
+    "cc_diretti": 0,
+    "cc_negozio": 0,
+    "drop": [],
+    "fine": "mer 2/12 07:00",
+    "id": 40236,
+    "inizio": "mer 18/11 07:00",
+    "link": "https://dblegends.net/event/40236",
+    "lungo": false,
+    "motivo": "premi per la tua squadra",
+    "negozi": [
+     {
+      "cc": 0,
+      "cc_costo": {},
+      "consigliati": [
+       "You're stronger than I thought. I'm surprised. ×1 (150 Rush Medal, max 1)",
+       "Expand Equipment Limit ×1 (15.000 Rush Medal, max 20)",
+       "RUSH LIMITED! #2 Summon Ticket ×1 (4.000 Rush Medal, max 15)",
+       "Expand Equipment Limit ×1 (1 ZENKAI Rush Medal, max 20)",
+       "I wanna see teamwork! ×1 (5.000 Rush Medal, max 48)",
+       "Blueprint ×1 (3.500 Rush Medal, max 6)",
+       "A God Facing a God ×1 (3.500 Rush Medal)",
+       "A Nostalgic Weapon ×1 (1.000 Rush Medal)"
+      ],
+      "id": "40001",
+      "nome": "Ultra Space-Time Rush",
+      "proprio": false,
+      "squadra": [
+       "Awakening Z Power [Super Saiyan Gohan (Youth)] ×100 (1 ZENKAI Rush Medal, max 70) → SSJ Gohan Youth SP Zenkai (tua squadra) (Zenkai)"
+      ]
+     }
+    ],
+    "nome": "ZENKAI Ultra Space-Time Rush",
+    "ore_rimaste": 247,
+    "priorita": 2,
+    "squadra": [
+     "Awakening Z Power [Super Saiyan Gohan (Youth)] ×100 (1 ZENKAI Rush Medal, max 70) → SSJ Gohan Youth SP Zenkai (tua squadra) (Zenkai)"
+    ],
+    "stage": 13,
+    "stamina": 0,
+    "tipo": "Rush"
+   },
+   {
+    "altri_premi": {},
+    "cc_diretti": 0,
+    "cc_negozio": 0,
+    "drop": [
+     "Chrono Crystal",
+     "Slot Remover",
+     "Rush Medal"
+    ],
+    "fine": "sab 5/12 07:00",
+    "id": 60153,
+    "inizio": "sab 21/11 07:00",
+    "link": "https://dblegends.net/event/60153",
+    "lungo": false,
+    "motivo": "premi per la tua squadra",
+    "negozi": [
+     {
+      "cc": 0,
+      "cc_costo": {},
+      "consigliati": [
+       "You're stronger than I thought. I'm surprised. ×1 (150 Rush Medal, max 1)",
+       "Expand Equipment Limit ×1 (15.000 Rush Medal, max 20)",
+       "RUSH LIMITED! #2 Summon Ticket ×1 (4.000 Rush Medal, max 15)",
+       "Expand Equipment Limit ×1 (1 ZENKAI Rush Medal, max 20)",
+       "I wanna see teamwork! ×1 (5.000 Rush Medal, max 48)",
+       "Blueprint ×1 (3.500 Rush Medal, max 6)",
+       "A God Facing a God ×1 (3.500 Rush Medal)",
+       "A Nostalgic Weapon ×1 (1.000 Rush Medal)"
+      ],
+      "id": "40001",
+      "nome": "Ultra Space-Time Rush",
+      "proprio": false,
+      "squadra": [
+       "Awakening Z Power [Super Saiyan Gohan (Youth)] ×100 (1 ZENKAI Rush Medal, max 70) → SSJ Gohan Youth SP Zenkai (tua squadra) (Zenkai)"
+      ]
+     }
+    ],
+    "nome": "ZENKAI Rush Battle - Magenta -",
+    "ore_rimaste": 319,
+    "priorita": 2,
+    "squadra": [
+     "Awakening Z Power [Super Saiyan Gohan (Youth)] ×100 (1 ZENKAI Rush Medal, max 70) → SSJ Gohan Youth SP Zenkai (tua squadra) (Zenkai)"
+    ],
+    "stage": 1,
+    "stamina": 0,
+    "tipo": "Rush"
+   },
+   {
+    "altri_premi": {
+     "Dual Coin": 1280
+    },
+    "cc_diretti": 30,
+    "cc_negozio": 0,
+    "drop": [
+     "Dual Coin",
+     "Festival Medal 2026 (Silver)"
+    ],
+    "fine": "mer 9/12 07:00",
+    "id": 200145,
+    "inizio": "sab 21/11 07:00",
+    "link": "https://dblegends.net/event/200145",
+    "lungo": false,
+    "motivo": "medaglie per il negozio Dual Coin Exchange Shop (fino a 300 CC in tutto)",
+    "negozi": [
+     {
+      "cc": 0,
+      "cc_costo": {},
+      "consigliati": [
+       "Sleeves [Legends Festival 2026] ×1 (10 Festival Medal 2026 (Silver), max 1)",
+       "Background [Legends Festival 2026] ×1 (10 Festival Medal 2026 (Silver), max 1)",
+       "Background [Legends Festival 2026] [Black] ×1 (10 Festival Medal 2026 (Silver), max 1)",
+       "LEGENDS FESTIVAL 2026 LEGENDS LIMITED Guaranteed Summon Ticket ×1 (100 Festival Medal 2026 (Silver), max 5)",
+       "Collect 100 to Play! LEGENDS FESTIVAL 2026 100x Summon Ticket ×1 (10 Festival Medal 2026 (Silver), max 50)",
+       "Festival Plate 2026 ×1 (3 Festival Medal 2026 (Silver), max 100)"
+      ],
+      "id": "50126",
+      "nome": "Festival Medal 2026 (Silver) Exchange Shop",
+      "proprio": false,
+      "squadra": []
+     },
+     {
+      "cc": 300,
+      "cc_costo": {
+       "Dual Coin": 4500
+      },
+      "consigliati": [
+       "Expand Equipment Limit ×1 (1.000 Dual Coin, max 10)",
+       "Slot Remover ×1 (10 Dual Coin, max 200)",
+       "Fragment Exchange Medal ×1 (10 Dual Coin, max 50)",
+       "Expand Equipment Limit ×1 (10 Great Dual Coin, max 30)",
+       "Sleeves [Super Saiyan Broly (DBL07-07S)] ×1 (10 Great Dual Coin, max 1)",
+       "Sleeves [Gogeta (DBL10-11S)] ×1 (10 Great Dual Coin, max 1)",
+       "Expand Equipment Limit ×1 (15 Great Dual Coin, max 20)",
+       "Slot Remover ×1 (3 Great Dual Coin)"
+      ],
+      "id": "70000",
+      "nome": "Dual Coin Exchange Shop",
+      "proprio": false,
+      "squadra": []
+     }
+    ],
+    "nome": "Festival Hyperdimensional Co-Op VS Gamma 2",
+    "ore_rimaste": 415,
+    "priorita": 2,
+    "squadra": [],
+    "stage": 3,
+    "stamina": 0,
+    "tipo": "Co-op"
+   },
+   {
+    "altri_premi": {
+     "Festival Medal 2026 (Gold)": 1,
+     "Festival Medal 2026 (Silver)": 5,
+     "Rare Medal": 168,
+     "Seed Exchange Medal": 5,
+     "Slot Remover": 80,
+     "Title": 1
+    },
+    "cc_diretti": 0,
+    "cc_negozio": 0,
+    "drop": [],
+    "fine": "mer 9/12 07:00",
+    "id": 100117,
+    "inizio": "sab 21/11 07:00",
+    "link": "https://dblegends.net/event/100117",
+    "lungo": false,
+    "motivo": "medaglie per il negozio Festival Medal 2026 (Gold) Exchange Shop (fino a 8.000 CC in tutto)",
+    "negozi": [
+     {
+      "cc": 8000,
+      "cc_costo": {
+       "Festival Medal 2026 (Gold)": 80
+      },
+      "consigliati": [],
+      "id": "50125",
+      "nome": "Festival Medal 2026 (Gold) Exchange Shop",
+      "proprio": false,
+      "squadra": []
+     },
+     {
+      "cc": 0,
+      "cc_costo": {},
+      "consigliati": [
+       "Sleeves [Legends Festival 2026] ×1 (10 Festival Medal 2026 (Silver), max 1)",
+       "Background [Legends Festival 2026] ×1 (10 Festival Medal 2026 (Silver), max 1)",
+       "Background [Legends Festival 2026] [Black] ×1 (10 Festival Medal 2026 (Silver), max 1)",
+       "LEGENDS FESTIVAL 2026 LEGENDS LIMITED Guaranteed Summon Ticket ×1 (100 Festival Medal 2026 (Silver), max 5)",
+       "Collect 100 to Play! LEGENDS FESTIVAL 2026 100x Summon Ticket ×1 (10 Festival Medal 2026 (Silver), max 50)",
+       "Festival Plate 2026 ×1 (3 Festival Medal 2026 (Silver), max 100)"
+      ],
+      "id": "50126",
+      "nome": "Festival Medal 2026 (Silver) Exchange Shop",
+      "proprio": false,
+      "squadra": []
+     }
+    ],
+    "nome": "Legendary Raging Battle -GT- Gogeta VS Omega Shenron",
+    "ore_rimaste": 415,
+    "priorita": 2,
+    "squadra": [],
+    "stage": 6,
+    "stamina": 6,
+    "tipo": "Storia/evento"
+   },
+   {
+    "altri_premi": {
+     "Rare Medal": 60
+    },
+    "cc_diretti": 0,
+    "cc_negozio": 0,
+    "drop": [
+     "Soul Exchange Medal",
+     "Fragment Exchange Medal"
+    ],
+    "fine": "mar 24/11 07:00",
+    "id": 13012,
+    "inizio": "sab 21/11 07:00",
+    "link": "https://dblegends.net/event/13012",
+    "lungo": false,
+    "motivo": "premi minori (materiali, Zeni, medaglie generiche)",
+    "negozi": [],
+    "nome": "WEEKEND SPECIAL CHOICE!",
+    "ore_rimaste": 55,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 3,
+    "stamina": 3,
+    "tipo": "Weekend"
+   },
+   {
+    "altri_premi": {
+     "Rare Medal": 120
+    },
+    "cc_diretti": 0,
+    "cc_negozio": 0,
+    "drop": [
+     "Arts Sphere",
+     "Practice Arts Core +1 (Grade 1 or higher/lower than Grade 2)",
+     "Arts Core"
+    ],
+    "fine": "mar 24/11 07:00",
+    "id": 14002,
+    "inizio": "sab 21/11 07:00",
+    "link": "https://dblegends.net/event/14002",
+    "lungo": false,
+    "motivo": "premi minori (materiali, Zeni, medaglie generiche)",
+    "negozi": [],
+    "nome": "WEEKEND Arts Boost Battle!",
+    "ore_rimaste": 55,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 6,
+    "stamina": 60,
+    "tipo": "Weekend"
+   },
+   {
+    "altri_premi": {
+     "Rare Medal": 40
+    },
+    "cc_diretti": 0,
+    "cc_negozio": 0,
+    "drop": [
+     "Energy",
+     "Skip Ticket"
+    ],
+    "fine": "mar 1/12 07:00",
+    "id": 19225,
+    "inizio": "sab 21/11 07:00",
+    "link": "https://dblegends.net/event/19225",
+    "lungo": false,
+    "motivo": "premi minori (materiali, Zeni, medaglie generiche)",
+    "negozi": [],
+    "nome": "Leave It to Pan! Operation: Energize!!",
+    "ore_rimaste": 223,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 2,
+    "stamina": 2,
+    "tipo": "Storia/evento"
+   },
+   {
+    "altri_premi": {
+     "Huzzah! Character Exchange Ticket": 200,
+     "Rare Medal": 40
+    },
+    "cc_diretti": 0,
+    "cc_negozio": 0,
+    "drop": [
+     "Huzzah! Character Exchange Ticket"
+    ],
+    "fine": "mer 2/12 07:00",
+    "id": 103902,
+    "inizio": "sab 21/11 07:00",
+    "link": "https://dblegends.net/event/103902",
+    "lungo": false,
+    "motivo": "premi minori (materiali, Zeni, medaglie generiche)",
+    "negozi": [
+     {
+      "cc": 0,
+      "cc_costo": {},
+      "consigliati": [],
+      "id": "103901",
+      "nome": "Huzzah! Character Exchange Ticket Exchange",
+      "proprio": false,
+      "squadra": []
+     }
+    ],
+    "nome": "Huzzah! Operation Get Characters!",
+    "ore_rimaste": 247,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 2,
+    "stamina": 3,
+    "tipo": "Storia/evento"
+   },
+   {
+    "altri_premi": {
+     "Equipment Medal": 1339
+    },
+    "cc_diretti": 1030,
+    "cc_negozio": 0,
+    "drop": [],
+    "fine": "lun 31/12 16:00",
+    "id": 8002,
+    "inizio": "mer 3/8 08:00",
+    "link": "https://dblegends.net/event/8002",
+    "lungo": true,
+    "motivo": "evento lungo o permanente: quando hai stamina libera",
+    "negozi": [],
+    "nome": "Ultimate Equipment Collection",
+    "ore_rimaste": 27256,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 103,
+    "stamina": 103,
+    "tipo": "Equip"
+   },
+   {
+    "altri_premi": {
+     "Title": 1
+    },
+    "cc_diretti": 1000,
+    "cc_negozio": 0,
+    "drop": [],
+    "fine": "mer 31/3 08:00",
+    "id": 100108,
+    "inizio": "dom 11/10 16:45",
+    "link": "https://dblegends.net/event/100108",
+    "lungo": true,
+    "motivo": "evento lungo o permanente: quando hai stamina libera",
+    "negozi": [],
+    "nome": "Goku the Saiyan's Battle Chronicles",
+    "ore_rimaste": 3103,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 10,
+    "stamina": 10,
+    "tipo": "Storia/evento"
+   },
+   {
+    "altri_premi": {
+     "Rare Medal": 270,
+     "Title": 2,
+     "Training Item": 161
+    },
+    "cc_diretti": 917,
+    "cc_negozio": 0,
+    "drop": [],
+    "fine": "lun 31/12 16:00",
+    "id": 24000,
+    "inizio": "mer 21/7 08:00",
+    "link": "https://dblegends.net/event/24000",
+    "lungo": true,
+    "motivo": "evento lungo o permanente: quando hai stamina libera",
+    "negozi": [],
+    "nome": "The Dreaded Ginyu Force",
+    "ore_rimaste": 27256,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 27,
+    "stamina": 27,
+    "tipo": "Storia/evento"
+   },
+   {
+    "altri_premi": {
+     "Rare Medal": 150,
+     "Slot Remover": 75
+    },
+    "cc_diretti": 840,
+    "cc_negozio": 0,
+    "drop": [],
+    "fine": "lun 31/12 16:00",
+    "id": 101002,
+    "inizio": "mer 12/4 08:00",
+    "link": "https://dblegends.net/event/101002",
+    "lungo": true,
+    "motivo": "evento lungo o permanente: quando hai stamina libera",
+    "negozi": [],
+    "nome": "Majin Buu's Revival",
+    "ore_rimaste": 27256,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 15,
+    "stamina": 45,
+    "tipo": "Storia/evento"
+   },
+   {
+    "altri_premi": {
+     "Rare Medal": 120,
+     "Slot Remover": 60
+    },
+    "cc_diretti": 672,
+    "cc_negozio": 0,
+    "drop": [],
+    "fine": "lun 31/12 16:00",
+    "id": 101001,
+    "inizio": "mer 15/3 07:00",
+    "link": "https://dblegends.net/event/101001",
+    "lungo": true,
+    "motivo": "evento lungo o permanente: quando hai stamina libera",
+    "negozi": [],
+    "nome": "Project Zero Mortals",
+    "ore_rimaste": 27256,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 12,
+    "stamina": 36,
+    "tipo": "Storia/evento"
+   },
+   {
+    "altri_premi": {
+     "Rare Medal": 190,
+     "Title": 1,
+     "Training Item": 101
+    },
+    "cc_diretti": 669,
+    "cc_negozio": 0,
+    "drop": [],
+    "fine": "lun 31/12 16:00",
+    "id": 22000,
+    "inizio": "mer 16/9 08:00",
+    "link": "https://dblegends.net/event/22000",
+    "lungo": true,
+    "motivo": "evento lungo o permanente: quando hai stamina libera",
+    "negozi": [],
+    "nome": "Raditz Attacks!",
+    "ore_rimaste": 27256,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 19,
+    "stamina": 19,
+    "tipo": "Storia/evento"
+   },
+   {
+    "altri_premi": {
+     "Rare Medal": 190,
+     "Title": 1,
+     "Training Item": 106
+    },
+    "cc_diretti": 629,
+    "cc_negozio": 0,
+    "drop": [],
+    "fine": "lun 31/12 16:00",
+    "id": 22200,
+    "inizio": "mer 14/10 08:00",
+    "link": "https://dblegends.net/event/22200",
+    "lungo": true,
+    "motivo": "evento lungo o permanente: quando hai stamina libera",
+    "negozi": [],
+    "nome": "Nappa the Cruel!",
+    "ore_rimaste": 27256,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 19,
+    "stamina": 19,
+    "tipo": "Storia/evento"
+   },
+   {
+    "altri_premi": {
+     "Rare Medal": 180,
+     "Title": 1,
+     "Training Item": 101
+    },
+    "cc_diretti": 598,
+    "cc_negozio": 0,
+    "drop": [],
+    "fine": "lun 31/12 16:00",
+    "id": 22700,
+    "inizio": "mer 9/12 07:00",
+    "link": "https://dblegends.net/event/22700",
+    "lungo": true,
+    "motivo": "evento lungo o permanente: quando hai stamina libera",
+    "negozi": [],
+    "nome": "The Advent of Frieza, the Universal Emperor!",
+    "ore_rimaste": 27256,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 18,
+    "stamina": 18,
+    "tipo": "Storia/evento"
+   },
+   {
+    "altri_premi": {
+     "Rare Medal": 180,
+     "Title": 1,
+     "Training Item": 101
+    },
+    "cc_diretti": 598,
+    "cc_negozio": 0,
+    "drop": [],
+    "fine": "lun 31/12 16:00",
+    "id": 22600,
+    "inizio": "mer 11/11 07:00",
+    "link": "https://dblegends.net/event/22600",
+    "lungo": true,
+    "motivo": "evento lungo o permanente: quando hai stamina libera",
+    "negozi": [],
+    "nome": "Fierce Battle! Vegeta the Prince of Fate",
+    "ore_rimaste": 27256,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 18,
+    "stamina": 18,
+    "tipo": "Storia/evento"
+   },
+   {
+    "altri_premi": {
+     "Energy": 5,
+     "Medaglia 11": 90,
+     "Medaglia 25": 10,
+     "Skip Ticket": 300,
+     "Slot Remover": 180,
+     "Soul Exchange Medal": 30,
+     "Title": 1,
+     "Training Item": 19
+    },
+    "cc_diretti": 300,
+    "cc_negozio": 0,
+    "drop": [],
+    "fine": "lun 31/12 16:00",
+    "id": 100035,
+    "inizio": "mer 12/6 08:00",
+    "link": "https://dblegends.net/event/100035",
+    "lungo": true,
+    "motivo": "evento lungo o permanente: quando hai stamina libera",
+    "negozi": [],
+    "nome": "Long Ago...There Was a Small Encounter",
+    "ore_rimaste": 27256,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 10,
+    "stamina": 10,
+    "tipo": "Storia/evento"
+   },
+   {
+    "altri_premi": {},
+    "cc_diretti": 30,
+    "cc_negozio": 0,
+    "drop": [],
+    "fine": "lun 31/12 16:00",
+    "id": 100081,
+    "inizio": "mer 11/2 07:00",
+    "link": "https://dblegends.net/event/100081",
+    "lungo": true,
+    "motivo": "evento lungo o permanente: quando hai stamina libera",
+    "negozi": [],
+    "nome": "LEGEND Test Battle",
+    "ore_rimaste": 27256,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 1,
+    "stamina": 1,
+    "tipo": "Storia/evento"
+   },
+   {
+    "altri_premi": {
+     "Energy": 3,
+     "Equipment Medal": 350,
+     "Medaglia 25": 30,
+     "Skip Ticket": 300,
+     "Slot Remover": 35,
+     "Soul Exchange Medal": 20,
+     "Training Item": 50
+    },
+    "cc_diretti": 0,
+    "cc_negozio": 0,
+    "drop": [],
+    "fine": "lun 31/12 16:00",
+    "id": 19071,
+    "inizio": "ven 13/11 04:00",
+    "link": "https://dblegends.net/event/19071",
+    "lungo": true,
+    "motivo": "evento lungo o permanente: quando hai stamina libera",
+    "negozi": [],
+    "nome": "Start Dash Bonus",
+    "ore_rimaste": 27256,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 10,
+    "stamina": 10,
+    "tipo": "Storia/evento"
+   },
+   {
+    "altri_premi": {
+     "Arts Core": 1000,
+     "Arts Sphere": 220,
+     "Boost Soul 1 [BLU]": 160,
+     "Boost Soul 2 [BLU]": 50,
+     "Boost Soul 3 [BLU]": 50,
+     "Equipment Medal": 500,
+     "Medaglia 11": 300,
+     "Seed Exchange Medal": 50,
+     "Slot Remover": 300,
+     "Soul Exchange Medal": 50,
+     "Summon Ticket": 10,
+     "Title": 1,
+     "Training Item": 33,
+     "ZENKAI Rush Medal": 70
+    },
+    "cc_diretti": 0,
+    "cc_negozio": 0,
+    "drop": [],
+    "fine": "lun 31/12 16:00",
+    "id": 100115,
+    "inizio": "mer 11/11 07:00",
+    "link": "https://dblegends.net/event/100115",
+    "lungo": true,
+    "motivo": "evento lungo o permanente: quando hai stamina libera",
+    "negozi": [
+     {
+      "cc": 0,
+      "cc_costo": {},
+      "consigliati": [
+       "You're stronger than I thought. I'm surprised. ×1 (150 Rush Medal, max 1)",
+       "Expand Equipment Limit ×1 (15.000 Rush Medal, max 20)",
+       "RUSH LIMITED! #2 Summon Ticket ×1 (4.000 Rush Medal, max 15)",
+       "Expand Equipment Limit ×1 (1 ZENKAI Rush Medal, max 20)",
+       "I wanna see teamwork! ×1 (5.000 Rush Medal, max 48)",
+       "Blueprint ×1 (3.500 Rush Medal, max 6)",
+       "A God Facing a God ×1 (3.500 Rush Medal)",
+       "A Nostalgic Weapon ×1 (1.000 Rush Medal)"
+      ],
+      "id": "40001",
+      "nome": "Ultra Space-Time Rush",
+      "proprio": false,
+      "squadra": [
+       "Awakening Z Power [Super Saiyan Gohan (Youth)] ×100 (1 ZENKAI Rush Medal, max 70) → SSJ Gohan Youth SP Zenkai (tua squadra) (Zenkai)"
+      ]
+     }
+    ],
+    "nome": "Hands-On Training! Legends Power-Up School",
+    "ore_rimaste": 27256,
+    "priorita": 3,
+    "squadra": [
+     "Awakening Z Power [Super Saiyan Gohan (Youth)] ×100 (1 ZENKAI Rush Medal, max 70) → SSJ Gohan Youth SP Zenkai (tua squadra) (Zenkai)"
+    ],
+    "stage": 10,
+    "stamina": 10,
+    "tipo": "Allenamento"
+   },
+   {
+    "altri_premi": {
+     "Rare Medal": 114,
+     "Title": 1
+    },
+    "cc_diretti": 0,
+    "cc_negozio": 0,
+    "drop": [],
+    "fine": "lun 31/12 16:00",
+    "id": 100093,
+    "inizio": "mer 17/6 08:00",
+    "link": "https://dblegends.net/event/100093",
+    "lungo": true,
+    "motivo": "evento lungo o permanente: quando hai stamina libera",
+    "negozi": [],
+    "nome": "Joined Forces! A Life-or-Death Struggle!",
+    "ore_rimaste": 27256,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 4,
+    "stamina": 8,
+    "tipo": "Storia/evento"
+   },
+   {
+    "altri_premi": {
+     "Rare Medal": 65
+    },
+    "cc_diretti": 0,
+    "cc_negozio": 0,
+    "drop": [
+     "Chrono Crystal",
+     "Energy",
+     "Skip Ticket",
+     "SPARKING Medal",
+     "Slot Remover",
+     "Training Item"
+    ],
+    "fine": "lun 31/12 16:00",
+    "id": 19066,
+    "inizio": "mer 13/5 08:00",
+    "link": "https://dblegends.net/event/19066",
+    "lungo": true,
+    "motivo": "evento lungo o permanente: quando hai stamina libera",
+    "negozi": [
+     {
+      "cc": 0,
+      "cc_costo": {},
+      "consigliati": [],
+      "id": "19018",
+      "nome": "Comeback Character Acquisition Ticket Exchange",
+      "proprio": false,
+      "squadra": []
+     }
+    ],
+    "nome": "Comeback Choice Battle!!",
+    "ore_rimaste": 27256,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 5,
+    "stamina": 5,
+    "tipo": "Storia/evento"
+   },
+   {
+    "altri_premi": {},
+    "cc_diretti": 0,
+    "cc_negozio": 0,
+    "drop": [],
+    "fine": "lun 31/12 16:00",
+    "id": 59002,
+    "inizio": "mer 18/6 03:00",
+    "link": "https://dblegends.net/event/59002",
+    "lungo": true,
+    "motivo": "evento lungo o permanente: quando hai stamina libera",
+    "negozi": [],
+    "nome": "Dynamic Area Battle",
+    "ore_rimaste": 27256,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 1,
+    "stamina": 0,
+    "tipo": "Storia/evento"
+   },
+   {
+    "altri_premi": {
+     "Item": 1,
+     "Rare Medal": 145,
+     "Title": 2
+    },
+    "cc_diretti": 0,
+    "cc_negozio": 0,
+    "drop": [],
+    "fine": "lun 31/12 16:00",
+    "id": 50020,
+    "inizio": "mer 13/12 07:00",
+    "link": "https://dblegends.net/event/50020",
+    "lungo": true,
+    "motivo": "evento lungo o permanente: quando hai stamina libera",
+    "negozi": [],
+    "nome": "A Father-Son Bond A Fierce Fight to the Death!",
+    "ore_rimaste": 27256,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 5,
+    "stamina": 10,
+    "tipo": "Storia/evento"
+   },
+   {
+    "altri_premi": {},
+    "cc_diretti": 0,
+    "cc_negozio": 0,
+    "drop": [],
+    "fine": "lun 31/12 16:00",
+    "id": 58001,
+    "inizio": "mer 17/5 08:00",
+    "link": "https://dblegends.net/event/58001",
+    "lungo": true,
+    "motivo": "evento lungo o permanente: quando hai stamina libera",
+    "negozi": [],
+    "nome": "Learn With Trunks! Path to Victory Battle Lecture!",
+    "ore_rimaste": 27256,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 28,
+    "stamina": 0,
+    "tipo": "Storia/evento"
+   },
+   {
+    "altri_premi": {},
+    "cc_diretti": 0,
+    "cc_negozio": 0,
+    "drop": [],
+    "fine": "lun 31/12 16:00",
+    "id": 59001,
+    "inizio": "gio 18/11 07:00",
+    "link": "https://dblegends.net/event/59001",
+    "lungo": true,
+    "motivo": "evento lungo o permanente: quando hai stamina libera",
+    "negozi": [],
+    "nome": "Get the LEGENDS LIMITED Experience!",
+    "ore_rimaste": 27256,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 1,
+    "stamina": 0,
+    "tipo": "Storia/evento"
+   },
+   {
+    "altri_premi": {
+     "Rare Medal": 300
+    },
+    "cc_diretti": 0,
+    "cc_negozio": 0,
+    "drop": [
+     "Energy",
+     "Skip Ticket",
+     "Training Item",
+     "Rare Medal"
+    ],
+    "fine": "lun 31/12 16:00",
+    "id": 19007,
+    "inizio": "gio 28/2 07:00",
+    "link": "https://dblegends.net/event/19007",
+    "lungo": true,
+    "motivo": "evento lungo o permanente: quando hai stamina libera",
+    "negozi": [],
+    "nome": "Let's Fight!",
+    "ore_rimaste": 27256,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 3,
+    "stamina": 3,
+    "tipo": "Storia/evento"
+   }
+  ],
+  "fonte": "https://dblegends.net/events",
+  "in_scadenza": [],
+  "nota_coach": "1) Festival Double-Up #1: gioca ogni giorno fino al 28/11 (il titolo dice \"Clear Tomorrow for 2x Rewards\"): i biglietti valgono fino a 1.600 CC.\n2) Black Friday Raid: 1.420 CC tra premi e negozio, più i biglietti 100x del Festival.\n3) Gohan Zenkai: nel negozio Rush c'è l'Awakening Z Power del tuo SSJ Gohan Youth (fino a 70 ZENKAI Rush Medal); le battaglie Rush non costano stamina.\n4) Legendary Raging Battle: medaglie del Festival per il negozio Gold (fino a 8.000 CC in tutto).\nIn arrivo: 23/11 Summon Ticket Battle e 24/11 Multi-Z Power Battle, durano un giorno solo.",
+  "prossimi": [
+   {
+    "fine": "mar 24/11 07:00",
+    "id": 801301,
+    "inizio": "dom 22/11 15:45",
+    "link": "https://dblegends.net/event/801301",
+    "nome": "Dragon Ball Super: Beerus Japanese Premiere Celebration! Exciting Bonus Mini Raid",
+    "tipo": "Raid"
+   },
+   {
+    "fine": "mar 24/11 07:00",
+    "id": 19073,
+    "inizio": "lun 23/11 07:00",
+    "link": "https://dblegends.net/event/19073",
+    "nome": "Fortune! Festival Summon Ticket Acquisition Battle",
+    "tipo": "Biglietti evocazione"
+   },
+   {
+    "fine": "mer 25/11 07:00",
+    "id": 19112,
+    "inizio": "mar 24/11 07:00",
+    "link": "https://dblegends.net/event/19112",
+    "nome": "Transcend! Multi-Z Power Battle",
+    "tipo": "Z Power"
+   }
+  ],
+  "squadra": [
+   "Final Form Cooler UL (tua squadra)",
+   "Broly: Fury LL (tua squadra)",
+   "Goku LL (tua squadra)",
+   "SSJ Gohan Youth SP Zenkai (tua squadra)",
+   "SSG Shallet LL (da confermare se ce l'hai)"
+  ],
+  "totale_cc": 11917
+ }
 }
