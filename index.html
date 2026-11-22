@@ -17,6 +17,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
 <style>
 /* Layout: header compatto + quattro schede (Tecnica, Errori, Eventi, Dai pro).
+   Tecnica: obiettivo e passi in alto, checklist dei cambi accanto. Errori: priorità n. 1 con la correzione, poi gli altri per gravità.
    PC: schede in alto. Telefono: una colonna, schede fisse in basso.
    Esercizi e singole partite non sono nell'app: restano solo nei file del coach. */
 :root{
@@ -81,31 +82,12 @@ nav.tabs svg{width:20px;height:20px;flex:none;fill:none;stroke:currentColor;stro
 .notice{padding:10px 14px;border-radius:10px;background:var(--warn-soft);font-size:14px}
 .notice[data-kind="info"]{background:var(--sunk)}
 
-/* Riepilogo */
-.grid2{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:16px;align-items:start}
-.col{display:grid;gap:16px;min-width:0}
+/* Tecnica ed Errori: prima il riassunto (cosa fare), il dettaglio si apre a richiesta */
+.grid2{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:16px;align-items:start}
+.col{display:grid;gap:14px;min-width:0}
 @media (max-width:820px){.grid2{grid-template-columns:minmax(0,1fr)}}
 .panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;display:grid;gap:12px;min-width:0}
 .panel-h{display:flex;justify-content:space-between;gap:8px;align-items:baseline;flex-wrap:wrap}
-.priority{border-left:4px solid var(--err)}
-.priority .big{font-family:var(--f-display);font-size:20px;font-weight:700;line-height:1.25}
-.focus{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
-.drill{margin:0;display:grid;gap:12px}
-.drill > div{display:grid;grid-template-columns:110px minmax(0,1fr);gap:12px}
-.drill dt{font-family:var(--f-display);font-weight:600;color:var(--accent);font-size:14px}
-.drill dd{margin:0;min-width:0}
-.drill ol,.drill ul{margin:0;padding-left:18px;display:grid;gap:5px}
-@media (max-width:520px){.drill > div{grid-template-columns:minmax(0,1fr);gap:2px}}
-.err-list{display:grid;gap:12px;list-style:none;margin:0;padding:0}
-.err-row{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:10px;align-items:start}
-.sev{width:10px;height:10px;border-radius:50%;margin-top:7px}
-.sev.high{background:var(--err)}.sev.mid{background:var(--warn)}.sev.low{background:var(--muted)}
-.count{font-family:var(--f-mono);font-size:13px;color:var(--muted);white-space:nowrap}
-.pips{display:flex;gap:3px;margin-top:4px}
-.pips i{width:16px;height:5px;border-radius:2px;background:var(--line)}
-.pips i.on{background:var(--err)}
-.sev.mid ~ div .pips i.on{background:var(--warn)}
-.sev.low ~ div .pips i.on{background:var(--muted)}
 ul.plain{margin:0;padding-left:20px;display:grid;gap:7px}
 .status{font-size:12px;font-weight:600;padding:3px 8px;border-radius:6px;background:var(--warn-soft);color:var(--warn)}
 .status:empty{display:none}
@@ -113,15 +95,71 @@ details.more summary{cursor:pointer;color:var(--accent);font-weight:600;font-siz
 details.more summary::-webkit-details-marker{display:none}
 details.more[open] summary .closed,details.more:not([open]) summary .opened{display:none}
 
+/* Tecnica */
+.hero{background:var(--accent-soft);border-radius:16px;padding:18px;display:grid;gap:14px}
+.hero-title{font-size:clamp(21px,4.6vw,27px);font-weight:700;line-height:1.2}
+.goal{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:14px;align-items:center;background:var(--surface);border-radius:12px;padding:12px 14px}
+.goal p{font-weight:600}
+.meter{display:grid;gap:6px;justify-items:end}
+.meter .segs{display:flex;gap:4px}
+.meter .segs i{width:22px;height:8px;border-radius:4px;background:var(--line)}
+.meter .segs i.on{background:var(--ok)}
+.meter span{font-family:var(--f-mono);font-size:12px;color:var(--muted);white-space:nowrap}
+@media (max-width:420px){.goal{grid-template-columns:minmax(0,1fr)}.meter{justify-items:start}}
+.steps{counter-reset:s;list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.steps li{counter-increment:s;display:grid;grid-template-columns:26px minmax(0,1fr);gap:10px;align-items:start}
+.steps li::before{content:counter(s);font-family:var(--f-display);font-weight:700;font-size:13px;width:26px;height:26px;border-radius:8px;background:var(--fg);color:var(--surface);display:grid;place-items:center}
+.ctx{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.ctx > div{background:var(--sunk);border-radius:10px;padding:10px 12px;display:grid;gap:2px;font-size:14px;min-width:0}
+@media (max-width:520px){.ctx{grid-template-columns:minmax(0,1fr)}}
+.note{font-size:13.5px;color:var(--muted)}
+.watch{background:var(--warn-soft);border-color:transparent}
+.watch h3{color:var(--warn)}
+.watch ul{margin:0;padding-left:18px;display:grid;gap:6px;font-size:14px}
+.check{list-style:none;margin:0;padding:0;display:grid;gap:0}
+.check li{display:grid;grid-template-columns:28px minmax(0,1fr);gap:12px;padding:12px 0;border-top:1px solid var(--line)}
+.check li:first-child{border-top:0;padding-top:2px}
+.check .n{font-family:var(--f-display);font-weight:700;width:28px;height:28px;border-radius:50%;background:var(--accent-soft);color:var(--accent);display:grid;place-items:center;font-size:14px}
+.check strong{display:block;font-family:var(--f-display);font-size:15.5px;font-weight:600;margin-bottom:2px}
+.check details{margin-top:4px}
+.check details summary{min-height:28px;font-size:13px}
+.check details p{font-size:13.5px;color:var(--muted)}
+
+/* Errori */
+.sum{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.sum .chip{font-weight:600}
+.chip.warn{background:var(--warn-soft);color:var(--warn)}
+.prio{border:0;background:var(--err-soft);gap:10px}
+.prio .big{font-family:var(--f-display);font-size:20px;font-weight:700;line-height:1.25}
+.fix{display:grid;grid-template-columns:auto minmax(0,1fr);gap:8px;align-items:start;background:var(--surface);border-radius:10px;padding:10px 12px;font-weight:500}
+.fix svg{width:18px;height:18px;margin-top:2px;fill:none;stroke:var(--ok);stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.cnt{font-family:var(--f-mono);font-size:12.5px;color:var(--muted);white-space:nowrap}
+.grp{display:grid;gap:8px}
+.grp > h3{display:flex;align-items:center;gap:8px;font-size:15px}
+.dot{width:10px;height:10px;border-radius:50%;flex:none}
+.dot.high{background:var(--err)}.dot.mid{background:var(--warn)}.dot.low{background:var(--muted)}
+.errs{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.err{background:var(--surface);border:1px solid var(--line);border-radius:12px}
+.err summary{list-style:none;cursor:pointer;padding:12px 14px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 10px;align-items:start}
+.err summary::-webkit-details-marker{display:none}
+.err .t1{font-weight:600}
+.err .t2{grid-column:1/-1;font-size:14px;color:var(--muted)}
+.err .t2::before{content:"→ ";color:var(--ok);font-weight:700}
+.err .side{display:flex;gap:6px;align-items:center}
+.err .chev{width:16px;height:16px;fill:none;stroke:var(--muted);stroke-width:2;transition:transform .15s}
+.err[open] .chev{transform:rotate(180deg)}
+.err .body{padding:0 14px 12px;font-size:14px;display:grid;gap:8px}
+.tagtec{font-size:11.5px;font-weight:600;padding:2px 8px;border-radius:999px;background:var(--accent-soft);color:var(--accent);text-decoration:none;justify-self:start}
+ul.good{list-style:none;padding:0}
+ul.good li{display:grid;grid-template-columns:18px minmax(0,1fr);gap:8px}
+ul.good li::before{content:"✓";color:var(--ok);font-weight:700}
+@media (prefers-reduced-motion:reduce){.err .chev{transition:none}}
+
 .res{font-family:var(--f-display);font-weight:700;font-size:12px;letter-spacing:.06em;padding:3px 8px;border-radius:6px;text-transform:uppercase;white-space:nowrap}
 .res.win{background:var(--ok-soft);color:var(--ok)}.res.loss{background:var(--err-soft);color:var(--err)}.res.other{background:var(--sunk);color:var(--muted)}
 
 .eg{background:var(--sunk);border-radius:8px;padding:8px 10px;font-size:13.5px}
 .eg .label{margin-right:6px}
-.check{counter-reset:c;list-style:none;margin:0;padding:0;display:grid;gap:10px}
-.check li{counter-increment:c;display:grid;grid-template-columns:28px minmax(0,1fr);gap:10px;align-items:start}
-.check li::before{content:counter(c);font-family:var(--f-display);font-weight:700;width:28px;height:28px;border-radius:50%;background:var(--accent-soft);color:var(--accent);display:grid;place-items:center;font-size:14px}
-.check strong{display:block}
 .pro-list{list-style:none;margin:0;padding:0;display:grid;gap:12px}
 .pro-list li{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px;display:grid;gap:6px}
 .pro-list .src{font-size:12.5px;color:var(--muted)}
@@ -181,48 +219,39 @@ body{margin:0;min-height:100vh;overscroll-behavior-y:none}
 
   <!-- TECNICA: cosa fare nella prossima partita -->
   <section id="v-oggi" role="tabpanel" aria-labelledby="tab-oggi" class="view">
-    <p class="intro muted">Cosa fare nella prossima partita.</p>
-    <div class="grid2">
-      <div class="panel focus" id="focus" hidden>
-        <div class="panel-h"><span class="label">Tecnica su cui lavorare adesso</span><span class="status" id="f-status"></span></div>
-        <h2 id="f-title"></h2>
-        <dl class="drill">
-          <div><dt>Quando</dt><dd id="f-when"></dd></div>
-          <div><dt>Dove stare</dt><dd id="f-where"></dd></div>
-          <div><dt>Cosa fare</dt><dd><ol id="f-do"></ol></dd></div>
-          <div><dt>Obiettivo</dt><dd id="f-goal"></dd></div>
-          <div id="f-watch-row"><dt>Occhio a</dt><dd><ul id="f-watch"></ul></dd></div>
-        </dl>
-        <p class="muted small" id="f-note"></p>
+    <div class="empty" id="focus-empty">La tecnica su cui lavorare compare qui dopo la prima analisi.</div>
+    <div class="grid2" id="focus" hidden>
+      <div class="col">
+        <article class="hero">
+          <span class="label" id="f-status">Tecnica in corso</span>
+          <h2 class="hero-title" id="f-title"></h2>
+          <div class="goal">
+            <div><span class="label">Obiettivo</span><p id="f-goal"></p></div>
+            <div class="meter" id="f-meter" hidden><div class="segs" id="f-segs"></div><span id="f-prog"></span></div>
+          </div>
+        </article>
+        <div class="panel">
+          <h2>In partita</h2>
+          <ol class="steps" id="f-do"></ol>
+          <div class="ctx"><div><span class="label">Quando</span><span id="f-when"></span></div><div><span class="label">Dove stare</span><span id="f-where"></span></div></div>
+          <p class="note" id="f-note"></p>
+        </div>
+        <div class="panel watch" id="f-watch-row"><h3>Occhio a</h3><ul id="f-watch"></ul></div>
       </div>
       <div class="panel" id="check-panel" hidden>
-        <h2>Prima di ogni cambio</h2>
+        <div><h2>Prima di ogni cambio</h2><p class="muted small">Le domande da farti, in ordine.</p></div>
         <ol class="check" id="check"></ol>
       </div>
     </div>
   </section>
 
-  <!-- ERRORI -->
+  <!-- ERRORI: la priorità n. 1 con la correzione, poi gli altri per gravità -->
   <section id="v-errori" role="tabpanel" aria-labelledby="tab-errori" class="view" hidden>
-    <p class="intro muted">Cosa sbagli più spesso nelle tue partite, in ordine di priorità.</p>
+    <div class="sum" id="err-sum"><span class="muted small">Gli errori che ripeti nelle tue partite, con cosa fare.</span></div>
     <div class="grid2">
+      <div class="col" id="err-main"><div class="empty">Compariranno qui dopo la prima analisi.</div></div>
       <div class="col">
-        <div class="panel priority">
-          <span class="label">Priorità n. 1</span>
-          <p class="big" id="prio-title">In attesa dei dati…</p>
-          <p class="muted" id="prio-detail"></p>
-        </div>
-        <div class="panel">
-          <div class="panel-h"><h2>Errori ricorrenti</h2><span class="muted small">volte visto</span></div>
-          <ul class="err-list" id="errs"><li class="empty">Compariranno qui dopo la prima analisi.</li></ul>
-          <details class="more" id="errs-more" hidden><summary><span class="closed">Mostra tutti</span><span class="opened">Mostra meno</span></summary><ul class="err-list" id="errs-rest" style="margin-top:12px"></ul></details>
-        </div>
-      </div>
-      <div class="col">
-        <div class="panel">
-          <h2>Punti di forza</h2>
-          <ul class="plain" id="strs"><li class="muted">Da osservare.</li></ul>
-        </div>
+        <div class="panel"><h2>Cosa fai bene</h2><ul class="plain good" id="strs"><li>Da osservare.</li></ul></div>
         <p class="muted small" id="sample"></p>
       </div>
     </div>
@@ -269,13 +298,65 @@ body{margin:0;min-height:100vh;overscroll-behavior-y:none}
   window.addEventListener("hashchange", () => { route(); window.scrollTo({top:0}); });
 
   /* --- render --- */
+  const CHEV = `<svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>`;
+  const CHECK = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>`;
+  const tagTec = r => r.tecnica ? `<a class="tagtec" href="#oggi">Ci lavori nella Tecnica</a>` : "";
   function errRow(r){
-    const n = Math.min(r.count||0, 6);
-    return `<li class="err-row"><span class="sev ${esc(r.level||"mid")}" aria-hidden="true"></span>
-      <div style="min-width:0"><div>${esc(r.title)}</div>
-      <div class="pips" aria-hidden="true">${Array.from({length:Math.max(n,4)},(_,i)=>`<i class="${i<n?"on":""}"></i>`).join("")}</div>
-      ${r.matches ? `<div class="muted" style="font-size:12.5px;margin-top:4px">${esc(r.matches)}</div>` : ""}</div>
-      <span class="count">${r.count||0}×</span></li>`;
+    const fix = r.fix || "";
+    const body = (fix && r.detail ? `<p>${esc(r.detail)}</p>` : "") + (r.matches ? `<p class="muted small">${esc(r.matches)}</p>` : "") + tagTec(r);
+    return `<li><details class="err"><summary><span class="t1">${esc(r.title)}</span><span class="side"><span class="cnt">${r.count||0}×</span>${body ? CHEV : ""}</span>
+      <span class="t2">${esc(fix || r.detail || "")}</span></summary>${body ? `<div class="body">${body}</div>` : ""}</details></li>`;
+  }
+  function renderErrors(p){
+    const rec = (p.recurring || []).slice();
+    const lv = r => ["high","mid","low"].includes(r.level) ? r.level : "mid";
+    if(!rec.length){ $("#err-main").innerHTML = `<div class="empty">Compariranno qui dopo la prima analisi.</div>`; return; }
+    const n = l => rec.filter(r => lv(r) === l).length;
+    $("#err-sum").innerHTML = [["high","da sistemare subito","loss"],["mid","in secondo piano","warn"],["low","minori",""]]
+      .filter(([l]) => n(l)).map(([l,t,c]) => `<span class="chip ${c}">${n(l)} ${t}</span>`).join("");
+    const top = rec.shift();
+    let h = `<article class="panel prio"><div class="panel-h"><span class="label">Priorità n. 1</span><span class="cnt">visto ${top.count||0} volte</span></div>
+      <p class="big">${esc(top.title)}</p>
+      ${top.fix ? `<div class="fix">${CHECK}<span>${esc(top.fix)}</span></div>` : ""}
+      ${top.fix && top.detail ? `<details class="more"><summary><span class="closed">Perché ▾</span><span class="opened">Perché ▴</span></summary><p>${esc(top.detail)}</p></details>` : `<p>${esc(top.detail||"")}</p>`}
+      ${top.matches ? `<p class="muted small">${esc(top.matches)}</p>` : ""}${tagTec(top)}</article>`;
+    const G = [["high","Da sistemare subito"],["mid","In secondo piano"],["low","Minori"]];
+    h += G.map(([l,t]) => {
+      const xs = rec.filter(r => lv(r) === l);
+      if(!xs.length) return "";
+      const list = `<ul class="errs">${xs.map(errRow).join("")}</ul>`;
+      return l === "low"
+        ? `<div class="grp"><details class="more"><summary><span class="closed">${t} (${xs.length}) ▾</span><span class="opened">${t} ▴</span></summary><div style="margin-top:8px">${list}</div></details></div>`
+        : `<div class="grp"><h3><span class="dot ${l}" aria-hidden="true"></span>${t}</h3>${list}</div>`;
+    }).join("");
+    $("#err-main").innerHTML = h;
+  }
+
+  function renderFocus(p){
+    const f = p.focus;
+    $("#focus").hidden = !f; $("#focus-empty").hidden = !!f;
+    if(f){
+      $("#f-title").textContent = f.title || "";
+      $("#f-status").textContent = f.status || "Tecnica in corso";
+      $("#f-when").textContent = f.when || "";
+      $("#f-where").textContent = f.where || "";
+      $("#f-do").innerHTML = (f.steps||[]).map(s => `<li><span>${esc(s)}</span></li>`).join("");
+      $("#f-goal").textContent = f.goal || "";
+      const pr = f.progress;
+      $("#f-meter").hidden = !(pr && pr.of);
+      if(pr && pr.of){
+        $("#f-segs").innerHTML = Array.from({length:pr.of}, (_,i) => `<i class="${i < pr.done ? "on" : ""}"></i>`).join("");
+        $("#f-prog").textContent = `${pr.done} di ${pr.of} partite`;
+        $("#f-meter").setAttribute("aria-label", `${pr.done} partite riuscite su ${pr.of}`);
+      }
+      $("#f-watch").innerHTML = (f.watch||[]).map(s => `<li>${esc(s)}</li>`).join("");
+      $("#f-watch-row").hidden = !(f.watch||[]).length;
+      $("#f-note").textContent = f.note || "";
+    }
+    const ck = p.checklist || [];
+    $("#check-panel").hidden = !ck.length;
+    $("#check").innerHTML = ck.map((c,i) => `<li><span class="n">${i+1}</span><div><strong>${esc(c.q)}</strong><span>${esc(c.a||"")}</span>
+      ${c.more ? `<details class="more"><summary><span class="closed">Dettagli ▾</span><span class="opened">Dettagli ▴</span></summary><p>${esc(c.more)}</p></details>` : ""}</div></li>`).join("");
   }
 
   function renderHeader(){
@@ -293,34 +374,14 @@ body{margin:0;min-height:100vh;overscroll-behavior-y:none}
     $("#pname").textContent = p.name || "Il tuo coach";
     $("#pgoal").textContent = p.goal ? "Obiettivo: " + p.goal : "";
     renderHeader();
-    const rec = p.recurring || [];
-    if(rec[0]){ $("#prio-title").textContent = rec[0].title; $("#prio-detail").textContent = rec[0].detail || ""; }
-    const SHOW = 4;
-    $("#errs").innerHTML = rec.length ? rec.slice(0, SHOW).map(errRow).join("") : `<li class="empty">Compariranno qui dopo la prima analisi.</li>`;
-    $("#errs-more").hidden = rec.length <= SHOW;
-    $("#errs-rest").innerHTML = rec.slice(SHOW).map(errRow).join("");
+    renderErrors(p);
+    renderFocus(p);
     const eg = t => t ? `<div class="eg"><span class="label">Esempio</span>${esc(t)}</div>` : "";
-    const ck = p.checklist || [];
-    $("#check-panel").hidden = !ck.length;
-    $("#check").innerHTML = ck.map(c => `<li><div><strong>${esc(c.q)}</strong><span class="muted">${esc(c.a||"")}</span></div></li>`).join("");
     const pro = p.pro || [];
     $("#pro-note").textContent = p.proNote || "";
     $("#pro").innerHTML = pro.length ? pro.map(r => `<li><h3>${esc(r.rule)}</h3>${r.how ? `<span>${esc(r.how)}</span>` : ""}${eg(r.example)}${r.source ? `<span class="src">${esc(r.source)}</span>` : ""}</li>`).join("") : `<li class="empty">Nessuno studio ancora.</li>`;
-    $("#strs").innerHTML = (p.strengths||[]).length ? p.strengths.map(e => `<li>${esc(e)}</li>`).join("") : `<li class="muted">Da osservare.</li>`;
+    $("#strs").innerHTML = (p.strengths||[]).length ? p.strengths.map(e => `<li><span>${esc(e)}</span></li>`).join("") : `<li><span class="muted">Da osservare.</span></li>`;
     $("#sample").textContent = p.sampleNote || "";
-    const f = p.focus;
-    $("#focus").hidden = !f;
-    if(f){
-      $("#f-title").textContent = f.title || "";
-      $("#f-status").textContent = f.status || "";
-      $("#f-when").textContent = f.when || "";
-      $("#f-where").textContent = f.where || "";
-      $("#f-do").innerHTML = (f.steps||[]).map(s => `<li>${esc(s)}</li>`).join("");
-      $("#f-goal").textContent = f.goal || "";
-      $("#f-watch").innerHTML = (f.watch||[]).map(s => `<li>${esc(s)}</li>`).join("");
-      $("#f-watch-row").hidden = !(f.watch||[]).length;
-      $("#f-note").textContent = f.note || "";
-    }
   }
 
   function renderEvents(d){

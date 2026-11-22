@@ -1,50 +1,58 @@
 {
- "updated": "2026-11-22T18:38:41+0000",
+ "updated": "2026-11-22T18:47:03+0000",
  "profile": {
   "name": "Il tuo coach",
   "goal": "difesa e cambi: perdere meno personaggi, soprattutto quelli che non rinascono",
   "focus": {
    "title": "Il personaggio fragile entra solo per attaccare",
    "status": "Tecnica 1 di 3",
-   "when": "A ogni partita, dal primo secondo, e ogni volta che stai per far entrare il personaggio che non rinasce o che ha pochi HP.",
-   "where": "Apri con chi può incassare (rinasce o ha molti HP). Il personaggio fragile resta in panchina finché non hai l'iniziativa.",
+   "when": "Dal primo secondo, e ogni volta che stai per far entrare il personaggio fragile.",
+   "where": "Apri con chi può incassare. Il fragile resta in panchina finché non hai l'iniziativa.",
    "steps": [
-    "Apri con un personaggio resistente: meglio se rinasce quando va KO.",
-    "Se un compagno ha un effetto all'ingresso (blocco dei cambi, carte distrutte), fallo entrare con un cambio, non in apertura.",
-    "Il personaggio fragile entra a combo avversaria finita o subito dopo un tuo colpo. Appena ha fatto il suo lavoro (sigillo, danno, buff), esci.",
-    "Prima di chiudere con l'Ultimate, togli all'avversario l'Endurance o le protezioni: altrimenti resta a 1 HP."
+    "Apri con chi rinasce o ha molti HP.",
+    "Un compagno ha bonus che scattano solo entrando con un cambio (blocco dei cambi, carte distrutte)? Allora non apre lui.",
+    "Il fragile entra a combo avversaria finita o subito dopo un tuo colpo, mai per coprire una combo avversaria.",
+    "Ha fatto il suo lavoro (sigillo, danni, buff)? Esci. Chi esce rientra solo dopo circa 10 secondi."
    ],
-   "goal": "Il personaggio fragile sopra il 90% degli HP dopo i primi 2 minuti, in 3 partite di fila.",
+   "goal": "Il fragile sopra il 90% degli HP dopo i primi 2 minuti, in 3 partite di fila.",
    "watch": [
-    "Rising Rush avversario pronto: il personaggio fragile non deve essere in campo.",
-    "Ultimate contro un nemico con l'Endurance = sprecata.",
-    "Se l'avversario annulla il tuo cover, chi doveva proteggerti non incassa."
+    "Rising Rush o Ultimate avversari pronti: il fragile non deve essere in campo.",
+    "Icona rossa sui ritratti dei compagni (cover annullato): chi entra non ferma la combo, la paga.",
+    "Senza vanish non restare in campo con il fragile: cambia."
    ],
-   "note": "Lavora su una tecnica alla volta: quando l'obiettivo è raggiunto in 3 partite di fila, passa alla successiva."
+   "note": "Fragile = chi non rinasce, non ha Endurance o ha pochi HP.",
+   "progress": {
+    "done": 1,
+    "of": 3
+   }
   },
   "checklist": [
    {
-    "q": "Sono dentro la combo avversaria?",
-    "a": "Lì niente vanish. Se c'è il divieto, il cambio non ferma la combo: chi entra paga il resto. Resta chi rinasce o chi ha molti HP; esce il personaggio fragile. Se cambi, cambia presto."
+    "q": "Sono dentro la sua combo?",
+    "a": "Niente vanish: scegli solo chi la paga. Resta chi rinasce o ha più HP; il fragile esce.",
+    "more": "Con l'icona rossa sui compagni (cover annullato) il cambio non ferma la combo. Senza icona, uno Special Cover Change del tipo giusto (Strike o Blast) la interrompe. Se cambi, cambia presto."
    },
    {
-    "q": "Fuori dalla combo: perché cambio?",
-    "a": "Solo se: la mia combo è finita · sono sigillato · il colore mi è favorevole (e l'avversario non ha l'elemento neutro attivo) · sono ferito dopo un colpo grosso · sono senza vanish."
+    "q": "Fuori dalla combo: ho un motivo per cambiare?",
+    "a": "Sì se la mia combo è finita, sono sigillato, sono senza vanish, sono ferito dopo un colpo grosso o chi entra ha il colore favorevole.",
+    "more": "Il colore conta solo se l'avversario non ha l'elemento neutro attivo. Chi entra ha il vanish pieno."
    },
    {
     "q": "Chi entra può incassare?",
-    "a": "Chi rinasce (prima vita) o chi ha più HP. Mai il personaggio fragile."
+    "a": "Chi rinasce (prima vita) o ha più HP. Mai il fragile.",
+    "more": "Chi esce rientra solo dopo circa 10 secondi."
    },
    {
-    "q": "L'avversario ha Rising Rush o Ultimate pronti?",
-    "a": "Dopo metà partita consideralo sempre sì → in campo chi rinasce o il più sano."
+    "q": "Ha Rising Rush o Ultimate pronti?",
+    "a": "Da metà partita consideralo sempre sì: in campo chi rinasce o il più sano.",
+    "more": "Le sfere del drago avversarie non si vedono sullo schermo."
    }
   ],
   "strengths": [
-   "Rising K.O. frequenti",
-   "Aperture più solide: dopo 1:30 squadra a HP pieni",
-   "Combo lunghe (oltre 70 colpi)",
-   "Sangue freddo nei finali: vittorie negli ultimi secondi",
+   "Rising K.O. in 6 partite su 10",
+   "Prima apertura riuscita (19/11): dopo 1:30 squadra a HP pieni",
+   "Combo lunghe, oltre 70 colpi",
+   "Sangue freddo nei finali: due vittorie negli ultimi secondi",
    "Difesa in crescita: più vanish e Rising Rush avversario indovinato"
   ],
   "pro": [
@@ -60,7 +68,7 @@
    },
    {
     "rule": "Fai entrare chi ha il vantaggio di elemento",
-    "how": "Prima di cambiare guarda il colore di chi c'è dall'altra parte.",
+    "how": "Prima di cambiare guarda il colore di chi c'è dall'altra parte, e controlla che non abbia l'elemento neutro attivo.",
     "source": "Partite dei pro"
    },
    {
@@ -69,8 +77,8 @@
     "source": "Partite dei pro"
    },
    {
-    "rule": "Prima l'Endurance, poi l'Ultimate",
-    "how": "Togli all'avversario l'Endurance o le protezioni prima di lanciare l'Ultimate, altrimenti resta a 1 HP.",
+    "rule": "Prima fai cadere l'Endurance, poi l'Ultimate",
+    "how": "Se l'avversario ha Endurance o rinascita attive, falle scattare con un colpo meno importante o annullale: un'Ultimate contro l'Endurance lo lascia a 1 HP.",
     "source": "Partite dei pro"
    },
    {
@@ -95,7 +103,12 @@
    },
    {
     "rule": "Dopo un tuo Perfect Vanish, Strike subito",
-    "how": "Il PV si riconosce da un'aura più grande ed esplosiva. Senza vanish e fuori da una combo, cambia invece di restare per usare l'Ultimate.",
+    "how": "Il PV si riconosce da un'aura più grande ed esplosiva: dopo, una Strike va a segno anche se l'avversario ha il vanish.",
+    "source": "Guida PvP di un giocatore top"
+   },
+   {
+    "rule": "Senza vanish, cambia",
+    "how": "Fuori dalla combo, senza vanish una Strike avversaria ti prende di sicuro: cambia invece di restare per usare l'Ultimate. Chi entra ha il vanish pieno.",
     "source": "Guida PvP di un giocatore top"
    },
    {
@@ -143,55 +156,73 @@
   "recurring": [
    {
     "title": "Dentro la combo avversaria entra chi non può pagarla",
-    "detail": "Dentro la combo il vanish non esiste e il divieto è quasi sempre acceso: il cambio non ferma la combo, chi entra paga il resto. Errore = far entrare chi ha pochi HP o chi non rinasce al posto di chi rinasce.",
+    "detail": "Dentro la combo avversaria non puoi fare vanish: puoi solo restare o cambiare. Con il cover annullato (icona rossa sui compagni) il cambio non ferma la combo e chi entra paga il resto. Senza icona, uno Special Cover Change del tipo giusto la interrompe.",
+    "fix": "Dentro la combo resta chi rinasce o ha più HP. Il fragile esce, non entra.",
+    "tecnica": false,
     "count": 4,
     "level": "high"
    },
    {
     "title": "Perdi il primo personaggio nei primi 60 secondi",
-    "detail": "Apri con chi può incassare e fai entrare il personaggio fragile solo quando hai l'iniziativa.",
+    "detail": "È la tecnica su cui stai lavorando adesso.",
+    "fix": "Apri con chi può incassare; il fragile entra quando hai l'iniziativa.",
+    "tecnica": true,
     "count": 8,
     "level": "high"
    },
    {
     "title": "Resti in campo mentre subisci combo su combo",
-    "detail": "Alla seconda combo di fila: cambia (se non c'è il divieto) o vanish.",
+    "detail": "Quando subisci un'Arts il vanish torna pieno: tra una combo e l'altra usalo sul colpo successivo. Se sei senza vanish, cambia fuori dalla combo: chi entra ha il vanish pieno. Se una nuova combo parte comunque, cambia presto e fai entrare chi può pagarla.",
+    "fix": "Finita una combo, schiva il colpo dopo. Senza vanish, cambia.",
+    "tecnica": false,
     "count": 8,
     "level": "high"
    },
    {
     "title": "Personaggio senza rinascita perso per Ultimate o Rising Rush con HP alti",
-    "detail": "Quando l'avversario può lanciarli, in campo deve esserci chi rinasce (prima vita) o il più sano.",
+    "detail": "Le sfere del drago avversarie non si vedono: da metà partita considera il suo Rising Rush sempre possibile. Dentro una sua combo parte di sicuro.",
+    "fix": "Quando può lanciarli, in campo chi rinasce o il più sano.",
+    "tecnica": false,
     "count": 7,
     "level": "high"
    },
    {
     "title": "Ultimate avversaria annunciata e non rispettata",
-    "detail": "Se una Main Ability o un banner annuncia che l'avversario ha l'Ultimate in mano: vanish pronto e niente carte lunghe finché non la tira.",
+    "detail": "Alcune Main Ability e abilità mettono l'Ultimate in mano e lo segnalano con una scritta. Finché non la tira tieni il vanish pieno, evita le carte lente e tieni in campo chi può incassarla.",
+    "fix": "Sai che ha l'Ultimate in mano? Vanish pieno e niente carte lente.",
+    "tecnica": false,
     "count": 2,
     "level": "high"
    },
    {
     "title": "Sacrifichi chi non rinasce per salvare chi rinasce",
-    "detail": "Chi rinasce, nella prima vita, incassa lui: se va KO torna in campo.",
+    "detail": "Sotto i ~300k chi rinasce vale meno dei suoi HP: lascialo andare KO e rinascere invece di far entrare un compagno sano.",
+    "fix": "Chi rinasce, nella prima vita, incassa lui.",
+    "tecnica": false,
     "count": 2,
     "level": "mid"
    },
    {
     "title": "Avversario sotto i 500k lasciato scappare",
-    "detail": "Se è sotto i 500k, chiudi subito con una Special o un Rising Rush prima che cambi e si curi.",
+    "detail": "Finiscilo con una Special o con il Rising Rush dentro una tua combo, prima che cambi o si curi con la Main Ability. Se ha ancora Endurance o rinascita, falle scattare con un colpo meno importante.",
+    "fix": "Chiudi subito, dentro una tua combo.",
+    "tecnica": false,
     "count": 1,
     "level": "mid"
    },
    {
     "title": "Overdrive \"Choose a route\" sbagliato",
-    "detail": "Capita anche ai pro. Priorità bassa.",
+    "detail": "Se indovini le sue opzioni annulli i bonus e riduci i danni. Capita anche ai pro: priorità bassa.",
+    "fix": "In difesa scegli le stesse opzioni di chi attacca.",
+    "tecnica": false,
     "count": 4,
     "level": "low"
    },
    {
     "title": "Vanish usati poco (in miglioramento)",
-    "detail": "Tieni il vanish per le combo avversarie che puoi ancora interrompere.",
+    "detail": "Il vanish serve prima della combo avversaria: dentro non si può usare. Non sprecarlo sui Tap Shot da lontano: spostati di lato.",
+    "fix": "Schiva prima che l'avversario prenda la priorità.",
+    "tecnica": false,
     "count": 2,
     "level": "low"
    }
