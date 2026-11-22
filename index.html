@@ -216,6 +216,16 @@ ul.good li::before{content:"✓";color:var(--ok);font-weight:700}
 .ev .team strong{color:var(--ok)}
 .ev ul{margin:0;padding-left:18px;display:grid;gap:3px;font-size:13.5px}
 .ev a{color:var(--accent);font-size:13px;font-weight:600;text-decoration:none}
+.ev .foot{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:space-between}
+.ev .acts{display:flex;gap:6px}
+.ev .acts button{min-height:36px;padding:0 12px;border-radius:999px;border:1px solid var(--line);background:var(--surface);font-weight:600;font-size:13px;cursor:pointer}
+.ev .acts .done{border-color:var(--ok);color:var(--ok)}
+.ev .acts .skip{color:var(--muted)}
+.ev.marked{opacity:.6}
+.ev .stamp{font-size:12px;font-weight:700;padding:2px 8px;border-radius:6px;background:var(--ok-soft);color:var(--ok);justify-self:start}
+.ev .stamp.skip{background:var(--sunk);color:var(--muted)}
+.hidden-bar{display:flex;gap:8px;align-items:center;justify-content:space-between;flex-wrap:wrap;font-size:13.5px;color:var(--muted);padding:6px 2px}
+.hidden-bar button{border:0;background:none;color:var(--accent);font-weight:600;cursor:pointer;min-height:32px}
 .coachnote{border-left:4px solid var(--accent)}
 #ev-note-t{white-space:pre-line}
 .soon li{font-size:14px}
@@ -487,8 +497,30 @@ body{margin:0;min-height:100vh;overscroll-behavior-y:none}
     route();
   }
 
+  /* Eventi segnati come fatti o scartati: restano su questo dispositivo (localStorage).
+     Solo eventi da una parte sola e senza attività quotidiana. */
+  const MARK_KEY = "coach-legends-eventi";
+  let marks = {}, lastEvents = null, showHidden = false;
+  try { marks = JSON.parse(localStorage.getItem(MARK_KEY) || "{}") || {}; } catch(e){ marks = {}; }
+  const saveMarks = () => { try { localStorage.setItem(MARK_KEY, JSON.stringify(marks)); } catch(e){} };
+  const RIPETUTI = ["Rush","Raid","Co-op","Doppio premio","Weekend","PvP"];
+  const segnabile = x => x.stage === 1 && !RIPETUTI.includes(x.tipo) && !/every\s*day|daily|login|ogni giorno/i.test(x.nome || "");
+  document.addEventListener("click", e => {
+    const b = e.target.closest("[data-mark]");
+    if(b){
+      const id = b.dataset.id, m = b.dataset.mark;
+      if(m === "reset") delete marks[id]; else marks[id] = {stato: m, il: new Date().toISOString().slice(0,10)};
+      saveMarks(); renderEvents(lastEvents); return;
+    }
+    if(e.target.closest("[data-toggle-hidden]")){ showHidden = !showHidden; renderEvents(lastEvents); }
+  });
+
   function renderEvents(d){
     if(!d) return;
+    lastEvents = d;
+    // dimentica i segni di eventi che non ci sono più
+    const ids = new Set((d.eventi||[]).map(x => String(x.id)));
+    if(Object.keys(marks).some(k => !ids.has(k)) && (d.eventi||[]).length){ Object.keys(marks).forEach(k => { if(!ids.has(k)) delete marks[k]; }); saveMarks(); }
     const n = x => Number(x||0).toLocaleString("it-IT");
     const day = fmtDate(d.data);
     const late = d.data && d.data !== new Date().toLocaleDateString("sv-SE", {timeZone:"Europe/Rome"});
@@ -505,7 +537,12 @@ body{margin:0;min-height:100vh;overscroll-behavior-y:none}
       const shopGoals = (x.negozi||[]).flatMap(s => (s.consigliati||[]).slice(0,4).map(g => `${g}`));
       const shared = (x.negozi||[]).filter(s => !s.proprio && s.cc).map(s => `Medaglie per ${s.nome} (fino a ${n(s.cc)} CC in tutto)`);
       const prizes = Object.entries(x.altri_premi||{}).slice(0,5).map(([k,v]) => `${k} ×${n(v)}`);
-      return `<article class="ev ${x.priorita===1?"p1":""}">
+      const mk = marks[String(x.id)];
+      const acts = !segnabile(x) ? "" : mk
+        ? `<div class="acts"><button type="button" data-mark="reset" data-id="${esc(x.id)}">Ripristina</button></div>`
+        : `<div class="acts"><button type="button" class="done" data-mark="fatto" data-id="${esc(x.id)}" aria-label="Segna ${esc(x.nome)} come fatto">✓ Fatto</button><button type="button" class="skip" data-mark="scartato" data-id="${esc(x.id)}" aria-label="Scarta ${esc(x.nome)}">Scarta</button></div>`;
+      return `<article class="ev ${x.priorita===1?"p1":""} ${mk ? "marked" : ""}">
+        ${mk ? `<span class="stamp ${mk.stato === "scartato" ? "skip" : ""}">${mk.stato === "fatto" ? "Fatto" : "Scartato"}</span>` : ""}
         <h3>${esc(x.nome)}</h3>
         <div class="meta"><span class="tag">${esc(x.tipo)}</span>${cc ? `<span class="tag cc">${n(cc)} CC</span>` : ""}
           <span class="tag ${!x.lungo && x.ore_rimaste<=48 ? "warn" : ""}">${x.lungo ? "fino a " + esc(x.fine) : "scade " + esc(x.fine)}</span>
@@ -514,15 +551,18 @@ body{margin:0;min-height:100vh;overscroll-behavior-y:none}
         
         ${prizes.length ? `<div><span class="label">Premi</span><ul>${prizes.map(p => `<li>${esc(p)}</li>`).join("")}</ul></div>` : ""}
         ${shopGoals.length || shared.length ? `<details class="more"><summary><span class="closed">A cosa puntare nel negozio ▾</span><span class="opened">A cosa puntare nel negozio ▴</span></summary><ul>${shared.concat(shopGoals).map(g => `<li>${esc(g)}</li>`).join("")}</ul></details>` : ""}
-        <a href="${esc(x.link)}" target="_blank" rel="noopener">Dettagli su dblegends.net →</a>
+        <div class="foot"><a href="${esc(x.link)}" target="_blank" rel="noopener">Dettagli su dblegends.net →</a>${acts}</div>
       </article>`;
     };
     const ev = d.eventi || [];
     const empty = t => `<div class="empty">${t}</div>`;
     [[1,"#ev-p1","Oggi nessun evento urgente."],[2,"#ev-p2","Nessun evento in questa fascia."],[3,"#ev-p3","Nessun evento lungo."]].forEach(([p,sel,t]) => {
-      const xs = ev.filter(x => x.priorita === p);
+      const all = ev.filter(x => x.priorita === p);
+      const xs = all.filter(x => !marks[String(x.id)]), hid = all.filter(x => marks[String(x.id)]);
       counts[["","eventi-oggi","eventi-settimana","eventi-quando"][p]] = xs.length;
-      $(sel).innerHTML = xs.length ? `<div class="ev-list">${xs.map(card).join("")}</div>` : empty(t);
+      const bar = hid.length ? `<div class="hidden-bar"><span>${hid.length === 1 ? "1 evento segnato come fatto o scartato" : hid.length + " eventi segnati come fatti o scartati"}</span><button type="button" data-toggle-hidden>${showHidden ? "Nascondi" : "Mostra"}</button></div>` : "";
+      $(sel).innerHTML = (xs.length ? `<div class="ev-list">${xs.map(card).join("")}</div>` : empty(hid.length ? "Hai sistemato tutto in questa sezione." : t))
+        + bar + (showHidden && hid.length ? `<div class="ev-list">${hid.map(card).join("")}</div>` : "");
     });
     const soon = d.prossimi || [];
     counts["eventi-arrivo"] = soon.length;
