@@ -125,6 +125,20 @@ details.more[open] summary .closed,details.more:not([open]) summary .opened{disp
 .check details summary{min-height:28px;font-size:13px}
 .check details p{font-size:13.5px;color:var(--muted)}
 
+.path{gap:10px}
+.path-list{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.path-list li{display:grid;grid-template-columns:28px minmax(0,1fr) auto;gap:10px;align-items:start;padding:8px 10px;border-radius:10px}
+.path-list li.now{background:var(--accent-soft)}
+.path-list .n{font-family:var(--f-display);font-weight:700;width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font-size:14px;background:var(--sunk);color:var(--muted)}
+.path-list li.now .n{background:var(--accent);color:var(--surface)}
+.path-list li.done .n{background:var(--ok-soft);color:var(--ok)}
+.path-list strong{display:block;font-weight:600;font-size:14.5px}
+.path-list li:not(.now) strong{color:var(--muted)}
+.path-list .pg{font-size:13px;color:var(--muted)}
+.path-list .st{font-size:11.5px;font-weight:600;padding:2px 8px;border-radius:999px;background:var(--sunk);color:var(--muted);white-space:nowrap}
+.path-list li.now .st{background:var(--surface);color:var(--accent)}
+.path-list li.done .st{background:var(--ok-soft);color:var(--ok)}
+
 /* Errori */
 .sum{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
 .sum .chip{font-weight:600}
@@ -230,6 +244,10 @@ body{margin:0;min-height:100vh;overscroll-behavior-y:none}
             <div class="meter" id="f-meter" hidden><div class="segs" id="f-segs"></div><span id="f-prog"></span></div>
           </div>
         </article>
+        <div class="panel path" id="f-path-panel" hidden>
+          <div class="panel-h"><h3>Il percorso</h3><span class="muted small">si passa alla successiva dopo 3 partite riuscite di fila</span></div>
+          <ol class="path-list" id="f-path"></ol>
+        </div>
         <div class="panel">
           <h2>In partita</h2>
           <ol class="steps" id="f-do"></ol>
@@ -349,6 +367,12 @@ body{margin:0;min-height:100vh;overscroll-behavior-y:none}
         $("#f-prog").textContent = `${pr.done} di ${pr.of} partite`;
         $("#f-meter").setAttribute("aria-label", `${pr.done} partite riuscite su ${pr.of}`);
       }
+      const path = f.path || [];
+      $("#f-path-panel").hidden = !path.length;
+      $("#f-path").innerHTML = path.map((x,i) => {
+        const c = x.state === "in corso" ? "now" : x.state === "fatta" ? "done" : "";
+        return `<li class="${c}"><span class="n">${c === "done" ? "✓" : i+1}</span><div><strong>${esc(x.title)}</strong>${x.goal && c !== "now" ? `<span class="pg">${esc(x.goal)}</span>` : ""}</div><span class="st">${esc(x.state || "prossima")}</span></li>`;
+      }).join("");
       $("#f-watch").innerHTML = (f.watch||[]).map(s => `<li>${esc(s)}</li>`).join("");
       $("#f-watch-row").hidden = !(f.watch||[]).length;
       $("#f-note").textContent = f.note || "";

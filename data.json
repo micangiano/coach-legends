@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T18:47:03+0000",
+ "updated": "2026-11-22T18:49:10+0000",
  "profile": {
   "name": "Il tuo coach",
   "goal": "difesa e cambi: perdere meno personaggi, soprattutto quelli che non rinascono",
@@ -21,6 +21,23 @@
     "Senza vanish non restare in campo con il fragile: cambia."
    ],
    "note": "Fragile = chi non rinasce, non ha Endurance o ha pochi HP.",
+   "path": [
+    {
+     "title": "Il personaggio fragile entra solo per attaccare",
+     "state": "in corso",
+     "goal": "Il fragile sopra il 90% degli HP dopo 2 minuti, in 3 partite di fila."
+    },
+    {
+     "title": "Chi incassa: dentro la combo e prima dei colpi grossi",
+     "state": "prossima",
+     "goal": "Nessun KO di un personaggio senza rinascita dentro una combo avversaria o per Ultimate e Rising Rush, in 3 partite di fila."
+    },
+    {
+     "title": "Chiudere le partite",
+     "state": "prossima",
+     "goal": "Nessun avversario sotto i 500k lasciato scappare e timer gestito sui danni, in 3 partite di fila."
+    }
+   ],
    "progress": {
     "done": 1,
     "of": 3
