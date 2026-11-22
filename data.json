@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T18:49:10+0000",
+ "updated": "2026-11-22T18:55:04+0000",
  "profile": {
   "name": "Il tuo coach",
   "goal": "difesa e cambi: perdere meno personaggi, soprattutto quelli che non rinascono",
@@ -38,6 +38,7 @@
      "goal": "Nessun avversario sotto i 500k lasciato scappare e timer gestito sui danni, in 3 partite di fila."
     }
    ],
+   "point": "Apri con chi può incassare: il fragile entra solo quando hai l'iniziativa ed esce appena ha fatto il suo lavoro.",
    "progress": {
     "done": 1,
     "of": 3
@@ -76,100 +77,119 @@
    {
     "rule": "Il personaggio fragile non apre e non incassa",
     "how": "Apri con chi può incassare; il personaggio fragile entra con l'iniziativa ed esce appena viene sigillato.",
-    "source": "Partite dei pro"
+    "source": "Partite dei pro",
+    "cat": "cambi"
    },
    {
     "rule": "Cambia solo a combo tua finita",
     "how": "Il momento migliore è subito dopo la tua Special, con l'avversario a terra.",
-    "source": "Partite dei pro"
+    "source": "Partite dei pro",
+    "cat": "cambi"
    },
    {
     "rule": "Fai entrare chi ha il vantaggio di elemento",
     "how": "Prima di cambiare guarda il colore di chi c'è dall'altra parte, e controlla che non abbia l'elemento neutro attivo.",
-    "source": "Partite dei pro"
+    "source": "Partite dei pro",
+    "cat": "cambi"
    },
    {
     "rule": "I colpi grossi li prende chi rinasce o il più sano",
     "how": "Prima dell'Ultimate o del Rising Rush avversario, metti in campo chi può permetterselo.",
-    "source": "Partite dei pro"
+    "source": "Partite dei pro",
+    "cat": "cambi"
    },
    {
     "rule": "Prima fai cadere l'Endurance, poi l'Ultimate",
     "how": "Se l'avversario ha Endurance o rinascita attive, falle scattare con un colpo meno importante o annullale: un'Ultimate contro l'Endurance lo lascia a 1 HP.",
-    "source": "Partite dei pro"
+    "source": "Partite dei pro",
+    "cat": "chiudere"
    },
    {
     "rule": "Leggi il kit avversario prima di agire",
     "how": "Prima di Rising Rush, Ultimate e cambi chiediti: rientra presto? ha seconde vite? ha Overdrive, ki, carte, Main Ability?",
-    "source": "Partite dei pro"
+    "source": "Partite dei pro",
+    "cat": "difesa"
    },
    {
     "rule": "Rising Rush avversario: prevedi la carta",
     "how": "Non subirlo: scegli la carta che pensi sceglierà lui.",
-    "source": "Partite dei pro"
+    "source": "Partite dei pro",
+    "cat": "difesa"
    },
    {
     "rule": "Con il timer, gioca per i danni",
     "how": "Se sei avanti nei danni, nel finale non rischiare.",
-    "source": "Partite dei pro"
+    "source": "Partite dei pro",
+    "cat": "chiudere"
    },
    {
     "rule": "Strike a media distanza solo a inizio o fine dello step avversario",
     "how": "Lì può schivare con un vanish normale ma non con un Perfect Vanish: non ti punisce gratis. Mai una Strike a media distanza \"a freddo\".",
-    "source": "Guida PvP di un giocatore top"
+    "source": "Guida PvP di un giocatore top",
+    "cat": "attacco"
    },
    {
     "rule": "Dopo un tuo Perfect Vanish, Strike subito",
     "how": "Il PV si riconosce da un'aura più grande ed esplosiva: dopo, una Strike va a segno anche se l'avversario ha il vanish.",
-    "source": "Guida PvP di un giocatore top"
+    "source": "Guida PvP di un giocatore top",
+    "cat": "attacco"
    },
    {
     "rule": "Senza vanish, cambia",
     "how": "Fuori dalla combo, senza vanish una Strike avversaria ti prende di sicuro: cambia invece di restare per usare l'Ultimate. Chi entra ha il vanish pieno.",
-    "source": "Guida PvP di un giocatore top"
+    "source": "Guida PvP di un giocatore top",
+    "cat": "cambi"
    },
    {
     "rule": "Usa l'abilità di ingresso e la Main al momento giusto",
     "how": "Se un personaggio può fermare il tempo, sigillare o distruggere carte, usalo per leggere l'avversario o togliergli opzioni: senza carte può solo schivare.",
-    "source": "Guida PvP di un giocatore top"
+    "source": "Guida PvP di un giocatore top",
+    "cat": "attacco"
    },
    {
     "rule": "Prima il Rising Rush, poi l'Overdrive",
     "how": "Se ti schiva il Rising Rush puoi ancora lanciare l'Overdrive; se ti schiva l'Overdrive resti scoperto. Overdrive avversario schivato → Strike subito.",
-    "source": "Guida PvP di un giocatore top"
+    "source": "Guida PvP di un giocatore top",
+    "cat": "chiudere"
    },
    {
     "rule": "Rising Rush dentro la tua combo",
     "how": "Dentro una tua combo parte di sicuro (salvo Special Cover Change \"Unique\"), ma la carta va comunque indovinata. Fuori combo solo se l'avversario è senza vanish e non può cambiare (circa 10 s dall'ultimo cambio).",
     "example": "Video ufficiale 2:14–2:52.",
-    "source": "Bandai Namco · Guida ufficiale PvP"
+    "source": "Bandai Namco · Guida ufficiale PvP",
+    "cat": "chiudere"
    },
    {
     "rule": "Niente vanish sui Tap Shot",
     "how": "I colpi d'energia a tocco da lontano servono a farti sprecare il vanish: evitali spostandoti a destra e sinistra.",
     "example": "Video ufficiale 1:38–1:58.",
-    "source": "Bandai Namco · Guida ufficiale PvP"
+    "source": "Bandai Namco · Guida ufficiale PvP",
+    "cat": "difesa"
    },
    {
     "rule": "Tieni sempre un compagno pronto (o incassa col colore favorevole)",
     "how": "Il cambio ricarica il vanish: guarda i sub counts. Se chi è in campo ha il vantaggio di elemento, a volte conviene incassare invece di cambiare.",
     "example": "Video ufficiale 1:01–1:30.",
-    "source": "Bandai Namco · Guida ufficiale PvP"
+    "source": "Bandai Namco · Guida ufficiale PvP",
+    "cat": "cambi"
    },
    {
     "rule": "Sidestep combo e charge step combo",
     "how": "Lo scatto è il flick in su. Strike → scatto → swipe laterale → carta: confonde il cover avversario, ricarica un po' il vanish, fa pescare. Blast vicina → scatto → carica fino al 2° livello → carta: ricarica tanto ki.",
     "example": "Video ufficiale 4:58–7:02.",
-    "source": "Bandai Namco · Guida ufficiale PvP"
+    "source": "Bandai Namco · Guida ufficiale PvP",
+    "cat": "attacco"
    },
    {
     "rule": "Tap Attack a 3 tocchi a tempo, Blast cancel",
     "how": "Non martellare lo schermo: con 3 tocchi a tempo puoi rispondere allo step avversario. Flick in su poco prima della fine della Blast annulla il recupero (poi tap, step o Rising Rush).",
     "example": "Video ufficiale 3:22–4:56.",
-    "source": "Bandai Namco · Guida ufficiale PvP"
+    "source": "Bandai Namco · Guida ufficiale PvP",
+    "cat": "attacco"
    }
   ],
   "proNote": "Regole viste nelle partite di giocatori top e nella guida PvP ufficiale di Bandai Namco. Anche i pro sbagliano: Special prese in pieno, Overdrive \"Failure\", tocchi non registrati.",
+  "proPoint": "Cambia a combo finita e fai incassare chi rinasce: il personaggio fragile entra solo per attaccare.",
   "recurring": [
    {
     "title": "Dentro la combo avversaria entra chi non può pagarla",
