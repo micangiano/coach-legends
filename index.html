@@ -498,14 +498,12 @@ body{margin:0;min-height:100vh;overscroll-behavior-y:none}
   }
 
   /* Eventi segnati come fatti o scartati: restano su questo dispositivo (localStorage).
-     Solo eventi da una parte sola o storie (anche lunghe), mai quelli da fare ogni giorno. */
+     Si possono segnare tutti gli eventi. */
   const MARK_KEY = "coach-legends-eventi";
   let marks = {}, lastEvents = null, showHidden = false;
   try { marks = JSON.parse(localStorage.getItem(MARK_KEY) || "{}") || {}; } catch(e){ marks = {}; }
   const saveMarks = () => { try { localStorage.setItem(MARK_KEY, JSON.stringify(marks)); } catch(e){} };
-  const RIPETUTI = ["Rush","Raid","Co-op","Doppio premio","Weekend","PvP"];
-  const segnabile = x => (x.stage === 1 || x.tipo === "Storia/evento") && !RIPETUTI.includes(x.tipo) && !/every\s*day|daily|login|ogni giorno/i.test(x.nome || "")
-    && !(x.negozi||[]).some(n => /medal/i.test(n.nome || ""));  // eventi da rigiocare per raccogliere medaglie
+  const segnabile = x => true;  // scelta dell'utente (22/11): tutti gli eventi si possono segnare
   document.addEventListener("click", e => {
     const b = e.target.closest("[data-mark]");
     if(b){
