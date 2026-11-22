@@ -284,7 +284,7 @@ body{margin:0;min-height:100vh;overscroll-behavior-y:none}
     $("#pchips").innerHTML =
       (p.rank ? `<span class="chip rank">${esc(p.rank)}</span>` : "") +
       (matches.length ? `<span class="chip win">${w} V</span><span class="chip loss">${l} S</span>` : "") +
-      (p.team || []).map(t => `<span class="chip">${esc(t)}</span>`).join("");
+      "";
   }
 
   function renderProfile(p){
@@ -344,7 +344,7 @@ body{margin:0;min-height:100vh;overscroll-behavior-y:none}
           <span class="tag ${!x.lungo && x.ore_rimaste<=48 ? "warn" : ""}">${x.lungo ? "fino a " + esc(x.fine) : "scade " + esc(x.fine)}</span>
           ${x.stamina ? `<span class="tag">stamina ${n(x.stamina)}</span>` : ""}</div>
         <span class="why">${esc(x.motivo)}</span>
-        ${(x.squadra||[]).length ? `<div class="team"><strong>Per la tua squadra:</strong> ${esc(x.squadra.slice(0,3).join(" · "))}</div>` : ""}
+        
         ${prizes.length ? `<div><span class="label">Premi</span><ul>${prizes.map(p => `<li>${esc(p)}</li>`).join("")}</ul></div>` : ""}
         ${shopGoals.length || shared.length ? `<details class="more"><summary><span class="closed">A cosa puntare nel negozio ▾</span><span class="opened">A cosa puntare nel negozio ▴</span></summary><ul>${shared.concat(shopGoals).map(g => `<li>${esc(g)}</li>`).join("")}</ul></details>` : ""}
         <a href="${esc(x.link)}" target="_blank" rel="noopener">Dettagli su dblegends.net →</a>

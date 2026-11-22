@@ -1,230 +1,203 @@
 {
- "updated": "2026-11-22T18:34:37+0000",
+ "updated": "2026-11-22T18:38:41+0000",
  "profile": {
+  "name": "Il tuo coach",
+  "goal": "difesa e cambi: perdere meno personaggi, soprattutto quelli che non rinascono",
+  "focus": {
+   "title": "Il personaggio fragile entra solo per attaccare",
+   "status": "Tecnica 1 di 3",
+   "when": "A ogni partita, dal primo secondo, e ogni volta che stai per far entrare il personaggio che non rinasce o che ha pochi HP.",
+   "where": "Apri con chi può incassare (rinasce o ha molti HP). Il personaggio fragile resta in panchina finché non hai l'iniziativa.",
+   "steps": [
+    "Apri con un personaggio resistente: meglio se rinasce quando va KO.",
+    "Se un compagno ha un effetto all'ingresso (blocco dei cambi, carte distrutte), fallo entrare con un cambio, non in apertura.",
+    "Il personaggio fragile entra a combo avversaria finita o subito dopo un tuo colpo. Appena ha fatto il suo lavoro (sigillo, danno, buff), esci.",
+    "Prima di chiudere con l'Ultimate, togli all'avversario l'Endurance o le protezioni: altrimenti resta a 1 HP."
+   ],
+   "goal": "Il personaggio fragile sopra il 90% degli HP dopo i primi 2 minuti, in 3 partite di fila.",
+   "watch": [
+    "Rising Rush avversario pronto: il personaggio fragile non deve essere in campo.",
+    "Ultimate contro un nemico con l'Endurance = sprecata.",
+    "Se l'avversario annulla il tuo cover, chi doveva proteggerti non incassa."
+   ],
+   "note": "Lavora su una tecnica alla volta: quando l'obiettivo è raggiunto in 3 partite di fila, passa alla successiva."
+  },
   "checklist": [
    {
-    "a": "Lì niente vanish (priorità). Il divieto sui compagni vuol dire che il cambio non ferma la combo: chi entra paga il resto. Resta chi rinasce (prima vita) o Broly col gauge quasi pieno; esce Cooler; entra chi rinasce o ha molti HP. Se cambi, cambia presto.",
-    "q": "Sono dentro la combo avversaria?"
+    "q": "Sono dentro la combo avversaria?",
+    "a": "Lì niente vanish. Se c'è il divieto, il cambio non ferma la combo: chi entra paga il resto. Resta chi rinasce o chi ha molti HP; esce il personaggio fragile. Se cambi, cambia presto."
    },
    {
-    "a": "Solo se: la mia combo è finita · sono sigillato · il colore mi è favorevole (e l'avversario non ha l'elemento neutro attivo) · sono ferito dopo un colpo grosso · sono senza vanish.",
-    "q": "Fuori dalla combo: perché cambio?"
+    "q": "Fuori dalla combo: perché cambio?",
+    "a": "Solo se: la mia combo è finita · sono sigillato · il colore mi è favorevole (e l'avversario non ha l'elemento neutro attivo) · sono ferito dopo un colpo grosso · sono senza vanish."
    },
    {
-    "a": "Goku o Gohan nella prima vita, Broly se il cover funziona. Mai Cooler.",
-    "q": "Chi entra può incassare?"
+    "q": "Chi entra può incassare?",
+    "a": "Chi rinasce (prima vita) o chi ha più HP. Mai il personaggio fragile."
    },
    {
-    "a": "Dopo metà partita consideralo sempre sì → in campo chi rinasce.",
-    "q": "L'avversario ha Rising Rush o Ultimate pronti?"
+    "q": "L'avversario ha Rising Rush o Ultimate pronti?",
+    "a": "Dopo metà partita consideralo sempre sì → in campo chi rinasce o il più sano."
    }
   ],
-  "focus": {
-   "goal": "Cooler sopra i 2,2M di HP (90%: il massimo è 2,47M) dopo i primi 2 minuti, in 3 partite di fila. Progresso: 1/3 (19/11 ✅).",
-   "note": "Verificata il 19/11 vs A18isThicc: Goku apre, Broly entra con un cambio, Cooler 3 ingressi con combo 27/44/53 senza perdere HP. Partita persa dopo: 2 volte dentro una combo è entrato chi non poteva pagarla (Broly a 2:48, Cooler a 5:36).",
-   "status": "Tecnica 1 di 3 · 1 partita su 3",
-   "steps": [
-    "Apri con Goku: parte con il gauge pieno (Strike +50%) e, se va KO, rinasce SSJ con il vanish nemico a zero.",
-    "Fai entrare Broly con un cambio, non in apertura: solo così blocca i cambi nemici per 3 counts e distrugge una carta. Esempio: combo avversaria finita → entra Broly.",
-    "Cooler entra a combo avversaria finita o dopo un tuo colpo. Il primo colpo che prende sigilla Special e Rising Rush nemiche per 5 counts: dopo quel colpo esci. Esempio Goresh: carte sigillate → cambio immediato.",
-    "Per chiudere: gauge di Cooler al livello 3 (toglie l'Endurance), poi Main Ability + Ultimate. Esempio Goresh: così fa 2 KO in 4 secondi."
-   ],
-   "title": "Cooler entra solo per attaccare",
-   "watch": [
-    "Rising Rush avversario pronto (soprattutto Gogeta): Cooler non deve essere in campo. A Goresh lo ha ucciso a HP pieni (12,7M).",
-    "Ultimate contro un nemico con l'Endurance = sprecata: Goresh ha lasciato Omega a 1 HP.",
-    "Se l'avversario annulla il tuo cover (es. i Vegito), Broly non incassa: −2,27M il 16/11 (3)."
-   ],
-   "when": "A ogni partita, dal primo secondo, e ogni volta che stai per far entrare Cooler.",
-   "where": "Apri con Goku. Broly entra con un cambio. Cooler resta in panchina finché non hai l'iniziativa."
-  },
-  "goal": "difesa e cambi: perdere meno personaggi, soprattutto Cooler (non rinasce)",
-  "name": "Anam",
+  "strengths": [
+   "Rising K.O. frequenti",
+   "Aperture più solide: dopo 1:30 squadra a HP pieni",
+   "Combo lunghe (oltre 70 colpi)",
+   "Sangue freddo nei finali: vittorie negli ultimi secondi",
+   "Difesa in crescita: più vanish e Rising Rush avversario indovinato"
+  ],
   "pro": [
    {
-    "example": "Goresh apre 4 volte su 4 con Android 13; il suo Cooler finisce 3 partite su 4 sopra 1,7M.",
-    "how": "Apri con chi può incassare; Cooler entra con l'iniziativa ed esce appena viene sigillato.",
-    "rule": "Cooler non apre e non incassa",
-    "source": "Goresh · Ultra Cooler"
+    "rule": "Il personaggio fragile non apre e non incassa",
+    "how": "Apri con chi può incassare; il personaggio fragile entra con l'iniziativa ed esce appena viene sigillato.",
+    "source": "Partite dei pro"
    },
    {
-    "example": "Kyne 0:59: Special di Goku bambino, avversario a terra → entra Goku SSJ4 a HP pieni.",
-    "how": "Il momento migliore è subito dopo la tua Special, con l'avversario a terra.",
     "rule": "Cambia solo a combo tua finita",
-    "source": "Kyne · Goku SSJ4"
+    "how": "Il momento migliore è subito dopo la tua Special, con l'avversario a terra.",
+    "source": "Partite dei pro"
    },
    {
-    "example": "Kyne: Goku bambino (verde) contro Gogeta Blu e Vegeta Blu (blu).",
-    "how": "Prima di cambiare guarda il colore di chi c'è dall'altra parte.",
     "rule": "Fai entrare chi ha il vantaggio di elemento",
-    "source": "Kyne · Goku SSJ4"
+    "how": "Prima di cambiare guarda il colore di chi c'è dall'altra parte.",
+    "source": "Partite dei pro"
    },
    {
-    "example": "Kyne: Bulla a HP pieni prende Ultimate e Rising Rush di Omega e resta in piedi; Goku SSJ4 ferito resta fuori.",
-    "how": "Prima dell'Ultimate o del Rising Rush avversario, metti in campo chi può permetterselo.",
     "rule": "I colpi grossi li prende chi rinasce o il più sano",
-    "source": "Kyne · Goku SSJ4"
+    "how": "Prima dell'Ultimate o del Rising Rush avversario, metti in campo chi può permetterselo.",
+    "source": "Partite dei pro"
    },
    {
-    "example": "Goresh: Ultimate contro l'Endurance = Omega a 1 HP; nell'ordine giusto = 2 KO in 4 secondi.",
-    "how": "Con Cooler: gauge al livello 3 (toglie l'Endurance), poi Main Ability + Ultimate.",
     "rule": "Prima l'Endurance, poi l'Ultimate",
-    "source": "Goresh · Ultra Cooler"
+    "how": "Togli all'avversario l'Endurance o le protezioni prima di lanciare l'Ultimate, altrimenti resta a 1 HP.",
+    "source": "Partite dei pro"
    },
    {
-    "example": "Goresh: \"Gogeta rientra tra 7 secondi\", \"due seconde vite senza Endurance\", \"ha Overdrive? ki? carte? Main?\"",
-    "how": "Prima di Rising Rush, Ultimate e cambi chiediti cosa può fare l'avversario.",
     "rule": "Leggi il kit avversario prima di agire",
-    "source": "Goresh · Ultra Cooler"
+    "how": "Prima di Rising Rush, Ultimate e cambi chiediti: rientra presto? ha seconde vite? ha Overdrive, ki, carte, Main Ability?",
+    "source": "Partite dei pro"
    },
    {
-    "example": "Kyne lo difende 3 volte su 3 nelle partite in cui arriva.",
-    "how": "Non subirlo: scegli la carta che pensi sceglierà lui.",
     "rule": "Rising Rush avversario: prevedi la carta",
-    "source": "Kyne · Goku SSJ4"
+    "how": "Non subirlo: scegli la carta che pensi sceglierà lui.",
+    "source": "Partite dei pro"
    },
    {
-    "example": "Goresh vince 33,6M a 14,2M al TIME UP.",
-    "how": "Se sei avanti nei danni, nel finale non rischiare.",
     "rule": "Con il timer, gioca per i danni",
-    "source": "Goresh · Ultra Cooler"
+    "how": "Se sei avanti nei danni, nel finale non rischiare.",
+    "source": "Partite dei pro"
    },
    {
-    "example": "Goresh 8:05 e 54:25: \"può fare vanish, ma non Perfect Vanish\".",
-    "how": "Lì può schivare con un vanish normale ma non con un Perfect Vanish: non ti punisce gratis. Mai una Strike a media distanza \"a freddo\".",
     "rule": "Strike a media distanza solo a inizio o fine dello step avversario",
-    "source": "Goresh · Guida PvP 2"
+    "how": "Lì può schivare con un vanish normale ma non con un Perfect Vanish: non ti punisce gratis. Mai una Strike a media distanza \"a freddo\".",
+    "source": "Guida PvP di un giocatore top"
    },
    {
-    "example": "Il principiante di Goresh spreca 3 PV su 4 senza attaccare (17:59, 20:42, 50:31).",
-    "how": "Il PV si riconosce da un'aura più grande ed esplosiva. Senza vanish e fuori da una combo, cambia invece di restare per usare l'Ultimate.",
     "rule": "Dopo un tuo Perfect Vanish, Strike subito",
-    "source": "Goresh · Guida PvP 2"
+    "how": "Il PV si riconosce da un'aura più grande ed esplosiva. Senza vanish e fuori da una combo, cambia invece di restare per usare l'Ultimate.",
+    "source": "Guida PvP di un giocatore top"
    },
    {
-    "example": "Gauge pieno di Broly: Main e Rising Rush avversari sigillati 15 counts (icona rossa sotto la sua barra).",
-    "how": "La verde ferma il tempo: vedi se l'avversario attacca (\"!\") o fa step. Ogni forma ha la sua Main. La blu distrugge la mano: senza carte l'avversario può solo schivare.",
-    "rule": "Broly: verde per leggere, Main prima di trasformarti, blu → scatto → Strike",
-    "source": "Goresh · Guida PvP 2"
+    "rule": "Usa l'abilità di ingresso e la Main al momento giusto",
+    "how": "Se un personaggio può fermare il tempo, sigillare o distruggere carte, usalo per leggere l'avversario o togliergli opzioni: senza carte può solo schivare.",
+    "source": "Guida PvP di un giocatore top"
    },
    {
-    "example": "Goresh 24:46: senza cambi, con blu, Rush e Overdrive in mano, la scelta giusta era il Rush.",
-    "how": "Se ti schiva il Rising Rush puoi ancora lanciare l'Overdrive; se ti schiva l'Overdrive resti scoperto. Overdrive avversario schivato → Strike subito.",
     "rule": "Prima il Rising Rush, poi l'Overdrive",
-    "source": "Goresh · Guida PvP 2"
+    "how": "Se ti schiva il Rising Rush puoi ancora lanciare l'Overdrive; se ti schiva l'Overdrive resti scoperto. Overdrive avversario schivato → Strike subito.",
+    "source": "Guida PvP di un giocatore top"
    },
    {
-    "example": "Video ufficiale 2:14–2:52. Per Anam: il 16/11 il Rising Rush pronto non è stato usato nell'ultimo scontro.",
-    "how": "Dentro una tua combo parte di sicuro (salvo Special Cover Change \"Unique\"), ma la carta va comunque indovinata. Fuori combo solo se l'avversario è senza vanish e non può cambiare (circa 10 s dall'ultimo cambio): altrimenti cambia e chi entra lo schiva.",
     "rule": "Rising Rush dentro la tua combo",
+    "how": "Dentro una tua combo parte di sicuro (salvo Special Cover Change \"Unique\"), ma la carta va comunque indovinata. Fuori combo solo se l'avversario è senza vanish e non può cambiare (circa 10 s dall'ultimo cambio).",
+    "example": "Video ufficiale 2:14–2:52.",
     "source": "Bandai Namco · Guida ufficiale PvP"
    },
    {
-    "example": "Video ufficiale 1:38–1:58: \"Tap Shots can be avoided simply by moving side to side\".",
-    "how": "I colpi d'energia a tocco da lontano servono a farti sprecare il vanish: evitali spostandoti a destra e sinistra.",
     "rule": "Niente vanish sui Tap Shot",
+    "how": "I colpi d'energia a tocco da lontano servono a farti sprecare il vanish: evitali spostandoti a destra e sinistra.",
+    "example": "Video ufficiale 1:38–1:58.",
     "source": "Bandai Namco · Guida ufficiale PvP"
    },
    {
-    "example": "Video ufficiale 1:01–1:30.",
-    "how": "Il cambio ricarica il vanish: guarda i sub counts. Se chi è in campo ha il vantaggio di elemento, a volte conviene incassare invece di cambiare.",
     "rule": "Tieni sempre un compagno pronto (o incassa col colore favorevole)",
+    "how": "Il cambio ricarica il vanish: guarda i sub counts. Se chi è in campo ha il vantaggio di elemento, a volte conviene incassare invece di cambiare.",
+    "example": "Video ufficiale 1:01–1:30.",
     "source": "Bandai Namco · Guida ufficiale PvP"
    },
    {
-    "example": "Video ufficiale 4:58–7:02. Tu usi già il Blast cancel: allena prima la charge step (Cooler a ki 0 il 10/09) e lo Strike cancel.",
+    "rule": "Sidestep combo e charge step combo",
     "how": "Lo scatto è il flick in su. Strike → scatto → swipe laterale → carta: confonde il cover avversario, ricarica un po' il vanish, fa pescare. Blast vicina → scatto → carica fino al 2° livello → carta: ricarica tanto ki.",
-    "rule": "Sidestep combo e charge step combo (da allenare)",
+    "example": "Video ufficiale 4:58–7:02.",
     "source": "Bandai Namco · Guida ufficiale PvP"
    },
    {
-    "example": "Video ufficiale 3:22–4:56.",
-    "how": "Non martellare lo schermo: con 3 tocchi a tempo puoi rispondere allo step avversario. Flick in su poco prima della fine della Blast annulla il recupero (poi tap, step o Rising Rush).",
     "rule": "Tap Attack a 3 tocchi a tempo, Blast cancel",
+    "how": "Non martellare lo schermo: con 3 tocchi a tempo puoi rispondere allo step avversario. Flick in su poco prima della fine della Blast annulla il recupero (poi tap, step o Rising Rush).",
+    "example": "Video ufficiale 3:22–4:56.",
     "source": "Bandai Namco · Guida ufficiale PvP"
    }
   ],
-  "proNote": "Regole viste in 8 partite di Kyne (Goku SSJ4) e Goresh (Ultra Cooler, squadra quasi uguale alla tua), più la guida PvP di Goresh (20/11: commenta 3 partite di un principiante con il tuo Broly: Fury) e il video ufficiale di Bandai Namco \"PvP Technique Guide\" (21/11, dai sottotitoli). Anche loro sbagliano: Special prese in pieno, Overdrive \"Failure\", tocchi non registrati.",
-  "rank": "Diamond",
+  "proNote": "Regole viste nelle partite di giocatori top e nella guida PvP ufficiale di Bandai Namco. Anche i pro sbagliano: Special prese in pieno, Overdrive \"Failure\", tocchi non registrati.",
   "recurring": [
    {
+    "title": "Dentro la combo avversaria entra chi non può pagarla",
+    "detail": "Dentro la combo il vanish non esiste e il divieto è quasi sempre acceso: il cambio non ferma la combo, chi entra paga il resto. Errore = far entrare chi ha pochi HP o chi non rinasce al posto di chi rinasce.",
     "count": 4,
-    "detail": "Dentro la combo il vanish non esiste (priorità) e il divieto è quasi sempre acceso: il cambio non ferma la combo, chi entra paga il resto. Errore = far entrare Cooler, chi ha pochi HP o chi non rinasce al posto di chi rinasce. Esempio: 19/11 a 2:48 Goku (prima vita, 1,98M) → Broly (1,09M): Broly KO; doveva incassare Goku, che rinasce.",
-    "level": "high",
-    "matches": "12/11 vs Treanz ×2 (1:09 Cooler, 1:22 Goku al posto di Gohan) · 16/11 (3) 3:53 · 19/11 2:48. Discutibili: 12/11 vs Treanz 0:55, 2:31 · 19/11 5:36",
-    "title": "Dentro la combo avversaria entra chi non può pagarla"
+    "level": "high"
    },
    {
+    "title": "Perdi il primo personaggio nei primi 60 secondi",
+    "detail": "Apri con chi può incassare e fai entrare il personaggio fragile solo quando hai l'iniziativa.",
     "count": 8,
-    "detail": "La tecnica \"Cooler entra solo per attaccare\" serve a questo. 19/11: 0 HP persi nei primi 80 s con la nuova apertura.",
-    "level": "high",
-    "matches": "10/09 · 04/10 · 08/11 · 12/11 ×2 · 16/11 ×3",
-    "title": "Perdi il primo personaggio nei primi 60 secondi"
+    "level": "high"
    },
    {
+    "title": "Resti in campo mentre subisci combo su combo",
+    "detail": "Alla seconda combo di fila: cambia (se non c'è il divieto) o vanish.",
     "count": 8,
-    "detail": "Alla seconda combo di fila: cambia (se non c'è il divieto) o vanish. Esempio: 16/11 (3) Cooler fino a 33 HP.",
-    "level": "high",
-    "matches": "25/07 · 10/09 · 08/11 · 12/11 · 16/11 (2) · 16/11 (3) ×2 · 19/11",
-    "title": "Resti in campo mentre subisci combo su combo"
+    "level": "high"
    },
    {
+    "title": "Personaggio senza rinascita perso per Ultimate o Rising Rush con HP alti",
+    "detail": "Quando l'avversario può lanciarli, in campo deve esserci chi rinasce (prima vita) o il più sano.",
     "count": 7,
-    "detail": "Quando l'avversario può lanciarli, in campo deve esserci Goku o Gohan nella prima vita.",
-    "level": "high",
-    "matches": "25/07 ×2 · 08/11 · 12/11 · 16/11 · 16/11 (2) · 16/11 (3)",
-    "title": "Personaggio senza rinascita perso per Ultimate o Rising Rush con HP alti"
+    "level": "high"
    },
    {
+    "title": "Ultimate avversaria annunciata e non rispettata",
+    "detail": "Se una Main Ability o un banner annuncia che l'avversario ha l'Ultimate in mano: vanish pronto e niente carte lunghe finché non la tira.",
     "count": 2,
-    "detail": "La Main Ability di Super Gogeta pesca \"Soul Punisher\": dal banner, vanish pronto e niente carte lunghe finché non la tira. Esempio: 19/11 a 6:00 Goku SSJ KO.",
-    "level": "high",
-    "matches": "16/11 (2) · 19/11",
-    "title": "Ultimate di Gogeta dopo \"Vanquish All Evil\" non rispettata"
+    "level": "high"
    },
    {
+    "title": "Sacrifichi chi non rinasce per salvare chi rinasce",
+    "detail": "Chi rinasce, nella prima vita, incassa lui: se va KO torna in campo.",
     "count": 2,
-    "detail": "Goku o Gohan nella prima vita incassano loro: se muoiono rinascono. Esempio: 19/11 Goku 1,98M → Broly 1,09M dentro la combo di Rosé, Broly KO.",
-    "level": "mid",
-    "matches": "12/11 vs Treanz (1:22) · 19/11 (2:48)",
-    "title": "Sacrifichi chi non rinasce per salvare chi rinasce"
+    "level": "mid"
    },
    {
-    "count": 1,
+    "title": "Avversario sotto i 500k lasciato scappare",
     "detail": "Se è sotto i 500k, chiudi subito con una Special o un Rising Rush prima che cambi e si curi.",
-    "level": "mid",
-    "matches": "16/11 (2)",
-    "title": "Avversario sotto i 500k lasciato scappare"
+    "count": 1,
+    "level": "mid"
    },
    {
+    "title": "Overdrive \"Choose a route\" sbagliato",
+    "detail": "Capita anche ai pro. Priorità bassa.",
     "count": 4,
-    "detail": "Capita anche ai pro (Goresh e Kyne). Priorità bassa.",
-    "level": "low",
-    "matches": "10/09 · 04/10 · 16/11 · 16/11 (3)",
-    "title": "Overdrive \"Choose a route\" sbagliato"
+    "level": "low"
    },
    {
+    "title": "Vanish usati poco (in miglioramento)",
+    "detail": "Tieni il vanish per le combo avversarie che puoi ancora interrompere.",
     "count": 2,
-    "detail": "Da 1 contro 4 (12/11) a 9 contro 9 (16/11 (2)).",
-    "level": "low",
-    "matches": "12/11 ×2",
-    "title": "Vanish usati poco (in miglioramento)"
+    "level": "low"
    }
   ],
-  "sampleNote": "10 tue partite analizzate (5 V, 5 S) + 8 partite dei pro studiate.",
-  "strengths": [
-   "Rising K.O. in 6 partite (da 4,4M a 11,8M; 19/11: 5,98M su Trunks)",
-   "Nuova apertura riuscita (19/11): dopo 1:30 tutti e tre a HP pieni",
-   "Combo lunghissime con Cooler (fino a 70–76 colpi)",
-   "Sangue freddo nei finali: due vittorie negli ultimi secondi",
-   "Difesa in crescita: vanish 9 contro 9 e Rising Rush avversario indovinato"
-  ],
-  "team": [
-   "Cooler ULTRA",
-   "Broly: Fury LEGEND",
-   "Goku LEGEND",
-   "Gohan SSJ (Youth)"
-  ]
+  "rank": "Diamond",
+  "sampleNote": "10 tue partite analizzate (5 V, 5 S) + 8 partite dei pro studiate."
  },
  "matches": [
   {
@@ -296,7 +269,7 @@
     "inizio": "mer 11/11 07:00",
     "link": "https://dblegends.net/event/60152",
     "lungo": false,
-    "motivo": "premi per la tua squadra",
+    "motivo": "premi Z Power / Zenkai per alcuni personaggi",
     "negozi": [
      {
       "cc": 0,
@@ -313,18 +286,12 @@
       ],
       "id": "40001",
       "nome": "Ultra Space-Time Rush",
-      "proprio": false,
-      "squadra": [
-       "Awakening Z Power [Super Saiyan Gohan (Youth)] ×100 (1 ZENKAI Rush Medal, max 70) → SSJ Gohan Youth SP Zenkai (tua squadra) (Zenkai)"
-      ]
+      "proprio": false
      }
     ],
     "nome": "ZENKAI Rush Battle - Pan: Trunks & Giru (Assist) -",
     "ore_rimaste": 60,
     "priorita": 1,
-    "squadra": [
-     "Awakening Z Power [Super Saiyan Gohan (Youth)] ×100 (1 ZENKAI Rush Medal, max 70) → SSJ Gohan Youth SP Zenkai (tua squadra) (Zenkai)"
-    ],
     "stage": 1,
     "stamina": 0,
     "tipo": "Rush"
@@ -342,7 +309,7 @@
     "inizio": "mer 11/11 07:00",
     "link": "https://dblegends.net/event/62000",
     "lungo": false,
-    "motivo": "premi per la tua squadra",
+    "motivo": "premi Z Power / Zenkai per alcuni personaggi",
     "negozi": [
      {
       "cc": 0,
@@ -359,18 +326,12 @@
       ],
       "id": "40001",
       "nome": "Ultra Space-Time Rush",
-      "proprio": false,
-      "squadra": [
-       "Awakening Z Power [Super Saiyan Gohan (Youth)] ×100 (1 ZENKAI Rush Medal, max 70) → SSJ Gohan Youth SP Zenkai (tua squadra) (Zenkai)"
-      ]
+      "proprio": false
      }
     ],
     "nome": "Platinum Rush - Super Gogeta -",
     "ore_rimaste": 60,
     "priorita": 1,
-    "squadra": [
-     "Awakening Z Power [Super Saiyan Gohan (Youth)] ×100 (1 ZENKAI Rush Medal, max 70) → SSJ Gohan Youth SP Zenkai (tua squadra) (Zenkai)"
-    ],
     "stage": 1,
     "stamina": 0,
     "tipo": "Rush"
@@ -404,14 +365,12 @@
       ],
       "id": "80130",
       "nome": "Mini-Raid Medal Exchange",
-      "proprio": false,
-      "squadra": []
+      "proprio": false
      }
     ],
     "nome": "Dragon Ball Super: Beerus Japanese Premiere Celebration! Exciting Bonus Mini Raid",
     "ore_rimaste": 36,
     "priorita": 2,
-    "squadra": [],
     "stage": 1,
     "stamina": 0,
     "tipo": "Raid"
@@ -439,14 +398,12 @@
       "consigliati": [],
       "id": "105601",
       "nome": "Double-Up Ticket #1 Exchange",
-      "proprio": true,
-      "squadra": []
+      "proprio": true
      }
     ],
     "nome": "Clear Tomorrow for 2x Rewards! Festival Double-Up Battle #1",
     "ore_rimaste": 132,
     "priorita": 2,
-    "squadra": [],
     "stage": 4,
     "stamina": 1,
     "tipo": "Doppio premio"
@@ -485,8 +442,7 @@
       ],
       "id": "50126",
       "nome": "Festival Medal 2026 (Silver) Exchange Shop",
-      "proprio": false,
-      "squadra": []
+      "proprio": false
      },
      {
       "cc": 1400,
@@ -503,14 +459,12 @@
       ],
       "id": "80136",
       "nome": "Black Friday Raid Medal Exchange Shop",
-      "proprio": true,
-      "squadra": []
+      "proprio": true
      }
     ],
     "nome": "Black Friday Raid 2026",
     "ore_rimaste": 228,
     "priorita": 2,
-    "squadra": [],
     "stage": 2,
     "stamina": 0,
     "tipo": "Raid"
@@ -534,7 +488,6 @@
     "nome": "Another Future! The Android Menace",
     "ore_rimaste": 228,
     "priorita": 2,
-    "squadra": [],
     "stage": 17,
     "stamina": 17,
     "tipo": "Storia/evento"
@@ -552,7 +505,7 @@
     "inizio": "mer 18/11 07:00",
     "link": "https://dblegends.net/event/40236",
     "lungo": false,
-    "motivo": "premi per la tua squadra",
+    "motivo": "premi Z Power / Zenkai per alcuni personaggi",
     "negozi": [
      {
       "cc": 0,
@@ -569,18 +522,12 @@
       ],
       "id": "40001",
       "nome": "Ultra Space-Time Rush",
-      "proprio": false,
-      "squadra": [
-       "Awakening Z Power [Super Saiyan Gohan (Youth)] ×100 (1 ZENKAI Rush Medal, max 70) → SSJ Gohan Youth SP Zenkai (tua squadra) (Zenkai)"
-      ]
+      "proprio": false
      }
     ],
     "nome": "ZENKAI Ultra Space-Time Rush",
     "ore_rimaste": 228,
     "priorita": 2,
-    "squadra": [
-     "Awakening Z Power [Super Saiyan Gohan (Youth)] ×100 (1 ZENKAI Rush Medal, max 70) → SSJ Gohan Youth SP Zenkai (tua squadra) (Zenkai)"
-    ],
     "stage": 13,
     "stamina": 0,
     "tipo": "Rush"
@@ -599,7 +546,7 @@
     "inizio": "sab 21/11 07:00",
     "link": "https://dblegends.net/event/60153",
     "lungo": false,
-    "motivo": "premi per la tua squadra",
+    "motivo": "premi Z Power / Zenkai per alcuni personaggi",
     "negozi": [
      {
       "cc": 0,
@@ -616,18 +563,12 @@
       ],
       "id": "40001",
       "nome": "Ultra Space-Time Rush",
-      "proprio": false,
-      "squadra": [
-       "Awakening Z Power [Super Saiyan Gohan (Youth)] ×100 (1 ZENKAI Rush Medal, max 70) → SSJ Gohan Youth SP Zenkai (tua squadra) (Zenkai)"
-      ]
+      "proprio": false
      }
     ],
     "nome": "ZENKAI Rush Battle - Magenta -",
     "ore_rimaste": 300,
     "priorita": 2,
-    "squadra": [
-     "Awakening Z Power [Super Saiyan Gohan (Youth)] ×100 (1 ZENKAI Rush Medal, max 70) → SSJ Gohan Youth SP Zenkai (tua squadra) (Zenkai)"
-    ],
     "stage": 1,
     "stamina": 0,
     "tipo": "Rush"
@@ -662,8 +603,7 @@
       ],
       "id": "50126",
       "nome": "Festival Medal 2026 (Silver) Exchange Shop",
-      "proprio": false,
-      "squadra": []
+      "proprio": false
      },
      {
       "cc": 300,
@@ -682,14 +622,12 @@
       ],
       "id": "70000",
       "nome": "Dual Coin Exchange Shop",
-      "proprio": false,
-      "squadra": []
+      "proprio": false
      }
     ],
     "nome": "Festival Hyperdimensional Co-Op VS Gamma 2",
     "ore_rimaste": 396,
     "priorita": 2,
-    "squadra": [],
     "stage": 3,
     "stamina": 0,
     "tipo": "Co-op"
@@ -721,8 +659,7 @@
       "consigliati": [],
       "id": "50125",
       "nome": "Festival Medal 2026 (Gold) Exchange Shop",
-      "proprio": false,
-      "squadra": []
+      "proprio": false
      },
      {
       "cc": 0,
@@ -737,14 +674,12 @@
       ],
       "id": "50126",
       "nome": "Festival Medal 2026 (Silver) Exchange Shop",
-      "proprio": false,
-      "squadra": []
+      "proprio": false
      }
     ],
     "nome": "Legendary Raging Battle -GT- Gogeta VS Omega Shenron",
     "ore_rimaste": 396,
     "priorita": 2,
-    "squadra": [],
     "stage": 6,
     "stamina": 6,
     "tipo": "Storia/evento"
@@ -769,7 +704,6 @@
     "nome": "WEEKEND SPECIAL CHOICE!",
     "ore_rimaste": 36,
     "priorita": 3,
-    "squadra": [],
     "stage": 3,
     "stamina": 3,
     "tipo": "Weekend"
@@ -795,7 +729,6 @@
     "nome": "WEEKEND Arts Boost Battle!",
     "ore_rimaste": 36,
     "priorita": 3,
-    "squadra": [],
     "stage": 6,
     "stamina": 60,
     "tipo": "Weekend"
@@ -820,7 +753,6 @@
     "nome": "Leave It to Pan! Operation: Energize!!",
     "ore_rimaste": 204,
     "priorita": 3,
-    "squadra": [],
     "stage": 2,
     "stamina": 2,
     "tipo": "Storia/evento"
@@ -848,14 +780,12 @@
       "consigliati": [],
       "id": "103901",
       "nome": "Huzzah! Character Exchange Ticket Exchange",
-      "proprio": false,
-      "squadra": []
+      "proprio": false
      }
     ],
     "nome": "Huzzah! Operation Get Characters!",
     "ore_rimaste": 228,
     "priorita": 3,
-    "squadra": [],
     "stage": 2,
     "stamina": 3,
     "tipo": "Storia/evento"
@@ -877,7 +807,6 @@
     "nome": "Ultimate Equipment Collection",
     "ore_rimaste": 27237,
     "priorita": 3,
-    "squadra": [],
     "stage": 103,
     "stamina": 103,
     "tipo": "Equip"
@@ -899,7 +828,6 @@
     "nome": "Goku the Saiyan's Battle Chronicles",
     "ore_rimaste": 3084,
     "priorita": 3,
-    "squadra": [],
     "stage": 10,
     "stamina": 10,
     "tipo": "Storia/evento"
@@ -923,7 +851,6 @@
     "nome": "The Dreaded Ginyu Force",
     "ore_rimaste": 27237,
     "priorita": 3,
-    "squadra": [],
     "stage": 27,
     "stamina": 27,
     "tipo": "Storia/evento"
@@ -946,7 +873,6 @@
     "nome": "Majin Buu's Revival",
     "ore_rimaste": 27237,
     "priorita": 3,
-    "squadra": [],
     "stage": 15,
     "stamina": 45,
     "tipo": "Storia/evento"
@@ -969,7 +895,6 @@
     "nome": "Project Zero Mortals",
     "ore_rimaste": 27237,
     "priorita": 3,
-    "squadra": [],
     "stage": 12,
     "stamina": 36,
     "tipo": "Storia/evento"
@@ -993,7 +918,6 @@
     "nome": "Raditz Attacks!",
     "ore_rimaste": 27237,
     "priorita": 3,
-    "squadra": [],
     "stage": 19,
     "stamina": 19,
     "tipo": "Storia/evento"
@@ -1017,7 +941,6 @@
     "nome": "Nappa the Cruel!",
     "ore_rimaste": 27237,
     "priorita": 3,
-    "squadra": [],
     "stage": 19,
     "stamina": 19,
     "tipo": "Storia/evento"
@@ -1041,7 +964,6 @@
     "nome": "The Advent of Frieza, the Universal Emperor!",
     "ore_rimaste": 27237,
     "priorita": 3,
-    "squadra": [],
     "stage": 18,
     "stamina": 18,
     "tipo": "Storia/evento"
@@ -1065,7 +987,6 @@
     "nome": "Fierce Battle! Vegeta the Prince of Fate",
     "ore_rimaste": 27237,
     "priorita": 3,
-    "squadra": [],
     "stage": 18,
     "stamina": 18,
     "tipo": "Storia/evento"
@@ -1094,7 +1015,6 @@
     "nome": "Long Ago...There Was a Small Encounter",
     "ore_rimaste": 27237,
     "priorita": 3,
-    "squadra": [],
     "stage": 10,
     "stamina": 10,
     "tipo": "Storia/evento"
@@ -1114,7 +1034,6 @@
     "nome": "LEGEND Test Battle",
     "ore_rimaste": 27237,
     "priorita": 3,
-    "squadra": [],
     "stage": 1,
     "stamina": 1,
     "tipo": "Storia/evento"
@@ -1142,7 +1061,6 @@
     "nome": "Start Dash Bonus",
     "ore_rimaste": 27237,
     "priorita": 3,
-    "squadra": [],
     "stage": 10,
     "stamina": 10,
     "tipo": "Storia/evento"
@@ -1189,18 +1107,12 @@
       ],
       "id": "40001",
       "nome": "Ultra Space-Time Rush",
-      "proprio": false,
-      "squadra": [
-       "Awakening Z Power [Super Saiyan Gohan (Youth)] ×100 (1 ZENKAI Rush Medal, max 70) → SSJ Gohan Youth SP Zenkai (tua squadra) (Zenkai)"
-      ]
+      "proprio": false
      }
     ],
     "nome": "Hands-On Training! Legends Power-Up School",
     "ore_rimaste": 27237,
     "priorita": 3,
-    "squadra": [
-     "Awakening Z Power [Super Saiyan Gohan (Youth)] ×100 (1 ZENKAI Rush Medal, max 70) → SSJ Gohan Youth SP Zenkai (tua squadra) (Zenkai)"
-    ],
     "stage": 10,
     "stamina": 10,
     "tipo": "Allenamento"
@@ -1223,7 +1135,6 @@
     "nome": "Joined Forces! A Life-or-Death Struggle!",
     "ore_rimaste": 27237,
     "priorita": 3,
-    "squadra": [],
     "stage": 4,
     "stamina": 8,
     "tipo": "Storia/evento"
@@ -1255,14 +1166,12 @@
       "consigliati": [],
       "id": "19018",
       "nome": "Comeback Character Acquisition Ticket Exchange",
-      "proprio": false,
-      "squadra": []
+      "proprio": false
      }
     ],
     "nome": "Comeback Choice Battle!!",
     "ore_rimaste": 27237,
     "priorita": 3,
-    "squadra": [],
     "stage": 5,
     "stamina": 5,
     "tipo": "Storia/evento"
@@ -1282,7 +1191,6 @@
     "nome": "Dynamic Area Battle",
     "ore_rimaste": 27237,
     "priorita": 3,
-    "squadra": [],
     "stage": 1,
     "stamina": 0,
     "tipo": "Storia/evento"
@@ -1306,7 +1214,6 @@
     "nome": "A Father-Son Bond A Fierce Fight to the Death!",
     "ore_rimaste": 27237,
     "priorita": 3,
-    "squadra": [],
     "stage": 5,
     "stamina": 10,
     "tipo": "Storia/evento"
@@ -1326,7 +1233,6 @@
     "nome": "Learn With Trunks! Path to Victory Battle Lecture!",
     "ore_rimaste": 27237,
     "priorita": 3,
-    "squadra": [],
     "stage": 28,
     "stamina": 0,
     "tipo": "Storia/evento"
@@ -1346,7 +1252,6 @@
     "nome": "Get the LEGENDS LIMITED Experience!",
     "ore_rimaste": 27237,
     "priorita": 3,
-    "squadra": [],
     "stage": 1,
     "stamina": 0,
     "tipo": "Storia/evento"
@@ -1373,7 +1278,6 @@
     "nome": "Let's Fight!",
     "ore_rimaste": 27237,
     "priorita": 3,
-    "squadra": [],
     "stage": 3,
     "stamina": 3,
     "tipo": "Storia/evento"
@@ -1385,7 +1289,7 @@
    "WEEKEND SPECIAL CHOICE!",
    "WEEKEND Arts Boost Battle!"
   ],
-  "nota_coach": "1) Gohan Zenkai: le Rush Battle di Pan e Platinum Gogeta scadono mercoledì 25/11 alle 7:00 (60 ore). Raccogli ZENKAI Rush Medal per l'Awakening Z Power del tuo SSJ Gohan Youth (max 70). Le Rush non costano stamina.\n2) Festival Double-Up #1: gioca anche oggi (fino al 28/11), i biglietti valgono fino a 1.600 CC.\n3) Black Friday Raid (1.420 CC) e Another Future! The Android Menace (567 CC, 17 stamina) fino al 2/12.\n4) Legendary Raging Battle: medaglie Festival per il negozio Gold (fino a 8.000 CC in tutto).\nIn arrivo, un giorno solo: lun 23/11 Summon Ticket Battle, mar 24/11 Multi-Z Power Battle.",
+  "nota_coach": "1) Le ZENKAI Rush Battle scadono mercoledì 25/11 alle 7:00 (60 ore): non costano stamina e danno Rush Medal e ZENKAI Rush Medal per il negozio.\n2) Festival Double-Up #1: gioca anche oggi (fino al 28/11), i biglietti valgono fino a 1.600 CC.\n3) Black Friday Raid (1.420 CC) e Another Future! The Android Menace (567 CC, 17 stamina) fino al 2/12.\n4) Legendary Raging Battle: medaglie Festival per il negozio Gold (fino a 8.000 CC in tutto).\nIn arrivo, un giorno solo: lun 23/11 Summon Ticket Battle, mar 24/11 Multi-Z Power Battle.",
   "prossimi": [
    {
     "fine": "mar 24/11 07:00",
@@ -1443,13 +1347,6 @@
     "nome": "Amazing Arts Seed Harvest Fest",
     "tipo": "Arts"
    }
-  ],
-  "squadra": [
-   "Final Form Cooler UL (tua squadra)",
-   "Broly: Fury LL (tua squadra)",
-   "Goku LL (tua squadra)",
-   "SSJ Gohan Youth SP Zenkai (tua squadra)",
-   "SSG Shallet LL (da confermare se ce l'hai)"
   ],
   "totale_cc": 12127
  }
