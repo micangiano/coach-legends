@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T18:30:30+0000",
+ "updated": "2026-11-22T18:34:37+0000",
  "profile": {
   "checklist": [
    {
@@ -17,35 +17,6 @@
    {
     "a": "Dopo metà partita consideralo sempre sì → in campo chi rinasce.",
     "q": "L'avversario ha Rising Rush o Ultimate pronti?"
-   }
-  ],
-  "exercises": [
-   {
-    "example": "19/11 a 4:38: Cooler → Goku nella prima vita dentro la combo. Goku muore, rinasce SSJ, Cooler salvo.",
-    "goal": "In 5 partite, dentro le combo avversarie: 0 ingressi di Cooler, 0 personaggi sotto 1M, 0 \"non rinasce al posto di chi rinasce\".",
-    "how": "Lì puoi solo restare o cambiare. Resta chi rinasce nella prima vita (con pochi HP lascialo morire) o Broly col gauge quasi pieno. Esce Cooler. Entra chi rinasce o ha molti HP, senza svantaggio di elemento. Se cambi, cambia presto.",
-    "title": "Dentro la combo avversaria, scegli chi paga"
-   },
-   {
-    "example": "Goresh lascia morire Goku e Android 13 (rinascono) e tiene Cooler intatto. Tu il 16/11 (3): Broly −2,27M in una combo da 48 con il cover annullato.",
-    "goal": "Nessun personaggio senza rinascita perso sopra 1M di HP.",
-    "how": "Combo lunghe, Ultimate e Rising Rush avversari li prende chi rinasce (Goku, Gohan) o Broly con il cover attivo. Nella prima vita, sotto i 300k, lasciali morire.",
-    "title": "Chi incassa i colpi grossi"
-   },
-   {
-    "example": "Kyne e Goresh lo indovinano quasi sempre. Il 16/11 (3) l'hai fatto anche tu due volte.",
-    "how": "Le sue sfere non si vedono: da metà partita consideralo pronto. Quando parte, scegli la carta che pensi sceglierà lui.",
-    "title": "Rising Rush avversario"
-   },
-   {
-    "example": "Goresh partita 3: \"non c'è motivo di premere niente\", vince 33,6M a 14,2M al TIME UP.",
-    "how": "Avanti nei danni con il timer agli ultimi secondi → non rischiare. Rising Rush e Overdrive pronti → scegli prima (durante l'Overdrive il Rising Rush non parte). Avversario sotto i 500k → chiudilo prima che cambi.",
-    "title": "Finale: decidi prima"
-   },
-   {
-    "example": "Kyne lo lancia in mezzo alla combo di Goku SSJ4: critico da 1,29M subito dopo.",
-    "how": "Lancialo mentre stai già colpendo, non a vuoto.",
-    "title": "Supporto Gohan piccolo dentro una tua combo"
    }
   ],
   "focus": {
@@ -257,1088 +228,77 @@
  },
  "matches": [
   {
+   "id": "2026-11-19-1",
    "date": "2026-11-19",
-   "duration": "5:47",
-   "errors": [
-    {
-     "fix": "Gogeta appena entrato annulla il cover. Divieto acceso = niente cambio: Goku resta e tenta il vanish sulla prima carta dopo la combo; Cooler resta per chiudere.",
-     "t": "5:36",
-     "title": "Goku SSJ → Cooler con il divieto: Cooler KO (combo da 23 a 71)"
-    },
-    {
-     "fix": "Rosé appena trasformata annulla il cover per 10 counts. Incassa Goku: se muore rinasce SSJ.",
-     "t": "2:48",
-     "title": "Goku (1,98M, prima vita) → Broly (1,09M) con il divieto: Broly KO"
-    },
-    {
-     "fix": "Banner \"Nullify: Endurance\" di Trunks = Burning Attack in arrivo che ignora l'Endurance. Vanish pronto o esci prima.",
-     "t": "1:51",
-     "title": "Broly resta in campo dopo la Main Ability di Trunks: −1,77M dall'Ultimate, poi −1,05M"
-    },
-    {
-     "fix": "Dal banner la prossima carta è l'Ultimate: vanish pronto, niente carte lunghe finché non la tira.",
-     "t": "6:00",
-     "title": "Attacchi in Overdrive dopo \"Vanquish All Evil\" di Gogeta: Soul Punisher, KO"
-    }
-   ],
-   "headline": "Apertura con Goku perfetta, poi due Cover Change con il divieto: Broly e Cooler KO, chiude il Soul Punisher di Gogeta",
-   "limits": "Replay dal menu con audio. Battle Summary: danni 18,46M contro 18,11M, cambi 8 contro 4 (nell'HUD 12: forse i Cover Change non contano), Special Cover Change 0 contro 1, vanish 4 contro 6, combo media 4 contro 3, First Strike 11 contro 7. Vanish tuoi 4 su 4 trovati dal suono; avversari 3 su 6. Goku Black e Trunks: versione più probabile, da confermare.",
-   "opponent": "A18isThicc",
-   "opponentTeam": [
-    "Goku Black SP giallo LL (→ Rosé)",
-    "Super Gogeta UL blu (leader)",
-    "SSJ Trunks (Teen) SP verde LL Zenkai VII"
-   ],
-   "result": "loss",
-   "resultNote": "3 KO a 1, ma più danni: 18,46M contro 18,11M (22 counts sul timer)",
-   "strengths": [
-    "Apertura con Goku: 0 HP persi nei primi 80 s, Broly entra con un cambio",
-    "Cooler entra solo per attaccare: combo 27, 44 e 53 senza perdere HP",
-    "Rising K.O. da 5,98M su Trunks",
-    "Più danni dell'avversario, First Strike 11 a 7"
-   ],
-   "team": [
-    "Goku LR blu (apre)",
-    "Broly LR verde",
-    "Cooler ULTRA (leader)"
-   ],
-   "timeline": [
-    {
-     "mark": "ok",
-     "t": "0:28",
-     "text": "Apre Goku (tecnica in corso), 0 HP persi"
-    },
-    {
-     "mark": "ok",
-     "t": "0:37",
-     "text": "Broly entra con un cambio, combo 22"
-    },
-    {
-     "mark": "ok",
-     "t": "0:58",
-     "text": "Cooler combo 27 e 44 (1:26), esce intatto"
-    },
-    {
-     "mark": "err",
-     "t": "1:51",
-     "text": "Trunks: Main Ability + Burning Attack su Broly, −1,77M"
-    },
-    {
-     "mark": "",
-     "t": "2:17",
-     "text": "Rising Rush pronto"
-    },
-    {
-     "mark": "err",
-     "t": "2:48",
-     "text": "Cover Change con divieto Goku → Broly: Broly KO a 2:57"
-    },
-    {
-     "mark": "ok",
-     "t": "3:21",
-     "text": "Cooler combo 53 su Gogeta"
-    },
-    {
-     "mark": "ok",
-     "t": "4:08",
-     "text": "Rising K.O. su Trunks, 5,98M"
-    },
-    {
-     "mark": "",
-     "t": "4:38",
-     "text": "Cooler → Goku con divieto: Goku KO e rinasce SSJ (Cooler salvo)"
-    },
-    {
-     "mark": "err",
-     "t": "5:36",
-     "text": "Cover Change con divieto Goku SSJ → Cooler: Cooler KO a 5:59"
-    },
-    {
-     "mark": "err",
-     "t": "6:00",
-     "text": "Gogeta \"Vanquish All Evil\" → Soul Punisher, Goku SSJ KO"
-    }
-   ],
-   "verdict": "La nuova tecnica funziona: dopo 1:30 eri a HP pieni con tutti e tre e Cooler ha combato 3 volte senza prendere colpi. Hai perso perché due volte hai fatto entrare chi non rinasce dentro una combo con il divieto (2:48 Broly, 5:36 Cooler) e alla fine Gogeta ha pescato l'Ultimate con \"Vanquish All Evil\".",
-   "id": "2026-11-19-1"
+   "result": "loss"
   },
   {
+   "id": "2026-11-16-3",
    "date": "2026-11-16",
-   "duration": "6:17",
-   "errors": [
-    {
-     "fix": "Scelta voluta, ma contro i due Vegito il cover speciale è annullato per 5 counts quando entrano: Broly prende tutta la combo. Lascia caricare il gauge ai primi colpi e poi vanish.",
-     "t": "0:40",
-     "title": "Special Cover Change su Broly annullato: −2,27M per caricare il gauge del counter"
-    },
-    {
-     "fix": "Divieto acceso = niente cambio. Vanish o lascia finire la combo su Cooler.",
-     "t": "3:53",
-     "title": "Cambio su Broly (605k) dentro una combo con il divieto: KO in 3 s"
-    },
-    {
-     "fix": "Regola dei 2 colpi: alla seconda combo di fila vanish subito, prima di scendere sotto il 30%.",
-     "t": "5:51",
-     "title": "Cooler tenuto in campo fino a 33 HP in una combo da 23"
-    },
-    {
-     "fix": "Allena il minigioco in modalità storia: guarda la freccia del bonus, non il personaggio.",
-     "t": "4:49",
-     "title": "Overdrive Attack: \"Choose a route\" → Failure"
-    }
-   ],
-   "headline": "Vinta con Goku SSJ e un Rising K.O. da 4,68M, ma Broly perde 2,27M in una combo da 48 senza vanish",
-   "limits": "Battle Summary: danni 24,37M contro 19,27M, vanish 6 contro 8, cambi 7 contro 6, Special Cover Change 1 contro 0, clash 999 contro 947, gauge Overdrive 2.460 contro 1.666. Vanish tuoi: 6 su 6 trovati dal suono. Avversari: 9 segnalati contro 8 reali, uno dei 4 da confermare è falso. I tocchi a schermo non sono leggibili in automatico.",
-   "opponent": "VaTeFairF",
-   "opponentTeam": [
-    "Gogeta SSGSS UL",
-    "Super Vegito LR viola (leader)",
-    "Vegito SSGSS UL rosso (da confermare)"
-   ],
-   "result": "win",
-   "resultNote": "L'avversario si disconnette sul finale (Connection unstable)",
-   "strengths": [
-    "Cooler tenuto vivo fino al KO di Vegito Blue grazie al sacrificio di Broly a 2:02",
-    "Goku SSJ: combo da 47 e 35, critico da 2,58M",
-    "Rising Rush avversario difeso indovinando la carta 2 volte",
-    "Rising K.O. da 4,68M e clash vinto 999 a 947",
-    "6 vanish riusciti (tutti trovati anche dal suono)"
-   ],
-   "team": [
-    "Cooler ULTRA (leader)",
-    "Broly LR verde",
-    "Goku LR (rinasce SSJ)",
-    "Supporto: Gohan bambino"
-   ],
-   "timeline": [
-    {
-     "mark": "err",
-     "t": "0:40",
-     "text": "Special Cover Change su Broly annullato (Nullify dei Vegito)"
-    },
-    {
-     "mark": "",
-     "t": "0:41",
-     "text": "Broly incassa la combo da 48 per caricare il gauge (scelta voluta): −2,27M"
-    },
-    {
-     "mark": "",
-     "t": "2:27",
-     "text": "KO di Goku, rinasce SSJ"
-    },
-    {
-     "mark": "ok",
-     "t": "2:02",
-     "text": "Broly sacrificato per salvare Cooler: prende l'Ultimate di Vegito Blue e resta a 1 HP"
-    },
-    {
-     "mark": "ok",
-     "t": "3:02",
-     "text": "Goku SSJ: critico da 2,58M su Vegito"
-    },
-    {
-     "mark": "err",
-     "t": "3:53",
-     "text": "Cambio con il divieto: Broly KO in 3 s"
-    },
-    {
-     "mark": "err",
-     "t": "4:49",
-     "text": "Overdrive: Choose a route → Failure"
-    },
-    {
-     "mark": "ok",
-     "t": "5:40",
-     "text": "KO di Vegito Blue"
-    },
-    {
-     "mark": "ok",
-     "t": "5:55",
-     "text": "Rising Rush avversario difeso (carta indovinata 2 volte)"
-    },
-    {
-     "mark": "ok",
-     "t": "6:28",
-     "text": "Rising K.O. 4,68M"
-    },
-    {
-     "mark": "ok",
-     "t": "6:44",
-     "text": "L'avversario si disconnette, WIN"
-    }
-   ],
-   "verdict": "Vittoria costruita dalla seconda vita di Goku e dal Rising Rush finale. I punti persi arrivano tutti dalla difesa con il divieto sui compagni: combo da 48 subita senza vanish e un cambio dentro la combo che costa Broly.",
-   "id": "2026-11-16-3"
+   "result": "win"
   },
   {
+   "id": "2026-11-16-2",
    "date": "2026-11-16",
-   "duration": "6:50 di gioco",
-   "errors": [
-    {
-     "fix": "Durante l'Overdrive il Rising Rush non si può lanciare. Se erano pronti entrambi, contro Super Gogeta con l'Ultimate in mano il Rising Rush chiudeva prima (ipotesi).",
-     "t": "6:56",
-     "title": "Da rivedere: Overdrive o Rising Rush nello scontro finale?"
-    },
-    {
-     "fix": "Con il divieto il cover non entra: schiva prima che la combo parta e non restare fermo a distanza ravvicinata. Gogeta SSGSS annulla i tuoi Special Cover Change per 5 counts dopo ogni suo Strike/Blast (dal kit).",
-     "t": "1:45",
-     "title": "Cooler resta in una combo da 25 colpi con il divieto sui compagni e muore"
-    },
-    {
-     "fix": "A partita avanzata considera possibile il suo Rising Rush: chi entra deve tenere il vanish.",
-     "t": "2:10",
-     "title": "Broly entra e subisce subito il Rising Rush avversario (−1,26M)"
-    },
-    {
-     "fix": "Quando è sotto i 500k chiudi subito con una carta o con l'Ultimate, prima che cambi e si curi.",
-     "t": "1:26",
-     "title": "Avversari sotto i 500k lasciati scappare tre volte (505k, 313k, 66k)"
-    },
-    {
-     "fix": "Cambio entro 2 s da \"Rising Rush Sealed\".",
-     "t": "0:38",
-     "title": "Apertura: cambio 7 s dopo il sigillo, 1,6M persi nel primo minuto"
-    }
-   ],
-   "headline": "Vanish 9 a 9 e due KO nel finale, ma Super Gogeta chiude con l'Ultimate mentre eri in Overdrive",
-   "limits": "I tuoi 9 vanish sono stati trovati dallo script (barra che ricompare vuota): dopo 6 su 9 hai punito subito; a 5:47 Goku fa il vanish appena entrato e poi subisce una combo da −1M. Nessun vanish nei primi 57 s né durante la morte di Cooler. I vanish dell'avversario non sono ancora collocati nel tempo.",
-   "opponent": "Ruben.ESP",
-   "opponentTeam": [
-    "Broly LR verde (leader)",
-    "Super Gogeta UL blu",
-    "Gogeta SSGSS UL (8° anniversario)"
-   ],
-   "result": "loss",
-   "resultNote": "Treasure Battle · ultimo scontro perso a 37 s dalla fine",
-   "strengths": [
-    "Vanish 9 contro 9 (negli ultimi due match erano 2 a 6 e 1 a 4)",
-    "Combo da 16, 17, 40 e 24 colpi",
-    "Due KO in 30 secondi nel finale",
-    "Overdrive: scelta del percorso riuscita a 6:40"
-   ],
-   "team": [
-    "Cooler UL",
-    "Broly LR",
-    "Goku LR"
-   ],
-   "timeline": [
-    {
-     "mark": "",
-     "t": "0:38",
-     "text": "Cover Change Cooler → Broly durante una combo da 5"
-    },
-    {
-     "mark": "ok",
-     "t": "1:05",
-     "text": "Broly: combo da 17, avversario a 262k"
-    },
-    {
-     "mark": "err",
-     "t": "1:26",
-     "text": "L'avversario cambia a 505k e si salva"
-    },
-    {
-     "mark": "err",
-     "t": "1:45",
-     "text": "Cooler in una combo da 25 con il divieto: KO a 2:08"
-    },
-    {
-     "mark": "err",
-     "t": "2:10",
-     "text": "Rising Rush avversario su Broly appena entrato (−1,26M)"
-    },
-    {
-     "mark": "ok",
-     "t": "2:41",
-     "text": "Broly: combo da 40, avversario a 305k"
-    },
-    {
-     "mark": "",
-     "t": "4:09",
-     "text": "Goku porta l'avversario a 66k, che si salva"
-    },
-    {
-     "mark": "err",
-     "t": "5:45",
-     "text": "Broly KO"
-    },
-    {
-     "mark": "",
-     "t": "6:08",
-     "text": "Goku KO, rinasce SSJ"
-    },
-    {
-     "mark": "ok",
-     "t": "6:33",
-     "text": "Primo KO avversario"
-    },
-    {
-     "mark": "ok",
-     "t": "6:54",
-     "text": "Secondo KO avversario: resta Super Gogeta"
-    },
-    {
-     "mark": "",
-     "t": "7:03",
-     "text": "Goku SSJ in Overdrive su Gogeta a 1,39M (Rising Rush acceso ma non usabile in Overdrive)"
-    },
-    {
-     "mark": "err",
-     "t": "7:07",
-     "text": "Soul Punisher di Gogeta: KO di Goku, partita persa"
-    }
-   ],
-   "verdict": "Partita equilibrata (danni 19,6M contro 25,0M), con la difesa migliore vista finora. Persa nel finale: Goku SSJ era in Overdrive su Super Gogeta (1,39M), che rimasto solo con 2 alleati KO ha pescato l'Ultimate e ha chiuso con Soul Punisher.",
-   "id": "2026-11-16-2"
+   "result": "loss"
   },
   {
+   "id": "2026-11-16-1",
    "date": "2026-11-16",
-   "duration": "replay 6:29",
-   "errors": [
-    {
-     "fix": "Goku SSJ a 2,66M contro Goku Black Rosé a 2,88M. Con il Rising Rush acceso, usalo prima di entrare nello scambio. Se l'avversario attacca per primo (il \"!\" a 6:08), schiva con lo swipe o usa il vanish. Da confermare: il Rising Rush era davvero utilizzabile in quel momento?",
-     "t": "6:04–6:22",
-     "title": "Ultimo scontro: Rising Rush pronto non usato, combo da 27 colpi subita"
-    },
-    {
-     "fix": "Stesso schema delle altre partite: è la tecnica 1 (primo minuto senza botte).",
-     "t": "0:16–1:06",
-     "title": "Apertura: Cooler −1M in 20 s, Broly −1,9M in meno di 30 s"
-    },
-    {
-     "fix": "Quando vedi le sfere dell'avversario quasi complete, tieni il vanish per l'Ultimate.",
-     "t": "4:22–4:38",
-     "title": "Broly preso dall'Ultimate \"Blooming Despair\" di Goku Black Rosé"
-    },
-    {
-     "fix": "Terza volta che un Overdrive va male: va allenato.",
-     "t": "4:08–4:12",
-     "title": "Overdrive Attack di Broly fallito (rotta sbagliata)"
-    }
-   ],
-   "headline": "Ultimo scontro perso con il Rising Rush pronto",
-   "limits": "Analizzato con un fotogramma ogni 2 secondi. Non posso confermare dai frame che il Rising Rush fosse attivabile a 6:04. Alcune notifiche del telefono coprono lo schermo: prima di registrare attiva Non disturbare.",
-   "opponent": "F2P VEGETA",
-   "opponentTeam": [
-    "Goku Black (poi Rosé)",
-    "Cooler",
-    "Vegeta SSB"
-   ],
-   "result": "loss",
-   "resultNote": "Finish di Goku Black Rosé a circa 6:24, con 30 secondi sul timer.",
-   "strengths": [
-    "Combo da 57 colpi con Broly (2,88M di danno, 0:56)",
-    "Combo da 49 colpi + Ultimate con Cooler (2:22)",
-    "Goku SSJ ribalta il match: due KO di fila, punteggio sul 2 a 1"
-   ],
-   "team": [
-    "Cooler UL",
-    "Broly LR",
-    "Goku LR"
-   ],
-   "timeline": [
-    {
-     "mark": "err",
-     "t": "0:16–0:36",
-     "text": "Cooler contro Goku Black: da 2,46M a 1,49M"
-    },
-    {
-     "mark": "",
-     "t": "0:38–0:56",
-     "text": "Broly: combo da 57 colpi, ma scende a 1,55M"
-    },
-    {
-     "mark": "err",
-     "t": "1:36–1:42",
-     "text": "Vegeta SSB porta Broly da 1,91M a 0,56M"
-    },
-    {
-     "mark": "ok",
-     "t": "2:22–2:30",
-     "text": "Cooler: 49 colpi + Ultimate"
-    },
-    {
-     "mark": "",
-     "t": "2:54–3:02",
-     "text": "Rising Rush di Broly: Vegeta resta a 22k HP"
-    },
-    {
-     "mark": "err",
-     "t": "4:08–4:12",
-     "text": "Overdrive di Broly: rotta sbagliata"
-    },
-    {
-     "mark": "err",
-     "t": "4:22–4:38",
-     "text": "Ultimate di Goku Black Rosé: Broly KO"
-    },
-    {
-     "mark": "ok",
-     "t": "4:48–5:08",
-     "text": "Cooler: combo + Ultimate, KO di un avversario"
-    },
-    {
-     "mark": "",
-     "t": "5:10–5:26",
-     "text": "Goku va KO e si trasforma in SSJ"
-    },
-    {
-     "mark": "ok",
-     "t": "5:28–6:04",
-     "text": "Goku SSJ: KO di Vegeta e del Cooler avversario"
-    },
-    {
-     "mark": "err",
-     "t": "6:04–6:22",
-     "text": "Goku SSJ subisce 27 colpi con il Rising Rush acceso"
-    },
-    {
-     "mark": "err",
-     "t": "6:24",
-     "text": "Finish di Goku Black Rosé"
-    }
-   ],
-   "verdict": "Eri riuscito a ribaltarla: Goku SSJ aveva portato il punteggio sul 2 a 1 per te. Hai perso l'ultimo scontro alla pari contro Goku Black Rosé: icona del Rising Rush accesa ma non usato, e una combo da 27 colpi subita senza difesa. A monte, la solita apertura: circa 2M di HP persi nel primo minuto.",
-   "id": "2026-11-16-1"
+   "result": "loss"
   },
   {
+   "id": "2026-11-12-2",
    "date": "2026-11-12",
-   "duration": "3:32",
-   "errors": [
-    {
-     "fix": "Con il divieto sui compagni usa il vanish o schiva: il tag Goku & Vegeta annulla il cover a ogni Arts, Goku & Bardock quando entra e al 2° colpo.",
-     "t": "0:55 · 1:09 · 1:22 · 2:31",
-     "title": "Cover Change con l'icona di divieto, 4 su 4 annullati"
-    },
-    {
-     "fix": "Gohan rinasce SSJ2 al KO (2:12): lascialo morire. Lo scambio giusto l'hai fatto a 2:07.",
-     "t": "1:22",
-     "title": "Goku a 1,47M sacrificato per salvare Gohan a 189k"
-    },
-    {
-     "fix": "Goku è entrato a 1,65M ed è uscito con un Rising K.O. Quando il Rising Rush avversario può essere pronto, niente cambi: tieni il vanish.",
-     "t": "2:31",
-     "title": "Cambio su Goku subito prima del Rising Rush avversario"
-    },
-    {
-     "fix": "Gogeta dimezza i danni che subisce: non entrare a freddo contro di lui e non restare in campo mentre ti combina.",
-     "t": "1:16 · 2:02",
-     "title": "Gohan e Cooler persi in 3 secondi contro Gogeta"
-    }
-   ],
-   "headline": "4 Cover Change con il divieto, tutti annullati",
-   "limits": "Fotogrammi a 2 al secondo. La cinematica 1:01–1:08 e la Super Spirit Bomb sono interpretate dal kit. Non so se il Rising Rush di Gohan alla fine fosse utilizzabile, né se Broly (verde, in vantaggio sui tre avversari blu) fosse selezionabile.",
-   "opponent": "Treanz",
-   "opponentTeam": [
-    "Super Gogeta UL (leader)",
-    "SSJ3 & SSJ2 Goku & Vegeta UL",
-    "Goku & Bardock SP Zenkai VII"
-   ],
-   "result": "loss",
-   "resultNote": "3 KO a 0 · danni 3,3M contro 20,9M · partita delle 00:02",
-   "strengths": [
-    "Apertura di Cooler: 30 colpi, 1,65M di danni, zero HP persi.",
-    "2:07: sacrificato Gohan a 189k per salvare Cooler, sfruttando la sua rinascita SSJ2.",
-    "Rising Rush avversario: due carte indovinate su tre.",
-    "Cooler a 639k fa ancora una combo da quasi 1M (2:58–3:10)."
-   ],
-   "team": [
-    "Cooler UL (leader)",
-    "Gohan SSJ Youth SP Zenkai VII",
-    "Goku LR"
-   ],
-   "timeline": [
-    {
-     "mark": "ok",
-     "t": "0:23–0:41",
-     "text": "Cooler: combo da 30 colpi, il tag da 3,0M a 1,35M, Cooler senza danni"
-    },
-    {
-     "mark": "",
-     "t": "0:41–0:47",
-     "text": "Il tag si cura fino a 2,96M (kit: +30% sotto il 50%)"
-    },
-    {
-     "mark": "err",
-     "t": "0:55",
-     "text": "Cover Change Gohan → Goku con il divieto: annullato, Goku da 2,44M a 1,22M"
-    },
-    {
-     "mark": "err",
-     "t": "1:09",
-     "text": "Cover Change Goku → Cooler con il divieto: annullato, Cooler da 2,47M a 1,84M; sigillo a 1:12"
-    },
-    {
-     "mark": "err",
-     "t": "1:16",
-     "text": "Gohan entra contro Gogeta: da 1,71M a 189k in 3 secondi"
-    },
-    {
-     "mark": "err",
-     "t": "1:22–1:31",
-     "text": "Cover Change Gohan (189k) → Goku: annullato, Goku KO"
-    },
-    {
-     "mark": "",
-     "t": "1:41",
-     "text": "Goku rinasce Super Saiyan (1,72M)"
-    },
-    {
-     "mark": "err",
-     "t": "2:02–2:05",
-     "text": "Cooler resta in campo contro Gogeta: da 1,90M a 489k"
-    },
-    {
-     "mark": "ok",
-     "t": "2:07–2:20",
-     "text": "Gohan sacrificato per salvare Cooler, rinasce SSJ2 a 1,96M"
-    },
-    {
-     "mark": "err",
-     "t": "2:31–2:55",
-     "text": "Cover Change su Goku con il divieto, poi Rising Rush avversario: Rising K.O. di Goku"
-    },
-    {
-     "mark": "ok",
-     "t": "2:58–3:10",
-     "text": "Cooler combo su Vegeta da 3,0M a 2,05M; il suo Rising Rush viene sigillato"
-    },
-    {
-     "mark": "err",
-     "t": "3:11–3:39",
-     "text": "Super Spirit Bomb avversaria: Cooler KO, colpita anche la panchina"
-    },
-    {
-     "mark": "",
-     "t": "3:41–3:48",
-     "text": "Gohan da solo, Rising Rush acceso non usato: FINISH"
-    }
-   ],
-   "verdict": "Apertura di Cooler perfetta (30 colpi, zero danni), poi la partita si è persa sui cambi: 4 Cover Change fatti con l'icona di divieto sui compagni, tutti annullati. Chi entrava (3 volte Goku) si prendeva tutta la combo. Tutti e tre gli avversari bloccano il cover.",
-   "id": "2026-11-12-2"
+   "result": "loss"
   },
   {
+   "id": "2026-11-12-1",
    "date": "2026-11-12",
-   "duration": "replay 4:10",
-   "errors": [
-    {
-     "fix": "Chi entra durante una combo si prende il resto. E Goku svuota il suo gauge appena viene colpito: è il personaggio peggiore da far entrare sotto pressione. Cambia solo quando la combo è finita o dopo il sigillo di Cooler.",
-     "t": "0:38–0:52",
-     "title": "Cambio su Goku a metà della combo di Vegeta: Goku da 2,44M a 0 in 12 secondi"
-    },
-    {
-     "fix": "Con Vegeta SSB che fa combo lunghe, usa il vanish invece del cambio.",
-     "t": "2:44–3:04",
-     "title": "Stesso errore: Goku SSJ entra dentro una combo da 53 colpi e va KO"
-    },
-    {
-     "fix": "Il vanish è l'unico modo per uscire da una combo senza cambiare. Tienilo per le Arts più forti.",
-     "t": "tutta la partita",
-     "title": "Vanish riusciti: 1 contro 4"
-    },
-    {
-     "fix": "Dopo il cambio non attaccare subito: schiva il primo Strike e poi rispondi.",
-     "t": "2:30–2:42",
-     "title": "Sigillo di Cooler sfruttato, ma chi entra attacca e prende una combo (2,61M → 1,46M)"
-    }
-   ],
-   "headline": "Goku fatto entrare due volte dentro una combo: due KO",
-   "limits": "Analizzato con un fotogramma ogni 2 secondi. Battle Summary letto dalla registrazione.",
-   "opponent": "LOL",
-   "opponentTeam": [
-    "Vegeta SSB",
-    "Goku GT (bambino)",
-    "terzo non identificato"
-   ],
-   "result": "loss",
-   "resultNote": "Vegeta SSB chiude l'ultimo personaggio a circa 4:00. Danni inflitti: 6,9M contro 20,6M.",
-   "strengths": [
-    "Tecnica 1 applicata: Cooler colpito, \"Rising Rush Sealed\", cambio (2:28–2:30)",
-    "Goku SSJ solido tra 1:04 e 1:52, con un critico da 1,39M",
-    "Gohan dopo la rinascita in SSJ2: combo da 4,0M (3:38)"
-   ],
-   "team": [
-    "Cooler UL",
-    "Goku LR",
-    "Super Saiyan Gohan (Youth)"
-   ],
-   "timeline": [
-    {
-     "mark": "err",
-     "t": "0:24–0:38",
-     "text": "Cooler contro Vegeta SSB: da 2,46M a 1,19M"
-    },
-    {
-     "mark": "err",
-     "t": "0:38–0:52",
-     "text": "Goku entra a metà combo: KO in 12 secondi"
-    },
-    {
-     "mark": "",
-     "t": "0:56–1:02",
-     "text": "Goku rinasce Super Saiyan"
-    },
-    {
-     "mark": "ok",
-     "t": "1:04–1:52",
-     "text": "Goku SSJ regge, critico da 1,39M"
-    },
-    {
-     "mark": "ok",
-     "t": "2:02–2:16",
-     "text": "Ultimate di Cooler e combo da 1,42M"
-    },
-    {
-     "mark": "ok",
-     "t": "2:28–2:30",
-     "text": "Cooler colpito, sigillo, cambio"
-    },
-    {
-     "mark": "err",
-     "t": "2:30–2:42",
-     "text": "Gohan entra e prende una combo"
-    },
-    {
-     "mark": "err",
-     "t": "2:44–3:04",
-     "text": "Goku SSJ entra dentro una combo da 53 colpi: KO"
-    },
-    {
-     "mark": "ok",
-     "t": "3:34–3:38",
-     "text": "Gohan va KO e rinasce SSJ2, poi combo da 4,0M"
-    },
-    {
-     "mark": "err",
-     "t": "3:48–3:58",
-     "text": "Vegeta SSB chiude il match"
-    }
-   ],
-   "verdict": "Hai perso soprattutto per i cambi: due volte hai fatto entrare Goku nel mezzo di una combo di Vegeta SSB (contatore oltre i 50 colpi) ed è morto entrambe le volte. Il Battle Summary lo conferma: un solo vanish riuscito contro 4, e un terzo dei danni dell'avversario.",
-   "id": "2026-11-12-1"
+   "result": "loss"
   },
   {
+   "id": "2026-11-08-1",
    "date": "2026-11-08",
-   "duration": "replay 6:13",
-   "errors": [
-    {
-     "fix": "Viene punito e va KO da 2,38M. Vicino all'avversario o attacchi o ti allontani con un dash all'indietro.",
-     "t": "3:20–3:33",
-     "title": "Cooler resta fermo per circa 6 s davanti a Trunks con ki 100"
-    },
-    {
-     "fix": "Broly entra dentro la combo, prende l'Ultimate e va KO da 2,42M. Prima di cambiare guarda le sfere del drago avversarie.",
-     "t": "3:36–4:10",
-     "title": "Cambio su Broly mentre l'avversario ha l'Ultimate pronta"
-    },
-    {
-     "fix": "L'avversario annulla il cover, quindi cambiare non ti salva: difenditi con vanish e schivate.",
-     "t": "0:12–0:25",
-     "title": "Apertura: 31 colpi subiti (~1,7M)"
-    },
-    {
-     "fix": "Costano a Broly circa 1,25M di HP.",
-     "t": "1:18 e 2:24",
-     "title": "Due \"Time those taps\" persi di poco"
-    },
-    {
-     "fix": "Dopo ogni KO che fai, tieni il dito pronto a schivare.",
-     "t": "5:00–5:02",
-     "title": "Punito dal personaggio che entra dopo il tuo Rising K.O."
-    }
-   ],
-   "headline": "Cooler e Broly persi per errori difensivi, rimonta di Goku",
-   "limits": "Nomi dei personaggi ricavati dalle icone; barra del vanish non leggibile con sicurezza; 2 fotogrammi al secondo.",
-   "opponent": "zEnerGyF2P",
-   "opponentTeam": [
-    "UL tag SSJ3 Goku & Vegeta",
-    "Trunks SSJ LL",
-    "Vegeta SSB LR"
-   ],
-   "result": "win",
-   "resultNote": "Legendary Finish con 53 secondi sul timer.",
-   "strengths": [
-    "Combo di Cooler da 24 colpi su SSJ3 Goku (0:40)",
-    "Combo di Broly da 34 colpi su Trunks (1:36)",
-    "Goku: 38 colpi + Special, KO di Vegeta (2:42)",
-    "Rising Rush perfetto: Rising K.O. da 10,2M (4:42)"
-   ],
-   "team": [
-    "Cooler UL",
-    "Broly LR",
-    "Goku LR",
-    "Beerus (equip)"
-   ],
-   "timeline": [
-    {
-     "mark": "err",
-     "t": "0:12–0:25",
-     "text": "Cooler e Broly subiscono una combo da 31 colpi"
-    },
-    {
-     "mark": "ok",
-     "t": "0:40–0:47",
-     "text": "Cooler porta SSJ3 Goku da 2,3M a 0,83M"
-    },
-    {
-     "mark": "err",
-     "t": "1:18",
-     "text": "\"Time those taps\" perso (890 contro 926)"
-    },
-    {
-     "mark": "ok",
-     "t": "1:29–1:50",
-     "text": "Broly Full Power: combo da 34 colpi su Trunks"
-    },
-    {
-     "mark": "err",
-     "t": "2:24",
-     "text": "Secondo \"Time those taps\" perso: Broly da 2,47M a 1,57M"
-    },
-    {
-     "mark": "ok",
-     "t": "2:42–3:16",
-     "text": "Goku: 38 colpi + Special, KO di Vegeta SSB"
-    },
-    {
-     "mark": "err",
-     "t": "3:20–3:33",
-     "text": "Cooler fermo, punito e KO"
-    },
-    {
-     "mark": "err",
-     "t": "3:44–4:10",
-     "text": "Broly entra nella combo e prende l'Ultimate: KO"
-    },
-    {
-     "mark": "ok",
-     "t": "4:42–4:57",
-     "text": "Rising K.O. del tag UL avversario (10,2M)"
-    },
-    {
-     "mark": "",
-     "t": "5:00–5:02",
-     "text": "Trunks porta Goku a 0, Goku si trasforma in SSJ"
-    },
-    {
-     "mark": "ok",
-     "t": "5:13–5:59",
-     "text": "Goku SSJ chiude con la Special: Legendary Finish"
-    }
-   ],
-   "verdict": "Hai vinto grazie all'attacco: combo lunghe, Special nel momento giusto e un Rising K.O. perfetto. Hai rischiato di perdere per errori in difesa che ti sono costati Cooler e Broly con gli HP quasi pieni.",
-   "id": "2026-11-08-1"
+   "result": "win"
   },
   {
+   "id": "2026-10-04-1",
    "date": "2026-10-04",
-   "duration": "replay 7:44",
-   "errors": [
-    {
-     "fix": "Cambio nel momento sbagliato: entra solo quando l'avversario non è in combo.",
-     "t": "0:22–0:32",
-     "title": "Broly passa da 2,28M a 0,46M in 10 secondi appena entrato"
-    },
-    {
-     "fix": "Il match si è deciso per pochi secondi. Allena la difesa dall'Overdrive.",
-     "t": "7:20–7:26",
-     "title": "Broly sotto il 10% di HP, primo passaggio della difesa dall'Overdrive sbagliato"
-    }
-   ],
-   "headline": "Broly −1,8M appena entrato, vittoria al fotofinish",
-   "limits": "Analizzato con un fotogramma ogni 2 secondi; alcuni personaggi ricavati dalle icone.",
-   "opponent": "microonde",
-   "opponentTeam": [
-    "Perfect Cell",
-    "Goku Black Rosé",
-    "Trunks",
-    "Goku SSJ",
-    "Cooler"
-   ],
-   "result": "win",
-   "resultNote": "Finish di Broly con 3 secondi sul timer e 305k HP rimasti.",
-   "strengths": [
-    "\"Time those taps\" vinto (947 contro 857)",
-    "Rising K.O. di Cooler da 9,8M",
-    "Rising Rush avversario schivato indovinando la carta",
-    "Sangue freddo nel finale"
-   ],
-   "team": [
-    "Cooler UL",
-    "Broly LR",
-    "Goku LR",
-    "Beerus (equip)"
-   ],
-   "timeline": [
-    {
-     "mark": "err",
-     "t": "0:14–0:20",
-     "text": "Cooler apre e subisce una prima combo (2,46M → 1,96M)"
-    },
-    {
-     "mark": "err",
-     "t": "0:22–0:32",
-     "text": "Broly entra e perde 1,8M in 10 secondi"
-    },
-    {
-     "mark": "ok",
-     "t": "2:02–2:06",
-     "text": "\"Time those taps\" vinto"
-    },
-    {
-     "mark": "ok",
-     "t": "3:12–3:16",
-     "text": "Cooler: combo da 70 colpi"
-    },
-    {
-     "mark": "ok",
-     "t": "4:48–5:22",
-     "text": "Rising K.O. di Cooler (9,8M)"
-    },
-    {
-     "mark": "err",
-     "t": "6:24–6:30",
-     "text": "Goku SSJ usa \"Incredible Ace in the Hole\" ma va KO"
-    },
-    {
-     "mark": "ok",
-     "t": "6:42–6:50",
-     "text": "Rising Rush avversario schivato"
-    },
-    {
-     "mark": "",
-     "t": "7:20–7:28",
-     "text": "Broly a 124k HP: difesa dall'Overdrive prima fallita, poi riuscita"
-    },
-    {
-     "mark": "ok",
-     "t": "7:32–7:36",
-     "text": "Special di Broly: FINISH a 3 secondi dalla fine"
-    }
-   ],
-   "verdict": "Vittoria sofferta: un pessimo inizio con Broly ti ha costretto a rimontare. Il Rising K.O. di Cooler e il sangue freddo nel finale l'hanno salvata.",
-   "id": "2026-10-04-1"
+   "result": "win"
   },
   {
+   "id": "2026-09-10-1",
    "date": "2026-09-10",
-   "duration": "replay 7:49",
-   "errors": [
-    {
-     "fix": "Andava cambiato dopo la prima combo.",
-     "t": "0:24–0:56",
-     "title": "Broly lasciato in campo mentre perde il 95% degli HP"
-    },
-    {
-     "fix": "Costa circa 1,3M di HP a Broly.",
-     "t": "4:20–4:24",
-     "title": "Difesa dall'Overdrive fallita"
-    },
-    {
-     "fix": "Senza ki non hai niente per difenderti o contrattaccare: carica il ki prima di entrare in uno scambio.",
-     "t": "1:34 e 6:40",
-     "title": "Cooler a ki 0 sotto pressione"
-    }
-   ],
-   "headline": "Broly da 2,66M a 0,15M in 30 secondi",
-   "limits": "Analizzato con un fotogramma ogni 2 secondi; alcuni personaggi ricavati dalle icone.",
-   "opponent": "Nosa711",
-   "opponentTeam": [
-    "Broly LF",
-    "Golden Frieza",
-    "Android 17",
-    "SSJ Vegeta",
-    "Cooler"
-   ],
-   "result": "win",
-   "resultNote": "L'avversario ha abbandonato a 1 secondo dalla fine.",
-   "strengths": [
-    "Combo di Cooler fino a 76 colpi",
-    "Rising K.O. da 4,4M",
-    "Overdrive di Gogeta riuscito",
-    "\"Time those taps\" vinto (989 contro 921)"
-   ],
-   "team": [
-    "Gogeta SSGSS",
-    "Broly LR",
-    "Cooler UL"
-   ],
-   "timeline": [
-    {
-     "mark": "err",
-     "t": "0:24–0:56",
-     "text": "Broly subisce combo su combo: da 2,66M a 0,15M"
-    },
-    {
-     "mark": "ok",
-     "t": "0:56–1:00",
-     "text": "\"Time those taps\" vinto"
-    },
-    {
-     "mark": "ok",
-     "t": "2:08–2:22",
-     "text": "Ultimate di Gogeta: KO di un avversario"
-    },
-    {
-     "mark": "ok",
-     "t": "3:22–3:52",
-     "text": "Cooler: combo da 76 colpi"
-    },
-    {
-     "mark": "err",
-     "t": "4:20–4:24",
-     "text": "Overdrive avversario: difesa fallita"
-    },
-    {
-     "mark": "ok",
-     "t": "4:44–5:44",
-     "text": "Rising K.O. da 4,37M"
-    },
-    {
-     "mark": "ok",
-     "t": "5:56–6:20",
-     "text": "Overdrive di Gogeta riuscito"
-    },
-    {
-     "mark": "err",
-     "t": "7:20–7:22",
-     "text": "Gogeta va KO"
-    },
-    {
-     "mark": "ok",
-     "t": "7:44",
-     "text": "L'avversario abbandona"
-    }
-   ],
-   "verdict": "Cooler ha girato la partita con combo enormi e un Rising K.O., ma in difesa hai regalato quasi tutto Broly nel primo minuto e altri 1,3M sull'Overdrive avversario.",
-   "id": "2026-09-10-1"
+   "result": "win"
   },
   {
+   "id": "2026-07-25-1",
    "date": "2026-07-25",
-   "duration": "replay 5:47",
-   "errors": [
-    {
-     "fix": "Rising K.O. subito. Quando vedi il Rising Rush avversario quasi pronto, cambia o tieni il vanish.",
-     "t": "0:30–1:26",
-     "title": "SSJ3 Goku resta in campo contro Vegito mentre l'avversario carica il Rising Rush"
-    },
-    {
-     "fix": "Perso un personaggio con HP ancora alti.",
-     "t": "4:00–4:12",
-     "title": "Broly preso in pieno dall'Ultimate di Vegito"
-    },
-    {
-     "fix": "Vittoria più rischiosa del necessario.",
-     "t": "4:14–4:30",
-     "title": "Gogeta scende fino a ~300k HP prima di chiudere"
-    }
-   ],
-   "headline": "SSJ3 Goku preso dal Rising Rush, Gogeta chiude",
-   "limits": "Analizzato con un fotogramma ogni 2 secondi; squadre ricostruite dalle icone, non tutte certe.",
-   "opponent": "nome non leggibile",
-   "opponentTeam": [
-    "Vegito Blue",
-    "Trunks",
-    "SSJ Vegeta",
-    "Broly"
-   ],
-   "result": "win",
-   "resultNote": "Rising K.O. di Gogeta e chiusura con 42 secondi sul timer.",
-   "strengths": [
-    "Rising K.O. di Gogeta da 11,8M",
-    "Rimonta con Gogeta da 561k HP: KO di Vegito e chiusura",
-    "\"Choose a route\" in attacco riuscito"
-   ],
-   "team": [
-    "Gogeta SSGSS",
-    "SSJ3 Goku",
-    "Broly LR"
-   ],
-   "timeline": [
-    {
-     "mark": "ok",
-     "t": "0:06–0:28",
-     "text": "Gogeta apre bene: leader avversario da 2,17M a 0,86M"
-    },
-    {
-     "mark": "err",
-     "t": "0:30–1:26",
-     "text": "SSJ3 Goku contro Vegito scende a 1,51M"
-    },
-    {
-     "mark": "err",
-     "t": "1:28–1:52",
-     "text": "Rising Rush di Vegito: SSJ3 Goku va KO"
-    },
-    {
-     "mark": "ok",
-     "t": "1:54–2:30",
-     "text": "Broly: combo da 34 colpi + Rage At Its Zenith"
-    },
-    {
-     "mark": "err",
-     "t": "4:00–4:12",
-     "text": "Ultimate di Vegito: Broly KO"
-    },
-    {
-     "mark": "ok",
-     "t": "4:14–4:54",
-     "text": "Gogeta: combo + Ultimate, KO di Vegito"
-    },
-    {
-     "mark": "ok",
-     "t": "5:16–5:32",
-     "text": "Rising K.O. di Gogeta (11,8M)"
-    },
-    {
-     "mark": "ok",
-     "t": "5:36–5:44",
-     "text": "FINISH"
-    }
-   ],
-   "verdict": "Hai perso due personaggi su Rising Rush e Ultimate di Vegito, ma Gogeta da solo ha fatto il resto.",
-   "id": "2026-07-25-1"
+   "result": "win"
   }
  ],
  "events": {
-  "data": "2026-11-22",
   "aggiornato": "2026-11-22T19:29:45+0100",
-  "fonte": "https://dblegends.net/events",
-  "squadra": [
-   "Final Form Cooler UL (tua squadra)",
-   "Broly: Fury LL (tua squadra)",
-   "Goku LL (tua squadra)",
-   "SSJ Gohan Youth SP Zenkai (tua squadra)",
-   "SSG Shallet LL (da confermare se ce l'hai)"
-  ],
-  "totale_cc": 12127,
-  "in_scadenza": [
-   "Dragon Ball Super: Beerus Japanese Premiere Celebration! Exciting Bonus Mini Raid",
-   "WEEKEND SPECIAL CHOICE!",
-   "WEEKEND Arts Boost Battle!"
-  ],
+  "data": "2026-11-22",
   "eventi": [
    {
-    "id": 60152,
-    "nome": "ZENKAI Rush Battle - Pan: Trunks & Giru (Assist) -",
-    "tipo": "Rush",
-    "inizio": "mer 11/11 07:00",
-    "fine": "mer 25/11 07:00",
-    "ore_rimaste": 60,
-    "lungo": false,
-    "stage": 1,
-    "stamina": 0,
+    "altri_premi": {},
     "cc_diretti": 0,
     "cc_negozio": 0,
-    "altri_premi": {},
     "drop": [
      "Chrono Crystal",
      "Slot Remover",
      "Rush Medal"
     ],
+    "fine": "mer 25/11 07:00",
+    "id": 60152,
+    "inizio": "mer 11/11 07:00",
+    "link": "https://dblegends.net/event/60152",
+    "lungo": false,
+    "motivo": "premi per la tua squadra",
     "negozi": [
      {
-      "id": "40001",
-      "nome": "Ultra Space-Time Rush",
-      "proprio": false,
       "cc": 0,
       "cc_costo": {},
       "consigliati": [
@@ -1351,40 +311,40 @@
        "A God Facing a God ×1 (3.500 Rush Medal)",
        "A Nostalgic Weapon ×1 (1.000 Rush Medal)"
       ],
+      "id": "40001",
+      "nome": "Ultra Space-Time Rush",
+      "proprio": false,
       "squadra": [
        "Awakening Z Power [Super Saiyan Gohan (Youth)] ×100 (1 ZENKAI Rush Medal, max 70) → SSJ Gohan Youth SP Zenkai (tua squadra) (Zenkai)"
       ]
      }
     ],
+    "nome": "ZENKAI Rush Battle - Pan: Trunks & Giru (Assist) -",
+    "ore_rimaste": 60,
+    "priorita": 1,
     "squadra": [
      "Awakening Z Power [Super Saiyan Gohan (Youth)] ×100 (1 ZENKAI Rush Medal, max 70) → SSJ Gohan Youth SP Zenkai (tua squadra) (Zenkai)"
     ],
-    "priorita": 1,
-    "motivo": "premi per la tua squadra",
-    "link": "https://dblegends.net/event/60152"
-   },
-   {
-    "id": 62000,
-    "nome": "Platinum Rush - Super Gogeta -",
-    "tipo": "Rush",
-    "inizio": "mer 11/11 07:00",
-    "fine": "mer 25/11 07:00",
-    "ore_rimaste": 60,
-    "lungo": false,
     "stage": 1,
     "stamina": 0,
+    "tipo": "Rush"
+   },
+   {
+    "altri_premi": {},
     "cc_diretti": 0,
     "cc_negozio": 0,
-    "altri_premi": {},
     "drop": [
      "Rush Medal",
      "Chrono Crystal"
     ],
+    "fine": "mer 25/11 07:00",
+    "id": 62000,
+    "inizio": "mer 11/11 07:00",
+    "link": "https://dblegends.net/event/62000",
+    "lungo": false,
+    "motivo": "premi per la tua squadra",
     "negozi": [
      {
-      "id": "40001",
-      "nome": "Ultra Space-Time Rush",
-      "proprio": false,
       "cc": 0,
       "cc_costo": {},
       "consigliati": [
@@ -1397,44 +357,44 @@
        "A God Facing a God ×1 (3.500 Rush Medal)",
        "A Nostalgic Weapon ×1 (1.000 Rush Medal)"
       ],
+      "id": "40001",
+      "nome": "Ultra Space-Time Rush",
+      "proprio": false,
       "squadra": [
        "Awakening Z Power [Super Saiyan Gohan (Youth)] ×100 (1 ZENKAI Rush Medal, max 70) → SSJ Gohan Youth SP Zenkai (tua squadra) (Zenkai)"
       ]
      }
     ],
+    "nome": "Platinum Rush - Super Gogeta -",
+    "ore_rimaste": 60,
+    "priorita": 1,
     "squadra": [
      "Awakening Z Power [Super Saiyan Gohan (Youth)] ×100 (1 ZENKAI Rush Medal, max 70) → SSJ Gohan Youth SP Zenkai (tua squadra) (Zenkai)"
     ],
-    "priorita": 1,
-    "motivo": "premi per la tua squadra",
-    "link": "https://dblegends.net/event/62000"
-   },
-   {
-    "id": 801301,
-    "nome": "Dragon Ball Super: Beerus Japanese Premiere Celebration! Exciting Bonus Mini Raid",
-    "tipo": "Raid",
-    "inizio": "dom 22/11 15:45",
-    "fine": "mar 24/11 07:00",
-    "ore_rimaste": 36,
-    "lungo": false,
     "stage": 1,
     "stamina": 0,
-    "cc_diretti": 10,
-    "cc_negozio": 0,
+    "tipo": "Rush"
+   },
+   {
     "altri_premi": {
      "Mini-Raid Medal": 21,
      "Rare Medal": 100
     },
+    "cc_diretti": 10,
+    "cc_negozio": 0,
     "drop": [
      "Mini-Raid Medal",
      "Multi-Z Power 10",
      "Equipment Medal"
     ],
+    "fine": "mar 24/11 07:00",
+    "id": 801301,
+    "inizio": "dom 22/11 15:45",
+    "link": "https://dblegends.net/event/801301",
+    "lungo": false,
+    "motivo": "10 Chrono Crystal in palio",
     "negozi": [
      {
-      "id": "80130",
-      "nome": "Mini-Raid Medal Exchange",
-      "proprio": false,
       "cc": 200,
       "cc_costo": {
        "Mini-Raid Medal": 400
@@ -1442,65 +402,62 @@
       "consigliati": [
        "Dragon Ball Super: Beerus Coin ×1 (100 Mini-Raid Medal, max 1)"
       ],
+      "id": "80130",
+      "nome": "Mini-Raid Medal Exchange",
+      "proprio": false,
       "squadra": []
      }
     ],
-    "squadra": [],
+    "nome": "Dragon Ball Super: Beerus Japanese Premiere Celebration! Exciting Bonus Mini Raid",
+    "ore_rimaste": 36,
     "priorita": 2,
-    "motivo": "10 Chrono Crystal in palio",
-    "link": "https://dblegends.net/event/801301"
+    "squadra": [],
+    "stage": 1,
+    "stamina": 0,
+    "tipo": "Raid"
    },
    {
-    "id": 105601,
-    "nome": "Clear Tomorrow for 2x Rewards! Festival Double-Up Battle #1",
-    "tipo": "Doppio premio",
-    "inizio": "sab 21/11 07:00",
-    "fine": "sab 28/11 07:00",
-    "ore_rimaste": 132,
-    "lungo": false,
-    "stage": 4,
-    "stamina": 1,
+    "altri_premi": {},
     "cc_diretti": 0,
     "cc_negozio": 1600,
-    "altri_premi": {},
     "drop": [
      "Double-Up Ticket #1"
     ],
+    "fine": "sab 28/11 07:00",
+    "id": 105601,
+    "inizio": "sab 21/11 07:00",
+    "link": "https://dblegends.net/event/105601",
+    "lungo": false,
+    "motivo": "1.600 Chrono Crystal in palio",
     "negozi": [
      {
-      "id": "105601",
-      "nome": "Double-Up Ticket #1 Exchange",
-      "proprio": true,
       "cc": 1600,
       "cc_costo": {
        "Double-Up Ticket #1": 8,
        "Double-Up Ticket #2": 8
       },
       "consigliati": [],
+      "id": "105601",
+      "nome": "Double-Up Ticket #1 Exchange",
+      "proprio": true,
       "squadra": []
      }
     ],
-    "squadra": [],
+    "nome": "Clear Tomorrow for 2x Rewards! Festival Double-Up Battle #1",
+    "ore_rimaste": 132,
     "priorita": 2,
-    "motivo": "1.600 Chrono Crystal in palio",
-    "link": "https://dblegends.net/event/105601"
+    "squadra": [],
+    "stage": 4,
+    "stamina": 1,
+    "tipo": "Doppio premio"
    },
    {
-    "id": 80136,
-    "nome": "Black Friday Raid 2026",
-    "tipo": "Raid",
-    "inizio": "sab 21/11 07:00",
-    "fine": "mer 2/12 07:00",
-    "ore_rimaste": 228,
-    "lungo": false,
-    "stage": 2,
-    "stamina": 0,
-    "cc_diretti": 20,
-    "cc_negozio": 1400,
     "altri_premi": {
      "Black Friday Raid Medal": 125,
      "Black Friday Raid Medal II": 125
     },
+    "cc_diretti": 20,
+    "cc_negozio": 1400,
     "drop": [
      "Black Friday Raid Medal",
      "Festival Medal 2026 (Silver)",
@@ -1508,11 +465,14 @@
      "Equipment Medal",
      "Black Friday Raid Medal II"
     ],
+    "fine": "mer 2/12 07:00",
+    "id": 80136,
+    "inizio": "sab 21/11 07:00",
+    "link": "https://dblegends.net/event/80136",
+    "lungo": false,
+    "motivo": "1.420 Chrono Crystal in palio",
     "negozi": [
      {
-      "id": "50126",
-      "nome": "Festival Medal 2026 (Silver) Exchange Shop",
-      "proprio": false,
       "cc": 0,
       "cc_costo": {},
       "consigliati": [
@@ -1523,12 +483,12 @@
        "Collect 100 to Play! LEGENDS FESTIVAL 2026 100x Summon Ticket ×1 (10 Festival Medal 2026 (Silver), max 50)",
        "Festival Plate 2026 ×1 (3 Festival Medal 2026 (Silver), max 100)"
       ],
+      "id": "50126",
+      "nome": "Festival Medal 2026 (Silver) Exchange Shop",
+      "proprio": false,
       "squadra": []
      },
      {
-      "id": "80136",
-      "nome": "Black Friday Raid Medal Exchange Shop",
-      "proprio": true,
       "cc": 1400,
       "cc_costo": {
        "Black Friday Raid Medal": 2400,
@@ -1541,60 +501,60 @@
        "BLACK FRIDAY Feature Summon Consecutive Summon Ticket ×1 (7 Black Friday Premium Medal, max 2)",
        "Festival Medal 2026 (Gold) ×1 (2 Black Friday Premium Medal, max 6)"
       ],
+      "id": "80136",
+      "nome": "Black Friday Raid Medal Exchange Shop",
+      "proprio": true,
       "squadra": []
      }
     ],
-    "squadra": [],
+    "nome": "Black Friday Raid 2026",
+    "ore_rimaste": 228,
     "priorita": 2,
-    "motivo": "1.420 Chrono Crystal in palio",
-    "link": "https://dblegends.net/event/80136"
+    "squadra": [],
+    "stage": 2,
+    "stamina": 0,
+    "tipo": "Raid"
    },
    {
-    "id": 24700,
-    "nome": "Another Future! The Android Menace",
-    "tipo": "Storia/evento",
-    "inizio": "sab 21/11 07:00",
-    "fine": "mer 2/12 07:00",
-    "ore_rimaste": 228,
-    "lungo": false,
-    "stage": 17,
-    "stamina": 17,
+    "altri_premi": {
+     "Rare Medal": 170,
+     "Title": 1,
+     "Training Item": 91
+    },
     "cc_diretti": 567,
     "cc_negozio": 0,
-    "altri_premi": {
-     "Training Item": 91,
-     "Title": 1,
-     "Rare Medal": 170
-    },
     "drop": [],
-    "negozi": [],
-    "squadra": [],
-    "priorita": 2,
+    "fine": "mer 2/12 07:00",
+    "id": 24700,
+    "inizio": "sab 21/11 07:00",
+    "link": "https://dblegends.net/event/24700",
+    "lungo": false,
     "motivo": "567 Chrono Crystal in palio",
-    "link": "https://dblegends.net/event/24700"
+    "negozi": [],
+    "nome": "Another Future! The Android Menace",
+    "ore_rimaste": 228,
+    "priorita": 2,
+    "squadra": [],
+    "stage": 17,
+    "stamina": 17,
+    "tipo": "Storia/evento"
    },
    {
-    "id": 40236,
-    "nome": "ZENKAI Ultra Space-Time Rush",
-    "tipo": "Rush",
-    "inizio": "mer 18/11 07:00",
-    "fine": "mer 2/12 07:00",
-    "ore_rimaste": 228,
-    "lungo": false,
-    "stage": 13,
-    "stamina": 0,
-    "cc_diretti": 0,
-    "cc_negozio": 0,
     "altri_premi": {
      "Rush Medal": 65500,
      "ZENKAI Rush Medal": 35
     },
+    "cc_diretti": 0,
+    "cc_negozio": 0,
     "drop": [],
+    "fine": "mer 2/12 07:00",
+    "id": 40236,
+    "inizio": "mer 18/11 07:00",
+    "link": "https://dblegends.net/event/40236",
+    "lungo": false,
+    "motivo": "premi per la tua squadra",
     "negozi": [
      {
-      "id": "40001",
-      "nome": "Ultra Space-Time Rush",
-      "proprio": false,
       "cc": 0,
       "cc_costo": {},
       "consigliati": [
@@ -1607,41 +567,41 @@
        "A God Facing a God ×1 (3.500 Rush Medal)",
        "A Nostalgic Weapon ×1 (1.000 Rush Medal)"
       ],
+      "id": "40001",
+      "nome": "Ultra Space-Time Rush",
+      "proprio": false,
       "squadra": [
        "Awakening Z Power [Super Saiyan Gohan (Youth)] ×100 (1 ZENKAI Rush Medal, max 70) → SSJ Gohan Youth SP Zenkai (tua squadra) (Zenkai)"
       ]
      }
     ],
+    "nome": "ZENKAI Ultra Space-Time Rush",
+    "ore_rimaste": 228,
+    "priorita": 2,
     "squadra": [
      "Awakening Z Power [Super Saiyan Gohan (Youth)] ×100 (1 ZENKAI Rush Medal, max 70) → SSJ Gohan Youth SP Zenkai (tua squadra) (Zenkai)"
     ],
-    "priorita": 2,
-    "motivo": "premi per la tua squadra",
-    "link": "https://dblegends.net/event/40236"
+    "stage": 13,
+    "stamina": 0,
+    "tipo": "Rush"
    },
    {
-    "id": 60153,
-    "nome": "ZENKAI Rush Battle - Magenta -",
-    "tipo": "Rush",
-    "inizio": "sab 21/11 07:00",
-    "fine": "sab 5/12 07:00",
-    "ore_rimaste": 300,
-    "lungo": false,
-    "stage": 1,
-    "stamina": 0,
+    "altri_premi": {},
     "cc_diretti": 0,
     "cc_negozio": 0,
-    "altri_premi": {},
     "drop": [
      "Chrono Crystal",
      "Slot Remover",
      "Rush Medal"
     ],
+    "fine": "sab 5/12 07:00",
+    "id": 60153,
+    "inizio": "sab 21/11 07:00",
+    "link": "https://dblegends.net/event/60153",
+    "lungo": false,
+    "motivo": "premi per la tua squadra",
     "negozi": [
      {
-      "id": "40001",
-      "nome": "Ultra Space-Time Rush",
-      "proprio": false,
       "cc": 0,
       "cc_costo": {},
       "consigliati": [
@@ -1654,42 +614,42 @@
        "A God Facing a God ×1 (3.500 Rush Medal)",
        "A Nostalgic Weapon ×1 (1.000 Rush Medal)"
       ],
+      "id": "40001",
+      "nome": "Ultra Space-Time Rush",
+      "proprio": false,
       "squadra": [
        "Awakening Z Power [Super Saiyan Gohan (Youth)] ×100 (1 ZENKAI Rush Medal, max 70) → SSJ Gohan Youth SP Zenkai (tua squadra) (Zenkai)"
       ]
      }
     ],
+    "nome": "ZENKAI Rush Battle - Magenta -",
+    "ore_rimaste": 300,
+    "priorita": 2,
     "squadra": [
      "Awakening Z Power [Super Saiyan Gohan (Youth)] ×100 (1 ZENKAI Rush Medal, max 70) → SSJ Gohan Youth SP Zenkai (tua squadra) (Zenkai)"
     ],
-    "priorita": 2,
-    "motivo": "premi per la tua squadra",
-    "link": "https://dblegends.net/event/60153"
+    "stage": 1,
+    "stamina": 0,
+    "tipo": "Rush"
    },
    {
-    "id": 200145,
-    "nome": "Festival Hyperdimensional Co-Op VS Gamma 2",
-    "tipo": "Co-op",
-    "inizio": "sab 21/11 07:00",
-    "fine": "mer 9/12 07:00",
-    "ore_rimaste": 396,
-    "lungo": false,
-    "stage": 3,
-    "stamina": 0,
-    "cc_diretti": 30,
-    "cc_negozio": 0,
     "altri_premi": {
      "Dual Coin": 1280
     },
+    "cc_diretti": 30,
+    "cc_negozio": 0,
     "drop": [
      "Dual Coin",
      "Festival Medal 2026 (Silver)"
     ],
+    "fine": "mer 9/12 07:00",
+    "id": 200145,
+    "inizio": "sab 21/11 07:00",
+    "link": "https://dblegends.net/event/200145",
+    "lungo": false,
+    "motivo": "medaglie per il negozio Dual Coin Exchange Shop (fino a 300 CC in tutto)",
     "negozi": [
      {
-      "id": "50126",
-      "nome": "Festival Medal 2026 (Silver) Exchange Shop",
-      "proprio": false,
       "cc": 0,
       "cc_costo": {},
       "consigliati": [
@@ -1700,12 +660,12 @@
        "Collect 100 to Play! LEGENDS FESTIVAL 2026 100x Summon Ticket ×1 (10 Festival Medal 2026 (Silver), max 50)",
        "Festival Plate 2026 ×1 (3 Festival Medal 2026 (Silver), max 100)"
       ],
+      "id": "50126",
+      "nome": "Festival Medal 2026 (Silver) Exchange Shop",
+      "proprio": false,
       "squadra": []
      },
      {
-      "id": "70000",
-      "nome": "Dual Coin Exchange Shop",
-      "proprio": false,
       "cc": 300,
       "cc_costo": {
        "Dual Coin": 4500
@@ -1720,51 +680,51 @@
        "Expand Equipment Limit ×1 (15 Great Dual Coin, max 20)",
        "Slot Remover ×1 (3 Great Dual Coin)"
       ],
+      "id": "70000",
+      "nome": "Dual Coin Exchange Shop",
+      "proprio": false,
       "squadra": []
      }
     ],
-    "squadra": [],
+    "nome": "Festival Hyperdimensional Co-Op VS Gamma 2",
+    "ore_rimaste": 396,
     "priorita": 2,
-    "motivo": "medaglie per il negozio Dual Coin Exchange Shop (fino a 300 CC in tutto)",
-    "link": "https://dblegends.net/event/200145"
+    "squadra": [],
+    "stage": 3,
+    "stamina": 0,
+    "tipo": "Co-op"
    },
    {
-    "id": 100117,
-    "nome": "Legendary Raging Battle -GT- Gogeta VS Omega Shenron",
-    "tipo": "Storia/evento",
-    "inizio": "sab 21/11 07:00",
-    "fine": "mer 9/12 07:00",
-    "ore_rimaste": 396,
-    "lungo": false,
-    "stage": 6,
-    "stamina": 6,
+    "altri_premi": {
+     "Festival Medal 2026 (Gold)": 1,
+     "Festival Medal 2026 (Silver)": 5,
+     "Rare Medal": 168,
+     "Seed Exchange Medal": 5,
+     "Slot Remover": 80,
+     "Title": 1
+    },
     "cc_diretti": 0,
     "cc_negozio": 0,
-    "altri_premi": {
-     "Slot Remover": 80,
-     "Festival Medal 2026 (Silver)": 5,
-     "Seed Exchange Medal": 5,
-     "Title": 1,
-     "Festival Medal 2026 (Gold)": 1,
-     "Rare Medal": 168
-    },
     "drop": [],
+    "fine": "mer 9/12 07:00",
+    "id": 100117,
+    "inizio": "sab 21/11 07:00",
+    "link": "https://dblegends.net/event/100117",
+    "lungo": false,
+    "motivo": "medaglie per il negozio Festival Medal 2026 (Gold) Exchange Shop (fino a 8.000 CC in tutto)",
     "negozi": [
      {
-      "id": "50125",
-      "nome": "Festival Medal 2026 (Gold) Exchange Shop",
-      "proprio": false,
       "cc": 8000,
       "cc_costo": {
        "Festival Medal 2026 (Gold)": 80
       },
       "consigliati": [],
+      "id": "50125",
+      "nome": "Festival Medal 2026 (Gold) Exchange Shop",
+      "proprio": false,
       "squadra": []
      },
      {
-      "id": "50126",
-      "nome": "Festival Medal 2026 (Silver) Exchange Shop",
-      "proprio": false,
       "cc": 0,
       "cc_costo": {},
       "consigliati": [
@@ -1775,446 +735,446 @@
        "Collect 100 to Play! LEGENDS FESTIVAL 2026 100x Summon Ticket ×1 (10 Festival Medal 2026 (Silver), max 50)",
        "Festival Plate 2026 ×1 (3 Festival Medal 2026 (Silver), max 100)"
       ],
+      "id": "50126",
+      "nome": "Festival Medal 2026 (Silver) Exchange Shop",
+      "proprio": false,
       "squadra": []
      }
     ],
-    "squadra": [],
+    "nome": "Legendary Raging Battle -GT- Gogeta VS Omega Shenron",
+    "ore_rimaste": 396,
     "priorita": 2,
-    "motivo": "medaglie per il negozio Festival Medal 2026 (Gold) Exchange Shop (fino a 8.000 CC in tutto)",
-    "link": "https://dblegends.net/event/100117"
+    "squadra": [],
+    "stage": 6,
+    "stamina": 6,
+    "tipo": "Storia/evento"
    },
    {
-    "id": 13012,
-    "nome": "WEEKEND SPECIAL CHOICE!",
-    "tipo": "Weekend",
-    "inizio": "sab 21/11 07:00",
-    "fine": "mar 24/11 07:00",
-    "ore_rimaste": 36,
-    "lungo": false,
-    "stage": 3,
-    "stamina": 3,
-    "cc_diretti": 0,
-    "cc_negozio": 0,
     "altri_premi": {
      "Rare Medal": 60
     },
+    "cc_diretti": 0,
+    "cc_negozio": 0,
     "drop": [
      "Soul Exchange Medal",
      "Fragment Exchange Medal"
     ],
-    "negozi": [],
-    "squadra": [],
-    "priorita": 3,
+    "fine": "mar 24/11 07:00",
+    "id": 13012,
+    "inizio": "sab 21/11 07:00",
+    "link": "https://dblegends.net/event/13012",
+    "lungo": false,
     "motivo": "premi minori (materiali, Zeni, medaglie generiche)",
-    "link": "https://dblegends.net/event/13012"
+    "negozi": [],
+    "nome": "WEEKEND SPECIAL CHOICE!",
+    "ore_rimaste": 36,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 3,
+    "stamina": 3,
+    "tipo": "Weekend"
    },
    {
-    "id": 14002,
-    "nome": "WEEKEND Arts Boost Battle!",
-    "tipo": "Weekend",
-    "inizio": "sab 21/11 07:00",
-    "fine": "mar 24/11 07:00",
-    "ore_rimaste": 36,
-    "lungo": false,
-    "stage": 6,
-    "stamina": 60,
-    "cc_diretti": 0,
-    "cc_negozio": 0,
     "altri_premi": {
      "Rare Medal": 120
     },
+    "cc_diretti": 0,
+    "cc_negozio": 0,
     "drop": [
      "Arts Sphere",
      "Practice Arts Core +1 (Grade 1 or higher/lower than Grade 2)",
      "Arts Core"
     ],
-    "negozi": [],
-    "squadra": [],
-    "priorita": 3,
+    "fine": "mar 24/11 07:00",
+    "id": 14002,
+    "inizio": "sab 21/11 07:00",
+    "link": "https://dblegends.net/event/14002",
+    "lungo": false,
     "motivo": "premi minori (materiali, Zeni, medaglie generiche)",
-    "link": "https://dblegends.net/event/14002"
+    "negozi": [],
+    "nome": "WEEKEND Arts Boost Battle!",
+    "ore_rimaste": 36,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 6,
+    "stamina": 60,
+    "tipo": "Weekend"
    },
    {
-    "id": 19225,
-    "nome": "Leave It to Pan! Operation: Energize!!",
-    "tipo": "Storia/evento",
-    "inizio": "sab 21/11 07:00",
-    "fine": "mar 1/12 07:00",
-    "ore_rimaste": 204,
-    "lungo": false,
-    "stage": 2,
-    "stamina": 2,
-    "cc_diretti": 0,
-    "cc_negozio": 0,
     "altri_premi": {
      "Rare Medal": 40
     },
+    "cc_diretti": 0,
+    "cc_negozio": 0,
     "drop": [
      "Energy",
      "Skip Ticket"
     ],
-    "negozi": [],
-    "squadra": [],
-    "priorita": 3,
+    "fine": "mar 1/12 07:00",
+    "id": 19225,
+    "inizio": "sab 21/11 07:00",
+    "link": "https://dblegends.net/event/19225",
+    "lungo": false,
     "motivo": "premi minori (materiali, Zeni, medaglie generiche)",
-    "link": "https://dblegends.net/event/19225"
+    "negozi": [],
+    "nome": "Leave It to Pan! Operation: Energize!!",
+    "ore_rimaste": 204,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 2,
+    "stamina": 2,
+    "tipo": "Storia/evento"
    },
    {
-    "id": 103902,
-    "nome": "Huzzah! Operation Get Characters!",
-    "tipo": "Storia/evento",
-    "inizio": "sab 21/11 07:00",
-    "fine": "mer 2/12 07:00",
-    "ore_rimaste": 228,
-    "lungo": false,
-    "stage": 2,
-    "stamina": 3,
-    "cc_diretti": 0,
-    "cc_negozio": 0,
     "altri_premi": {
      "Huzzah! Character Exchange Ticket": 200,
      "Rare Medal": 40
     },
+    "cc_diretti": 0,
+    "cc_negozio": 0,
     "drop": [
      "Huzzah! Character Exchange Ticket"
     ],
+    "fine": "mer 2/12 07:00",
+    "id": 103902,
+    "inizio": "sab 21/11 07:00",
+    "link": "https://dblegends.net/event/103902",
+    "lungo": false,
+    "motivo": "premi minori (materiali, Zeni, medaglie generiche)",
     "negozi": [
      {
-      "id": "103901",
-      "nome": "Huzzah! Character Exchange Ticket Exchange",
-      "proprio": false,
       "cc": 0,
       "cc_costo": {},
       "consigliati": [],
+      "id": "103901",
+      "nome": "Huzzah! Character Exchange Ticket Exchange",
+      "proprio": false,
       "squadra": []
      }
     ],
-    "squadra": [],
+    "nome": "Huzzah! Operation Get Characters!",
+    "ore_rimaste": 228,
     "priorita": 3,
-    "motivo": "premi minori (materiali, Zeni, medaglie generiche)",
-    "link": "https://dblegends.net/event/103902"
+    "squadra": [],
+    "stage": 2,
+    "stamina": 3,
+    "tipo": "Storia/evento"
    },
    {
-    "id": 8002,
-    "nome": "Ultimate Equipment Collection",
-    "tipo": "Equip",
-    "inizio": "mer 3/8 08:00",
-    "fine": "lun 31/12 16:00",
-    "ore_rimaste": 27237,
-    "lungo": true,
-    "stage": 103,
-    "stamina": 103,
-    "cc_diretti": 1030,
-    "cc_negozio": 0,
     "altri_premi": {
      "Equipment Medal": 1339
     },
+    "cc_diretti": 1030,
+    "cc_negozio": 0,
     "drop": [],
-    "negozi": [],
-    "squadra": [],
-    "priorita": 3,
+    "fine": "lun 31/12 16:00",
+    "id": 8002,
+    "inizio": "mer 3/8 08:00",
+    "link": "https://dblegends.net/event/8002",
+    "lungo": true,
     "motivo": "evento lungo o permanente: quando hai stamina libera",
-    "link": "https://dblegends.net/event/8002"
+    "negozi": [],
+    "nome": "Ultimate Equipment Collection",
+    "ore_rimaste": 27237,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 103,
+    "stamina": 103,
+    "tipo": "Equip"
    },
    {
-    "id": 100108,
-    "nome": "Goku the Saiyan's Battle Chronicles",
-    "tipo": "Storia/evento",
-    "inizio": "dom 11/10 16:45",
-    "fine": "mer 31/3 08:00",
-    "ore_rimaste": 3084,
-    "lungo": true,
-    "stage": 10,
-    "stamina": 10,
+    "altri_premi": {
+     "Title": 1
+    },
     "cc_diretti": 1000,
     "cc_negozio": 0,
-    "altri_premi": {
-     "Title": 1
-    },
     "drop": [],
-    "negozi": [],
-    "squadra": [],
-    "priorita": 3,
+    "fine": "mer 31/3 08:00",
+    "id": 100108,
+    "inizio": "dom 11/10 16:45",
+    "link": "https://dblegends.net/event/100108",
+    "lungo": true,
     "motivo": "evento lungo o permanente: quando hai stamina libera",
-    "link": "https://dblegends.net/event/100108"
+    "negozi": [],
+    "nome": "Goku the Saiyan's Battle Chronicles",
+    "ore_rimaste": 3084,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 10,
+    "stamina": 10,
+    "tipo": "Storia/evento"
    },
    {
-    "id": 24000,
-    "nome": "The Dreaded Ginyu Force",
-    "tipo": "Storia/evento",
-    "inizio": "mer 21/7 08:00",
-    "fine": "lun 31/12 16:00",
-    "ore_rimaste": 27237,
-    "lungo": true,
-    "stage": 27,
-    "stamina": 27,
+    "altri_premi": {
+     "Rare Medal": 270,
+     "Title": 2,
+     "Training Item": 161
+    },
     "cc_diretti": 917,
     "cc_negozio": 0,
-    "altri_premi": {
-     "Training Item": 161,
-     "Title": 2,
-     "Rare Medal": 270
-    },
     "drop": [],
-    "negozi": [],
-    "squadra": [],
-    "priorita": 3,
+    "fine": "lun 31/12 16:00",
+    "id": 24000,
+    "inizio": "mer 21/7 08:00",
+    "link": "https://dblegends.net/event/24000",
+    "lungo": true,
     "motivo": "evento lungo o permanente: quando hai stamina libera",
-    "link": "https://dblegends.net/event/24000"
+    "negozi": [],
+    "nome": "The Dreaded Ginyu Force",
+    "ore_rimaste": 27237,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 27,
+    "stamina": 27,
+    "tipo": "Storia/evento"
    },
    {
-    "id": 101002,
-    "nome": "Majin Buu's Revival",
-    "tipo": "Storia/evento",
-    "inizio": "mer 12/4 08:00",
-    "fine": "lun 31/12 16:00",
-    "ore_rimaste": 27237,
-    "lungo": true,
-    "stage": 15,
-    "stamina": 45,
+    "altri_premi": {
+     "Rare Medal": 150,
+     "Slot Remover": 75
+    },
     "cc_diretti": 840,
     "cc_negozio": 0,
-    "altri_premi": {
-     "Slot Remover": 75,
-     "Rare Medal": 150
-    },
     "drop": [],
-    "negozi": [],
-    "squadra": [],
-    "priorita": 3,
+    "fine": "lun 31/12 16:00",
+    "id": 101002,
+    "inizio": "mer 12/4 08:00",
+    "link": "https://dblegends.net/event/101002",
+    "lungo": true,
     "motivo": "evento lungo o permanente: quando hai stamina libera",
-    "link": "https://dblegends.net/event/101002"
+    "negozi": [],
+    "nome": "Majin Buu's Revival",
+    "ore_rimaste": 27237,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 15,
+    "stamina": 45,
+    "tipo": "Storia/evento"
    },
    {
-    "id": 101001,
-    "nome": "Project Zero Mortals",
-    "tipo": "Storia/evento",
-    "inizio": "mer 15/3 07:00",
-    "fine": "lun 31/12 16:00",
-    "ore_rimaste": 27237,
-    "lungo": true,
-    "stage": 12,
-    "stamina": 36,
+    "altri_premi": {
+     "Rare Medal": 120,
+     "Slot Remover": 60
+    },
     "cc_diretti": 672,
     "cc_negozio": 0,
-    "altri_premi": {
-     "Slot Remover": 60,
-     "Rare Medal": 120
-    },
     "drop": [],
-    "negozi": [],
-    "squadra": [],
-    "priorita": 3,
+    "fine": "lun 31/12 16:00",
+    "id": 101001,
+    "inizio": "mer 15/3 07:00",
+    "link": "https://dblegends.net/event/101001",
+    "lungo": true,
     "motivo": "evento lungo o permanente: quando hai stamina libera",
-    "link": "https://dblegends.net/event/101001"
+    "negozi": [],
+    "nome": "Project Zero Mortals",
+    "ore_rimaste": 27237,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 12,
+    "stamina": 36,
+    "tipo": "Storia/evento"
    },
    {
-    "id": 22000,
-    "nome": "Raditz Attacks!",
-    "tipo": "Storia/evento",
-    "inizio": "mer 16/9 08:00",
-    "fine": "lun 31/12 16:00",
-    "ore_rimaste": 27237,
-    "lungo": true,
-    "stage": 19,
-    "stamina": 19,
+    "altri_premi": {
+     "Rare Medal": 190,
+     "Title": 1,
+     "Training Item": 101
+    },
     "cc_diretti": 669,
     "cc_negozio": 0,
-    "altri_premi": {
-     "Training Item": 101,
-     "Title": 1,
-     "Rare Medal": 190
-    },
     "drop": [],
-    "negozi": [],
-    "squadra": [],
-    "priorita": 3,
-    "motivo": "evento lungo o permanente: quando hai stamina libera",
-    "link": "https://dblegends.net/event/22000"
-   },
-   {
-    "id": 22200,
-    "nome": "Nappa the Cruel!",
-    "tipo": "Storia/evento",
-    "inizio": "mer 14/10 08:00",
     "fine": "lun 31/12 16:00",
-    "ore_rimaste": 27237,
+    "id": 22000,
+    "inizio": "mer 16/9 08:00",
+    "link": "https://dblegends.net/event/22000",
     "lungo": true,
+    "motivo": "evento lungo o permanente: quando hai stamina libera",
+    "negozi": [],
+    "nome": "Raditz Attacks!",
+    "ore_rimaste": 27237,
+    "priorita": 3,
+    "squadra": [],
     "stage": 19,
     "stamina": 19,
+    "tipo": "Storia/evento"
+   },
+   {
+    "altri_premi": {
+     "Rare Medal": 190,
+     "Title": 1,
+     "Training Item": 106
+    },
     "cc_diretti": 629,
     "cc_negozio": 0,
-    "altri_premi": {
-     "Training Item": 106,
-     "Title": 1,
-     "Rare Medal": 190
-    },
     "drop": [],
-    "negozi": [],
-    "squadra": [],
-    "priorita": 3,
+    "fine": "lun 31/12 16:00",
+    "id": 22200,
+    "inizio": "mer 14/10 08:00",
+    "link": "https://dblegends.net/event/22200",
+    "lungo": true,
     "motivo": "evento lungo o permanente: quando hai stamina libera",
-    "link": "https://dblegends.net/event/22200"
+    "negozi": [],
+    "nome": "Nappa the Cruel!",
+    "ore_rimaste": 27237,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 19,
+    "stamina": 19,
+    "tipo": "Storia/evento"
    },
    {
+    "altri_premi": {
+     "Rare Medal": 180,
+     "Title": 1,
+     "Training Item": 101
+    },
+    "cc_diretti": 598,
+    "cc_negozio": 0,
+    "drop": [],
+    "fine": "lun 31/12 16:00",
     "id": 22700,
-    "nome": "The Advent of Frieza, the Universal Emperor!",
-    "tipo": "Storia/evento",
     "inizio": "mer 9/12 07:00",
-    "fine": "lun 31/12 16:00",
-    "ore_rimaste": 27237,
+    "link": "https://dblegends.net/event/22700",
     "lungo": true,
+    "motivo": "evento lungo o permanente: quando hai stamina libera",
+    "negozi": [],
+    "nome": "The Advent of Frieza, the Universal Emperor!",
+    "ore_rimaste": 27237,
+    "priorita": 3,
+    "squadra": [],
     "stage": 18,
     "stamina": 18,
-    "cc_diretti": 598,
-    "cc_negozio": 0,
-    "altri_premi": {
-     "Training Item": 101,
-     "Title": 1,
-     "Rare Medal": 180
-    },
-    "drop": [],
-    "negozi": [],
-    "squadra": [],
-    "priorita": 3,
-    "motivo": "evento lungo o permanente: quando hai stamina libera",
-    "link": "https://dblegends.net/event/22700"
+    "tipo": "Storia/evento"
    },
    {
+    "altri_premi": {
+     "Rare Medal": 180,
+     "Title": 1,
+     "Training Item": 101
+    },
+    "cc_diretti": 598,
+    "cc_negozio": 0,
+    "drop": [],
+    "fine": "lun 31/12 16:00",
     "id": 22600,
-    "nome": "Fierce Battle! Vegeta the Prince of Fate",
-    "tipo": "Storia/evento",
     "inizio": "mer 11/11 07:00",
-    "fine": "lun 31/12 16:00",
-    "ore_rimaste": 27237,
+    "link": "https://dblegends.net/event/22600",
     "lungo": true,
+    "motivo": "evento lungo o permanente: quando hai stamina libera",
+    "negozi": [],
+    "nome": "Fierce Battle! Vegeta the Prince of Fate",
+    "ore_rimaste": 27237,
+    "priorita": 3,
+    "squadra": [],
     "stage": 18,
     "stamina": 18,
-    "cc_diretti": 598,
-    "cc_negozio": 0,
-    "altri_premi": {
-     "Training Item": 101,
-     "Title": 1,
-     "Rare Medal": 180
-    },
-    "drop": [],
-    "negozi": [],
-    "squadra": [],
-    "priorita": 3,
-    "motivo": "evento lungo o permanente: quando hai stamina libera",
-    "link": "https://dblegends.net/event/22600"
+    "tipo": "Storia/evento"
    },
    {
-    "id": 100035,
-    "nome": "Long Ago...There Was a Small Encounter",
-    "tipo": "Storia/evento",
-    "inizio": "mer 12/6 08:00",
-    "fine": "lun 31/12 16:00",
-    "ore_rimaste": 27237,
-    "lungo": true,
-    "stage": 10,
-    "stamina": 10,
-    "cc_diretti": 300,
-    "cc_negozio": 0,
     "altri_premi": {
      "Energy": 5,
-     "Skip Ticket": 300,
-     "Soul Exchange Medal": 30,
-     "Training Item": 19,
      "Medaglia 11": 90,
-     "Slot Remover": 180,
      "Medaglia 25": 10,
-     "Title": 1
+     "Skip Ticket": 300,
+     "Slot Remover": 180,
+     "Soul Exchange Medal": 30,
+     "Title": 1,
+     "Training Item": 19
     },
+    "cc_diretti": 300,
+    "cc_negozio": 0,
     "drop": [],
-    "negozi": [],
-    "squadra": [],
-    "priorita": 3,
+    "fine": "lun 31/12 16:00",
+    "id": 100035,
+    "inizio": "mer 12/6 08:00",
+    "link": "https://dblegends.net/event/100035",
+    "lungo": true,
     "motivo": "evento lungo o permanente: quando hai stamina libera",
-    "link": "https://dblegends.net/event/100035"
+    "negozi": [],
+    "nome": "Long Ago...There Was a Small Encounter",
+    "ore_rimaste": 27237,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 10,
+    "stamina": 10,
+    "tipo": "Storia/evento"
    },
    {
-    "id": 100081,
-    "nome": "LEGEND Test Battle",
-    "tipo": "Storia/evento",
-    "inizio": "mer 11/2 07:00",
-    "fine": "lun 31/12 16:00",
-    "ore_rimaste": 27237,
-    "lungo": true,
-    "stage": 1,
-    "stamina": 1,
+    "altri_premi": {},
     "cc_diretti": 30,
     "cc_negozio": 0,
-    "altri_premi": {},
     "drop": [],
-    "negozi": [],
-    "squadra": [],
-    "priorita": 3,
+    "fine": "lun 31/12 16:00",
+    "id": 100081,
+    "inizio": "mer 11/2 07:00",
+    "link": "https://dblegends.net/event/100081",
+    "lungo": true,
     "motivo": "evento lungo o permanente: quando hai stamina libera",
-    "link": "https://dblegends.net/event/100081"
+    "negozi": [],
+    "nome": "LEGEND Test Battle",
+    "ore_rimaste": 27237,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 1,
+    "stamina": 1,
+    "tipo": "Storia/evento"
    },
    {
-    "id": 19071,
-    "nome": "Start Dash Bonus",
-    "tipo": "Storia/evento",
-    "inizio": "ven 13/11 04:00",
-    "fine": "lun 31/12 16:00",
-    "ore_rimaste": 27237,
-    "lungo": true,
-    "stage": 10,
-    "stamina": 10,
-    "cc_diretti": 0,
-    "cc_negozio": 0,
     "altri_premi": {
-     "Training Item": 50,
      "Energy": 3,
-     "Skip Ticket": 300,
-     "Soul Exchange Medal": 20,
+     "Equipment Medal": 350,
      "Medaglia 25": 30,
+     "Skip Ticket": 300,
      "Slot Remover": 35,
-     "Equipment Medal": 350
+     "Soul Exchange Medal": 20,
+     "Training Item": 50
     },
-    "drop": [],
-    "negozi": [],
-    "squadra": [],
-    "priorita": 3,
-    "motivo": "evento lungo o permanente: quando hai stamina libera",
-    "link": "https://dblegends.net/event/19071"
-   },
-   {
-    "id": 100115,
-    "nome": "Hands-On Training! Legends Power-Up School",
-    "tipo": "Allenamento",
-    "inizio": "mer 11/11 07:00",
-    "fine": "lun 31/12 16:00",
-    "ore_rimaste": 27237,
-    "lungo": true,
-    "stage": 10,
-    "stamina": 10,
     "cc_diretti": 0,
     "cc_negozio": 0,
+    "drop": [],
+    "fine": "lun 31/12 16:00",
+    "id": 19071,
+    "inizio": "ven 13/11 04:00",
+    "link": "https://dblegends.net/event/19071",
+    "lungo": true,
+    "motivo": "evento lungo o permanente: quando hai stamina libera",
+    "negozi": [],
+    "nome": "Start Dash Bonus",
+    "ore_rimaste": 27237,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 10,
+    "stamina": 10,
+    "tipo": "Storia/evento"
+   },
+   {
     "altri_premi": {
-     "Training Item": 33,
-     "ZENKAI Rush Medal": 70,
+     "Arts Core": 1000,
+     "Arts Sphere": 220,
      "Boost Soul 1 [BLU]": 160,
      "Boost Soul 2 [BLU]": 50,
      "Boost Soul 3 [BLU]": 50,
-     "Medaglia 11": 300,
-     "Slot Remover": 300,
      "Equipment Medal": 500,
-     "Arts Core": 1000,
-     "Arts Sphere": 220,
+     "Medaglia 11": 300,
      "Seed Exchange Medal": 50,
+     "Slot Remover": 300,
      "Soul Exchange Medal": 50,
+     "Summon Ticket": 10,
      "Title": 1,
-     "Summon Ticket": 10
+     "Training Item": 33,
+     "ZENKAI Rush Medal": 70
     },
+    "cc_diretti": 0,
+    "cc_negozio": 0,
     "drop": [],
+    "fine": "lun 31/12 16:00",
+    "id": 100115,
+    "inizio": "mer 11/11 07:00",
+    "link": "https://dblegends.net/event/100115",
+    "lungo": true,
+    "motivo": "evento lungo o permanente: quando hai stamina libera",
     "negozi": [
      {
-      "id": "40001",
-      "nome": "Ultra Space-Time Rush",
-      "proprio": false,
       "cc": 0,
       "cc_costo": {},
       "consigliati": [
@@ -2227,56 +1187,53 @@
        "A God Facing a God ×1 (3.500 Rush Medal)",
        "A Nostalgic Weapon ×1 (1.000 Rush Medal)"
       ],
+      "id": "40001",
+      "nome": "Ultra Space-Time Rush",
+      "proprio": false,
       "squadra": [
        "Awakening Z Power [Super Saiyan Gohan (Youth)] ×100 (1 ZENKAI Rush Medal, max 70) → SSJ Gohan Youth SP Zenkai (tua squadra) (Zenkai)"
       ]
      }
     ],
+    "nome": "Hands-On Training! Legends Power-Up School",
+    "ore_rimaste": 27237,
+    "priorita": 3,
     "squadra": [
      "Awakening Z Power [Super Saiyan Gohan (Youth)] ×100 (1 ZENKAI Rush Medal, max 70) → SSJ Gohan Youth SP Zenkai (tua squadra) (Zenkai)"
     ],
-    "priorita": 3,
-    "motivo": "evento lungo o permanente: quando hai stamina libera",
-    "link": "https://dblegends.net/event/100115"
+    "stage": 10,
+    "stamina": 10,
+    "tipo": "Allenamento"
    },
    {
-    "id": 100093,
-    "nome": "Joined Forces! A Life-or-Death Struggle!",
-    "tipo": "Storia/evento",
-    "inizio": "mer 17/6 08:00",
-    "fine": "lun 31/12 16:00",
-    "ore_rimaste": 27237,
-    "lungo": true,
-    "stage": 4,
-    "stamina": 8,
-    "cc_diretti": 0,
-    "cc_negozio": 0,
     "altri_premi": {
      "Rare Medal": 114,
      "Title": 1
     },
-    "drop": [],
-    "negozi": [],
-    "squadra": [],
-    "priorita": 3,
-    "motivo": "evento lungo o permanente: quando hai stamina libera",
-    "link": "https://dblegends.net/event/100093"
-   },
-   {
-    "id": 19066,
-    "nome": "Comeback Choice Battle!!",
-    "tipo": "Storia/evento",
-    "inizio": "mer 13/5 08:00",
-    "fine": "lun 31/12 16:00",
-    "ore_rimaste": 27237,
-    "lungo": true,
-    "stage": 5,
-    "stamina": 5,
     "cc_diretti": 0,
     "cc_negozio": 0,
+    "drop": [],
+    "fine": "lun 31/12 16:00",
+    "id": 100093,
+    "inizio": "mer 17/6 08:00",
+    "link": "https://dblegends.net/event/100093",
+    "lungo": true,
+    "motivo": "evento lungo o permanente: quando hai stamina libera",
+    "negozi": [],
+    "nome": "Joined Forces! A Life-or-Death Struggle!",
+    "ore_rimaste": 27237,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 4,
+    "stamina": 8,
+    "tipo": "Storia/evento"
+   },
+   {
     "altri_premi": {
      "Rare Medal": 65
     },
+    "cc_diretti": 0,
+    "cc_negozio": 0,
     "drop": [
      "Chrono Crystal",
      "Energy",
@@ -2285,192 +1242,215 @@
      "Slot Remover",
      "Training Item"
     ],
+    "fine": "lun 31/12 16:00",
+    "id": 19066,
+    "inizio": "mer 13/5 08:00",
+    "link": "https://dblegends.net/event/19066",
+    "lungo": true,
+    "motivo": "evento lungo o permanente: quando hai stamina libera",
     "negozi": [
      {
-      "id": "19018",
-      "nome": "Comeback Character Acquisition Ticket Exchange",
-      "proprio": false,
       "cc": 0,
       "cc_costo": {},
       "consigliati": [],
+      "id": "19018",
+      "nome": "Comeback Character Acquisition Ticket Exchange",
+      "proprio": false,
       "squadra": []
      }
     ],
-    "squadra": [],
+    "nome": "Comeback Choice Battle!!",
+    "ore_rimaste": 27237,
     "priorita": 3,
-    "motivo": "evento lungo o permanente: quando hai stamina libera",
-    "link": "https://dblegends.net/event/19066"
+    "squadra": [],
+    "stage": 5,
+    "stamina": 5,
+    "tipo": "Storia/evento"
    },
    {
-    "id": 59002,
-    "nome": "Dynamic Area Battle",
-    "tipo": "Storia/evento",
-    "inizio": "mer 18/6 03:00",
-    "fine": "lun 31/12 16:00",
-    "ore_rimaste": 27237,
-    "lungo": true,
-    "stage": 1,
-    "stamina": 0,
+    "altri_premi": {},
     "cc_diretti": 0,
     "cc_negozio": 0,
-    "altri_premi": {},
     "drop": [],
-    "negozi": [],
-    "squadra": [],
-    "priorita": 3,
+    "fine": "lun 31/12 16:00",
+    "id": 59002,
+    "inizio": "mer 18/6 03:00",
+    "link": "https://dblegends.net/event/59002",
+    "lungo": true,
     "motivo": "evento lungo o permanente: quando hai stamina libera",
-    "link": "https://dblegends.net/event/59002"
+    "negozi": [],
+    "nome": "Dynamic Area Battle",
+    "ore_rimaste": 27237,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 1,
+    "stamina": 0,
+    "tipo": "Storia/evento"
    },
    {
-    "id": 50020,
-    "nome": "A Father-Son Bond A Fierce Fight to the Death!",
-    "tipo": "Storia/evento",
-    "inizio": "mer 13/12 07:00",
+    "altri_premi": {
+     "Item": 1,
+     "Rare Medal": 145,
+     "Title": 2
+    },
+    "cc_diretti": 0,
+    "cc_negozio": 0,
+    "drop": [],
     "fine": "lun 31/12 16:00",
-    "ore_rimaste": 27237,
+    "id": 50020,
+    "inizio": "mer 13/12 07:00",
+    "link": "https://dblegends.net/event/50020",
     "lungo": true,
+    "motivo": "evento lungo o permanente: quando hai stamina libera",
+    "negozi": [],
+    "nome": "A Father-Son Bond A Fierce Fight to the Death!",
+    "ore_rimaste": 27237,
+    "priorita": 3,
+    "squadra": [],
     "stage": 5,
     "stamina": 10,
-    "cc_diretti": 0,
-    "cc_negozio": 0,
-    "altri_premi": {
-     "Rare Medal": 145,
-     "Title": 2,
-     "Item": 1
-    },
-    "drop": [],
-    "negozi": [],
-    "squadra": [],
-    "priorita": 3,
-    "motivo": "evento lungo o permanente: quando hai stamina libera",
-    "link": "https://dblegends.net/event/50020"
+    "tipo": "Storia/evento"
    },
    {
-    "id": 58001,
-    "nome": "Learn With Trunks! Path to Victory Battle Lecture!",
-    "tipo": "Storia/evento",
-    "inizio": "mer 17/5 08:00",
+    "altri_premi": {},
+    "cc_diretti": 0,
+    "cc_negozio": 0,
+    "drop": [],
     "fine": "lun 31/12 16:00",
-    "ore_rimaste": 27237,
+    "id": 58001,
+    "inizio": "mer 17/5 08:00",
+    "link": "https://dblegends.net/event/58001",
     "lungo": true,
+    "motivo": "evento lungo o permanente: quando hai stamina libera",
+    "negozi": [],
+    "nome": "Learn With Trunks! Path to Victory Battle Lecture!",
+    "ore_rimaste": 27237,
+    "priorita": 3,
+    "squadra": [],
     "stage": 28,
     "stamina": 0,
-    "cc_diretti": 0,
-    "cc_negozio": 0,
-    "altri_premi": {},
-    "drop": [],
-    "negozi": [],
-    "squadra": [],
-    "priorita": 3,
-    "motivo": "evento lungo o permanente: quando hai stamina libera",
-    "link": "https://dblegends.net/event/58001"
+    "tipo": "Storia/evento"
    },
    {
-    "id": 59001,
-    "nome": "Get the LEGENDS LIMITED Experience!",
-    "tipo": "Storia/evento",
-    "inizio": "gio 18/11 07:00",
+    "altri_premi": {},
+    "cc_diretti": 0,
+    "cc_negozio": 0,
+    "drop": [],
     "fine": "lun 31/12 16:00",
-    "ore_rimaste": 27237,
+    "id": 59001,
+    "inizio": "gio 18/11 07:00",
+    "link": "https://dblegends.net/event/59001",
     "lungo": true,
+    "motivo": "evento lungo o permanente: quando hai stamina libera",
+    "negozi": [],
+    "nome": "Get the LEGENDS LIMITED Experience!",
+    "ore_rimaste": 27237,
+    "priorita": 3,
+    "squadra": [],
     "stage": 1,
     "stamina": 0,
-    "cc_diretti": 0,
-    "cc_negozio": 0,
-    "altri_premi": {},
-    "drop": [],
-    "negozi": [],
-    "squadra": [],
-    "priorita": 3,
-    "motivo": "evento lungo o permanente: quando hai stamina libera",
-    "link": "https://dblegends.net/event/59001"
+    "tipo": "Storia/evento"
    },
    {
-    "id": 19007,
-    "nome": "Let's Fight!",
-    "tipo": "Storia/evento",
-    "inizio": "gio 28/2 07:00",
-    "fine": "lun 31/12 16:00",
-    "ore_rimaste": 27237,
-    "lungo": true,
-    "stage": 3,
-    "stamina": 3,
-    "cc_diretti": 0,
-    "cc_negozio": 0,
     "altri_premi": {
      "Rare Medal": 300
     },
+    "cc_diretti": 0,
+    "cc_negozio": 0,
     "drop": [
      "Energy",
      "Skip Ticket",
      "Training Item",
      "Rare Medal"
     ],
-    "negozi": [],
-    "squadra": [],
-    "priorita": 3,
+    "fine": "lun 31/12 16:00",
+    "id": 19007,
+    "inizio": "gio 28/2 07:00",
+    "link": "https://dblegends.net/event/19007",
+    "lungo": true,
     "motivo": "evento lungo o permanente: quando hai stamina libera",
-    "link": "https://dblegends.net/event/19007"
+    "negozi": [],
+    "nome": "Let's Fight!",
+    "ore_rimaste": 27237,
+    "priorita": 3,
+    "squadra": [],
+    "stage": 3,
+    "stamina": 3,
+    "tipo": "Storia/evento"
    }
   ],
+  "fonte": "https://dblegends.net/events",
+  "in_scadenza": [
+   "Dragon Ball Super: Beerus Japanese Premiere Celebration! Exciting Bonus Mini Raid",
+   "WEEKEND SPECIAL CHOICE!",
+   "WEEKEND Arts Boost Battle!"
+  ],
+  "nota_coach": "1) Gohan Zenkai: le Rush Battle di Pan e Platinum Gogeta scadono mercoledì 25/11 alle 7:00 (60 ore). Raccogli ZENKAI Rush Medal per l'Awakening Z Power del tuo SSJ Gohan Youth (max 70). Le Rush non costano stamina.\n2) Festival Double-Up #1: gioca anche oggi (fino al 28/11), i biglietti valgono fino a 1.600 CC.\n3) Black Friday Raid (1.420 CC) e Another Future! The Android Menace (567 CC, 17 stamina) fino al 2/12.\n4) Legendary Raging Battle: medaglie Festival per il negozio Gold (fino a 8.000 CC in tutto).\nIn arrivo, un giorno solo: lun 23/11 Summon Ticket Battle, mar 24/11 Multi-Z Power Battle.",
   "prossimi": [
    {
-    "id": 19073,
-    "nome": "Fortune! Festival Summon Ticket Acquisition Battle",
-    "tipo": "Biglietti evocazione",
-    "inizio": "lun 23/11 07:00",
     "fine": "mar 24/11 07:00",
-    "link": "https://dblegends.net/event/19073"
+    "id": 19073,
+    "inizio": "lun 23/11 07:00",
+    "link": "https://dblegends.net/event/19073",
+    "nome": "Fortune! Festival Summon Ticket Acquisition Battle",
+    "tipo": "Biglietti evocazione"
    },
    {
-    "id": 19112,
-    "nome": "Transcend! Multi-Z Power Battle",
-    "tipo": "Z Power",
-    "inizio": "mar 24/11 07:00",
     "fine": "mer 25/11 07:00",
-    "link": "https://dblegends.net/event/19112"
+    "id": 19112,
+    "inizio": "mar 24/11 07:00",
+    "link": "https://dblegends.net/event/19112",
+    "nome": "Transcend! Multi-Z Power Battle",
+    "tipo": "Z Power"
    },
    {
-    "id": 7023,
-    "nome": "Dazzling! Bonus Battle Supreme Zeni",
-    "tipo": "Zeni",
-    "inizio": "mer 25/11 07:00",
     "fine": "gio 26/11 07:00",
-    "link": "https://dblegends.net/event/7023"
+    "id": 7023,
+    "inizio": "mer 25/11 07:00",
+    "link": "https://dblegends.net/event/7023",
+    "nome": "Dazzling! Bonus Battle Supreme Zeni",
+    "tipo": "Zeni"
    },
    {
+    "fine": "sab 5/12 07:00",
     "id": 102007,
+    "inizio": "mer 25/11 07:00",
+    "link": "https://dblegends.net/event/102007",
     "nome": "Path to Friendship - Play Every Day and Raise Friendship Ranks! -",
-    "tipo": "Storia/evento",
-    "inizio": "mer 25/11 07:00",
-    "fine": "sab 5/12 07:00",
-    "link": "https://dblegends.net/event/102007"
+    "tipo": "Storia/evento"
    },
    {
-    "id": 100116,
-    "nome": "Superheroes of Justice: Gamma 1",
-    "tipo": "Storia/evento",
-    "inizio": "mer 25/11 07:00",
     "fine": "mer 13/1 07:00",
-    "link": "https://dblegends.net/event/100116"
+    "id": 100116,
+    "inizio": "mer 25/11 07:00",
+    "link": "https://dblegends.net/event/100116",
+    "nome": "Superheroes of Justice: Gamma 1",
+    "tipo": "Storia/evento"
    },
    {
+    "fine": "sab 5/12 07:00",
     "id": 104201,
-    "nome": "Boost Up Battle! Arts Cores",
-    "tipo": "Arts",
     "inizio": "mer 25/11 07:00",
-    "fine": "sab 5/12 07:00",
-    "link": "https://dblegends.net/event/104201"
+    "link": "https://dblegends.net/event/104201",
+    "nome": "Boost Up Battle! Arts Cores",
+    "tipo": "Arts"
    },
    {
-    "id": 104301,
-    "nome": "Amazing Arts Seed Harvest Fest",
-    "tipo": "Arts",
-    "inizio": "mer 25/11 07:00",
     "fine": "sab 5/12 07:00",
-    "link": "https://dblegends.net/event/104301"
+    "id": 104301,
+    "inizio": "mer 25/11 07:00",
+    "link": "https://dblegends.net/event/104301",
+    "nome": "Amazing Arts Seed Harvest Fest",
+    "tipo": "Arts"
    }
   ],
-  "nota_coach": "1) Gohan Zenkai: le Rush Battle di Pan e Platinum Gogeta scadono mercoledì 25/11 alle 7:00 (60 ore). Raccogli ZENKAI Rush Medal per l'Awakening Z Power del tuo SSJ Gohan Youth (max 70). Le Rush non costano stamina.\n2) Festival Double-Up #1: gioca anche oggi (fino al 28/11), i biglietti valgono fino a 1.600 CC.\n3) Black Friday Raid (1.420 CC) e Another Future! The Android Menace (567 CC, 17 stamina) fino al 2/12.\n4) Legendary Raging Battle: medaglie Festival per il negozio Gold (fino a 8.000 CC in tutto).\nIn arrivo, un giorno solo: lun 23/11 Summon Ticket Battle, mar 24/11 Multi-Z Power Battle."
+  "squadra": [
+   "Final Form Cooler UL (tua squadra)",
+   "Broly: Fury LL (tua squadra)",
+   "Goku LL (tua squadra)",
+   "SSJ Gohan Youth SP Zenkai (tua squadra)",
+   "SSG Shallet LL (da confermare se ce l'hai)"
+  ],
+  "totale_cc": 12127
  }
 }
