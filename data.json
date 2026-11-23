@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T19:06:17+0000",
+ "updated": "2026-11-23T06:25:50+0000",
  "profile": {
   "name": "Il tuo coach",
   "goal": "difesa e cambi: perdere meno personaggi, soprattutto quelli che non rinascono",
@@ -320,9 +320,48 @@
   }
  ],
  "events": {
-  "aggiornato": "2026-11-22T19:29:45+0100",
-  "data": "2026-11-22",
+  "aggiornato": "2026-11-23T07:24:28+0100",
+  "data": "2026-11-23",
   "eventi": [
+   {
+    "altri_premi": {
+     "Mini-Raid Medal": 21,
+     "Rare Medal": 100
+    },
+    "cc_diretti": 10,
+    "cc_negozio": 0,
+    "drop": [
+     "Mini-Raid Medal",
+     "Multi-Z Power 10",
+     "Equipment Medal"
+    ],
+    "fine": "mar 24/11 07:00",
+    "id": 801301,
+    "inizio": "dom 22/11 15:45",
+    "link": "https://dblegends.net/event/801301",
+    "lungo": false,
+    "motivo": "scade tra 23 ore",
+    "negozi": [
+     {
+      "cc": 200,
+      "cc_costo": {
+       "Mini-Raid Medal": 400
+      },
+      "consigliati": [
+       "Dragon Ball Super: Beerus Coin ×1 (100 Mini-Raid Medal, max 1)"
+      ],
+      "id": "80130",
+      "nome": "Mini-Raid Medal Exchange",
+      "proprio": false
+     }
+    ],
+    "nome": "Dragon Ball Super: Beerus Japanese Premiere Celebration! Exciting Bonus Mini Raid",
+    "ore_rimaste": 24,
+    "priorita": 1,
+    "stage": 1,
+    "stamina": 0,
+    "tipo": "Raid"
+   },
    {
     "altri_premi": {},
     "cc_diretti": 0,
@@ -358,7 +397,7 @@
      }
     ],
     "nome": "ZENKAI Rush Battle - Pan: Trunks & Giru (Assist) -",
-    "ore_rimaste": 60,
+    "ore_rimaste": 48,
     "priorita": 1,
     "stage": 1,
     "stamina": 0,
@@ -398,50 +437,11 @@
      }
     ],
     "nome": "Platinum Rush - Super Gogeta -",
-    "ore_rimaste": 60,
+    "ore_rimaste": 48,
     "priorita": 1,
     "stage": 1,
     "stamina": 0,
     "tipo": "Rush"
-   },
-   {
-    "altri_premi": {
-     "Mini-Raid Medal": 21,
-     "Rare Medal": 100
-    },
-    "cc_diretti": 10,
-    "cc_negozio": 0,
-    "drop": [
-     "Mini-Raid Medal",
-     "Multi-Z Power 10",
-     "Equipment Medal"
-    ],
-    "fine": "mar 24/11 07:00",
-    "id": 801301,
-    "inizio": "dom 22/11 15:45",
-    "link": "https://dblegends.net/event/801301",
-    "lungo": false,
-    "motivo": "10 Chrono Crystal in palio",
-    "negozi": [
-     {
-      "cc": 200,
-      "cc_costo": {
-       "Mini-Raid Medal": 400
-      },
-      "consigliati": [
-       "Dragon Ball Super: Beerus Coin ×1 (100 Mini-Raid Medal, max 1)"
-      ],
-      "id": "80130",
-      "nome": "Mini-Raid Medal Exchange",
-      "proprio": false
-     }
-    ],
-    "nome": "Dragon Ball Super: Beerus Japanese Premiere Celebration! Exciting Bonus Mini Raid",
-    "ore_rimaste": 36,
-    "priorita": 2,
-    "stage": 1,
-    "stamina": 0,
-    "tipo": "Raid"
    },
    {
     "altri_premi": {},
@@ -470,7 +470,7 @@
      }
     ],
     "nome": "Clear Tomorrow for 2x Rewards! Festival Double-Up Battle #1",
-    "ore_rimaste": 132,
+    "ore_rimaste": 120,
     "priorita": 2,
     "stage": 4,
     "stamina": 1,
@@ -531,7 +531,7 @@
      }
     ],
     "nome": "Black Friday Raid 2026",
-    "ore_rimaste": 228,
+    "ore_rimaste": 216,
     "priorita": 2,
     "stage": 2,
     "stamina": 0,
@@ -554,7 +554,7 @@
     "motivo": "567 Chrono Crystal in palio",
     "negozi": [],
     "nome": "Another Future! The Android Menace",
-    "ore_rimaste": 228,
+    "ore_rimaste": 216,
     "priorita": 2,
     "stage": 17,
     "stamina": 17,
@@ -594,7 +594,7 @@
      }
     ],
     "nome": "ZENKAI Ultra Space-Time Rush",
-    "ore_rimaste": 228,
+    "ore_rimaste": 216,
     "priorita": 2,
     "stage": 13,
     "stamina": 0,
@@ -635,7 +635,7 @@
      }
     ],
     "nome": "ZENKAI Rush Battle - Magenta -",
-    "ore_rimaste": 300,
+    "ore_rimaste": 288,
     "priorita": 2,
     "stage": 1,
     "stamina": 0,
@@ -694,7 +694,7 @@
      }
     ],
     "nome": "Festival Hyperdimensional Co-Op VS Gamma 2",
-    "ore_rimaste": 396,
+    "ore_rimaste": 384,
     "priorita": 2,
     "stage": 3,
     "stamina": 0,
@@ -746,11 +746,32 @@
      }
     ],
     "nome": "Legendary Raging Battle -GT- Gogeta VS Omega Shenron",
-    "ore_rimaste": 396,
+    "ore_rimaste": 384,
     "priorita": 2,
     "stage": 6,
     "stamina": 6,
     "tipo": "Storia/evento"
+   },
+   {
+    "altri_premi": {},
+    "cc_diretti": 0,
+    "cc_negozio": 0,
+    "drop": [
+     "Summon Ticket"
+    ],
+    "fine": "mar 24/11 07:00",
+    "id": 19073,
+    "inizio": "lun 23/11 07:00",
+    "link": "https://dblegends.net/event/19073",
+    "lungo": false,
+    "motivo": "premi minori (materiali, Zeni, medaglie generiche)",
+    "negozi": [],
+    "nome": "Fortune! Festival Summon Ticket Acquisition Battle",
+    "ore_rimaste": 24,
+    "priorita": 3,
+    "stage": 1,
+    "stamina": 1,
+    "tipo": "Biglietti evocazione"
    },
    {
     "altri_premi": {
@@ -770,7 +791,7 @@
     "motivo": "premi minori (materiali, Zeni, medaglie generiche)",
     "negozi": [],
     "nome": "WEEKEND SPECIAL CHOICE!",
-    "ore_rimaste": 36,
+    "ore_rimaste": 24,
     "priorita": 3,
     "stage": 3,
     "stamina": 3,
@@ -795,7 +816,7 @@
     "motivo": "premi minori (materiali, Zeni, medaglie generiche)",
     "negozi": [],
     "nome": "WEEKEND Arts Boost Battle!",
-    "ore_rimaste": 36,
+    "ore_rimaste": 24,
     "priorita": 3,
     "stage": 6,
     "stamina": 60,
@@ -819,7 +840,7 @@
     "motivo": "premi minori (materiali, Zeni, medaglie generiche)",
     "negozi": [],
     "nome": "Leave It to Pan! Operation: Energize!!",
-    "ore_rimaste": 204,
+    "ore_rimaste": 192,
     "priorita": 3,
     "stage": 2,
     "stamina": 2,
@@ -852,7 +873,7 @@
      }
     ],
     "nome": "Huzzah! Operation Get Characters!",
-    "ore_rimaste": 228,
+    "ore_rimaste": 216,
     "priorita": 3,
     "stage": 2,
     "stamina": 3,
@@ -873,7 +894,7 @@
     "motivo": "evento lungo o permanente: quando hai stamina libera",
     "negozi": [],
     "nome": "Ultimate Equipment Collection",
-    "ore_rimaste": 27237,
+    "ore_rimaste": 27225,
     "priorita": 3,
     "stage": 103,
     "stamina": 103,
@@ -894,7 +915,7 @@
     "motivo": "evento lungo o permanente: quando hai stamina libera",
     "negozi": [],
     "nome": "Goku the Saiyan's Battle Chronicles",
-    "ore_rimaste": 3084,
+    "ore_rimaste": 3072,
     "priorita": 3,
     "stage": 10,
     "stamina": 10,
@@ -917,7 +938,7 @@
     "motivo": "evento lungo o permanente: quando hai stamina libera",
     "negozi": [],
     "nome": "The Dreaded Ginyu Force",
-    "ore_rimaste": 27237,
+    "ore_rimaste": 27225,
     "priorita": 3,
     "stage": 27,
     "stamina": 27,
@@ -939,7 +960,7 @@
     "motivo": "evento lungo o permanente: quando hai stamina libera",
     "negozi": [],
     "nome": "Majin Buu's Revival",
-    "ore_rimaste": 27237,
+    "ore_rimaste": 27225,
     "priorita": 3,
     "stage": 15,
     "stamina": 45,
@@ -961,7 +982,7 @@
     "motivo": "evento lungo o permanente: quando hai stamina libera",
     "negozi": [],
     "nome": "Project Zero Mortals",
-    "ore_rimaste": 27237,
+    "ore_rimaste": 27225,
     "priorita": 3,
     "stage": 12,
     "stamina": 36,
@@ -984,7 +1005,7 @@
     "motivo": "evento lungo o permanente: quando hai stamina libera",
     "negozi": [],
     "nome": "Raditz Attacks!",
-    "ore_rimaste": 27237,
+    "ore_rimaste": 27225,
     "priorita": 3,
     "stage": 19,
     "stamina": 19,
@@ -1007,7 +1028,7 @@
     "motivo": "evento lungo o permanente: quando hai stamina libera",
     "negozi": [],
     "nome": "Nappa the Cruel!",
-    "ore_rimaste": 27237,
+    "ore_rimaste": 27225,
     "priorita": 3,
     "stage": 19,
     "stamina": 19,
@@ -1030,7 +1051,7 @@
     "motivo": "evento lungo o permanente: quando hai stamina libera",
     "negozi": [],
     "nome": "The Advent of Frieza, the Universal Emperor!",
-    "ore_rimaste": 27237,
+    "ore_rimaste": 27225,
     "priorita": 3,
     "stage": 18,
     "stamina": 18,
@@ -1053,7 +1074,7 @@
     "motivo": "evento lungo o permanente: quando hai stamina libera",
     "negozi": [],
     "nome": "Fierce Battle! Vegeta the Prince of Fate",
-    "ore_rimaste": 27237,
+    "ore_rimaste": 27225,
     "priorita": 3,
     "stage": 18,
     "stamina": 18,
@@ -1081,7 +1102,7 @@
     "motivo": "evento lungo o permanente: quando hai stamina libera",
     "negozi": [],
     "nome": "Long Ago...There Was a Small Encounter",
-    "ore_rimaste": 27237,
+    "ore_rimaste": 27225,
     "priorita": 3,
     "stage": 10,
     "stamina": 10,
@@ -1100,7 +1121,7 @@
     "motivo": "evento lungo o permanente: quando hai stamina libera",
     "negozi": [],
     "nome": "LEGEND Test Battle",
-    "ore_rimaste": 27237,
+    "ore_rimaste": 27225,
     "priorita": 3,
     "stage": 1,
     "stamina": 1,
@@ -1127,7 +1148,7 @@
     "motivo": "evento lungo o permanente: quando hai stamina libera",
     "negozi": [],
     "nome": "Start Dash Bonus",
-    "ore_rimaste": 27237,
+    "ore_rimaste": 27225,
     "priorita": 3,
     "stage": 10,
     "stamina": 10,
@@ -1179,7 +1200,7 @@
      }
     ],
     "nome": "Hands-On Training! Legends Power-Up School",
-    "ore_rimaste": 27237,
+    "ore_rimaste": 27225,
     "priorita": 3,
     "stage": 10,
     "stamina": 10,
@@ -1201,7 +1222,7 @@
     "motivo": "evento lungo o permanente: quando hai stamina libera",
     "negozi": [],
     "nome": "Joined Forces! A Life-or-Death Struggle!",
-    "ore_rimaste": 27237,
+    "ore_rimaste": 27225,
     "priorita": 3,
     "stage": 4,
     "stamina": 8,
@@ -1238,7 +1259,7 @@
      }
     ],
     "nome": "Comeback Choice Battle!!",
-    "ore_rimaste": 27237,
+    "ore_rimaste": 27225,
     "priorita": 3,
     "stage": 5,
     "stamina": 5,
@@ -1257,7 +1278,7 @@
     "motivo": "evento lungo o permanente: quando hai stamina libera",
     "negozi": [],
     "nome": "Dynamic Area Battle",
-    "ore_rimaste": 27237,
+    "ore_rimaste": 27225,
     "priorita": 3,
     "stage": 1,
     "stamina": 0,
@@ -1280,7 +1301,7 @@
     "motivo": "evento lungo o permanente: quando hai stamina libera",
     "negozi": [],
     "nome": "A Father-Son Bond A Fierce Fight to the Death!",
-    "ore_rimaste": 27237,
+    "ore_rimaste": 27225,
     "priorita": 3,
     "stage": 5,
     "stamina": 10,
@@ -1299,7 +1320,7 @@
     "motivo": "evento lungo o permanente: quando hai stamina libera",
     "negozi": [],
     "nome": "Learn With Trunks! Path to Victory Battle Lecture!",
-    "ore_rimaste": 27237,
+    "ore_rimaste": 27225,
     "priorita": 3,
     "stage": 28,
     "stamina": 0,
@@ -1318,7 +1339,7 @@
     "motivo": "evento lungo o permanente: quando hai stamina libera",
     "negozi": [],
     "nome": "Get the LEGENDS LIMITED Experience!",
-    "ore_rimaste": 27237,
+    "ore_rimaste": 27225,
     "priorita": 3,
     "stage": 1,
     "stamina": 0,
@@ -1344,7 +1365,7 @@
     "motivo": "evento lungo o permanente: quando hai stamina libera",
     "negozi": [],
     "nome": "Let's Fight!",
-    "ore_rimaste": 27237,
+    "ore_rimaste": 27225,
     "priorita": 3,
     "stage": 3,
     "stamina": 3,
@@ -1354,19 +1375,14 @@
   "fonte": "https://dblegends.net/events",
   "in_scadenza": [
    "Dragon Ball Super: Beerus Japanese Premiere Celebration! Exciting Bonus Mini Raid",
+   "ZENKAI Rush Battle - Pan: Trunks & Giru (Assist) -",
+   "Platinum Rush - Super Gogeta -",
+   "Fortune! Festival Summon Ticket Acquisition Battle",
    "WEEKEND SPECIAL CHOICE!",
    "WEEKEND Arts Boost Battle!"
   ],
-  "nota_coach": "1) Le ZENKAI Rush Battle scadono mercoledì 25/11 alle 7:00 (60 ore): non costano stamina e danno Rush Medal e ZENKAI Rush Medal per il negozio.\n2) Festival Double-Up #1: gioca anche oggi (fino al 28/11), i biglietti valgono fino a 1.600 CC.\n3) Black Friday Raid (1.420 CC) e Another Future! The Android Menace (567 CC, 17 stamina) fino al 2/12.\n4) Legendary Raging Battle: medaglie Festival per il negozio Gold (fino a 8.000 CC in tutto).\nIn arrivo, un giorno solo: lun 23/11 Summon Ticket Battle, mar 24/11 Multi-Z Power Battle.",
+  "nota_coach": "1) ZENKAI Rush Battle e Platinum Rush scadono mer 25/11 alle 7:00 (48 ore): raccogli le ZENKAI Rush Medal per l'Awakening Z Power del negozio Rush (max 70). Le Rush non costano stamina.\n2) Scadono domani mar 24/11 alle 7:00: il Mini Raid bonus (10 CC + medaglie per il negozio Mini-Raid, fino a 200 CC), la Festival Summon Ticket Battle e le battaglie WEEKEND.\n3) Festival Double-Up #1 (1.600 CC, fino al 28/11), Black Friday Raid (1.420 CC) e Another Future! (567 CC, 17 stamina) fino al 2/12.\n4) Legendary Raging Battle: medaglie Festival per il negozio Gold (fino a 8.000 CC in tutto).\nIn arrivo, un giorno solo: mar 24/11 Multi-Z Power Battle, mer 25/11 Supreme Zeni, gio 26/11 Awaken! Zenkai Battle.",
   "prossimi": [
-   {
-    "fine": "mar 24/11 07:00",
-    "id": 19073,
-    "inizio": "lun 23/11 07:00",
-    "link": "https://dblegends.net/event/19073",
-    "nome": "Fortune! Festival Summon Ticket Acquisition Battle",
-    "tipo": "Biglietti evocazione"
-   },
    {
     "fine": "mer 25/11 07:00",
     "id": 19112,
@@ -1414,6 +1430,14 @@
     "link": "https://dblegends.net/event/104301",
     "nome": "Amazing Arts Seed Harvest Fest",
     "tipo": "Arts"
+   },
+   {
+    "fine": "ven 27/11 07:00",
+    "id": 105451,
+    "inizio": "gio 26/11 07:00",
+    "link": "https://dblegends.net/event/105451",
+    "nome": "Awaken! Zenkai Battle",
+    "tipo": "Zenkai"
    }
   ],
   "totale_cc": 12127
